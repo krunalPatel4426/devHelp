@@ -2227,3 +2227,6 @@
 [07 Oct, 2024 - 22:29:17:2917] [35mhttp[39m: [35m::1 POST /user/bookmark-library/66fe95280d91421a52a9f418 201 - 6.786 ms[39m
 [07 Oct, 2024 - 22:29:28:2928] [35mhttp[39m: [35m::1 POST /user/bookmark-asset/66fe95280d91421a52a9f418 201 - 17.386 ms[39m
 [07 Oct, 2024 - 22:30:22:3022] [35mhttp[39m: [35m::1 POST /user/bookmark-asset/66fe95280d91421a52a9f418 201 - 3.851 ms[39m
+[08 Oct, 2024 - 00:55:05:555] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m

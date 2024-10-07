@@ -8,8 +8,12 @@ export let dbInstance = undefined;
 
 const connectDb = async() => {
     try{
+        console.log(process.env.DB_URI)
         const connectionInstance = await mongoose.connect(
-            `${process.env.DB_URI}/${process.env.DB_NAME}`
+            `${process.env.DB_URI}`, {
+                useNewUrlParser: true,
+                useUnifiedTopology: true
+            }
         );
 
         dbInstance = connectionInstance;
