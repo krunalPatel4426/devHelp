@@ -1,0 +1,2229 @@
+[02 Oct, 2024 - 16:57:21:5721] [35mhttp[39m: [35m::1 GET / 500 - 15.899 ms[39m
+[02 Oct, 2024 - 17:01:42:142] [35mhttp[39m: [35m::1 GET / 500 - 4.636 ms[39m
+[02 Oct, 2024 - 17:02:27:227] [35mhttp[39m: [35m::1 GET / 500 - 8.237 ms[39m
+[02 Oct, 2024 - 17:04:19:419] [35mhttp[39m: [35m::1 GET / 500 - 3.992 ms[39m
+[02 Oct, 2024 - 17:04:47:447] [35mhttp[39m: [35m::1 GET / 500 - 3.337 ms[39m
+[02 Oct, 2024 - 17:05:02:52] [35mhttp[39m: [35m::1 GET / 500 - 3.888 ms[39m
+[02 Oct, 2024 - 17:06:20:620] [35mhttp[39m: [35m::1 GET / 500 - 5.431 ms[39m
+[02 Oct, 2024 - 17:07:03:73] [35mhttp[39m: [35m::1 GET / 500 - 3.177 ms[39m
+[02 Oct, 2024 - 17:07:54:754] [35mhttp[39m: [35m::1 GET / 500 - 0.894 ms[39m
+[02 Oct, 2024 - 17:08:37:837] [35mhttp[39m: [35m::1 GET / 500 - 5.038 ms[39m
+[02 Oct, 2024 - 17:09:04:94] [35mhttp[39m: [35m::1 GET / 200 - 4.409 ms[39m
+[02 Oct, 2024 - 17:09:44:944] [35mhttp[39m: [35m::1 GET / 500 - 5.355 ms[39m
+[02 Oct, 2024 - 17:10:10:1010] [35mhttp[39m: [35m::1 GET / 500 - 4.046 ms[39m
+[02 Oct, 2024 - 17:10:35:1035] [35mhttp[39m: [35m::1 GET / 500 - 3.935 ms[39m
+[02 Oct, 2024 - 17:10:45:1045] [35mhttp[39m: [35m::1 GET / 500 - 24.697 ms[39m
+[02 Oct, 2024 - 17:11:06:116] [35mhttp[39m: [35m::1 GET / 200 - 3.939 ms[39m
+[02 Oct, 2024 - 18:28:36:2836] [31merror[39m: [31mMongoDB connection error:  ConnectionInstance is not defined[39m
+[02 Oct, 2024 - 18:29:01:291] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 18:29:53:2953] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 18:32:06:326] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 18:33:36:3336] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 18:34:11:3411] [35mhttp[39m: [35m::1 GET /user/login - - - ms[39m
+[02 Oct, 2024 - 18:35:03:353] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 18:37:09:379] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 18:38:05:385] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 18:38:12:3812] [35mhttp[39m: [35m::1 GET /user/login 200 - 4.699 ms[39m
+[02 Oct, 2024 - 19:09:45:945] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:09:56:956] [35mhttp[39m: [35m::1 POST /user/login 200 - 3.996 ms[39m
+[02 Oct, 2024 - 19:10:13:1013] [35mhttp[39m: [35m::1 POST /user/login 200 - 0.462 ms[39m
+[02 Oct, 2024 - 19:10:21:1021] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:10:24:1024] [35mhttp[39m: [35m::1 POST /user/login 200 - 7.397 ms[39m
+[02 Oct, 2024 - 19:21:25:2125] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:25:40:2540] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:25:59:2559] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:26:02:262] [35mhttp[39m: [35m::1 POST /user/login 200 - 8.159 ms[39m
+[02 Oct, 2024 - 19:27:22:2722] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:27:27:2727] [35mhttp[39m: [35m::1 POST /user/login 500 - 3.022 ms[39m
+[02 Oct, 2024 - 19:28:24:2824] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:28:29:2829] [35mhttp[39m: [35m::1 POST /user/login 500 - 6.476 ms[39m
+[02 Oct, 2024 - 19:30:04:304] [35mhttp[39m: [35m::1 POST /user/login 200 - 24.564 ms[39m
+[02 Oct, 2024 - 19:30:32:3032] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:30:34:3034] [35mhttp[39m: [35m::1 POST /user/login 200 - 15.275 ms[39m
+[02 Oct, 2024 - 19:31:15:3115] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:31:32:3132] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:31:36:3136] [35mhttp[39m: [35m::1 POST /user/login 200 - 11.324 ms[39m
+[02 Oct, 2024 - 19:36:05:365] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:36:17:3617] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:36:22:3622] [35mhttp[39m: [35m::1 POST /user/login 200 - 12.961 ms[39m
+[02 Oct, 2024 - 19:37:19:3719] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:37:35:3735] [35mhttp[39m: [35m::1 POST /user/login 200 - 12.701 ms[39m
+[02 Oct, 2024 - 19:37:56:3756] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:38:01:381] [35mhttp[39m: [35m::1 POST /user/login 200 - 45.210 ms[39m
+[02 Oct, 2024 - 19:40:07:407] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:40:16:4016] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:40:54:4054] [35mhttp[39m: [35m::1 POST /user/login 500 - 6.110 ms[39m
+[02 Oct, 2024 - 19:41:17:4117] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:41:20:4120] [35mhttp[39m: [35m::1 POST /user/login 500 - 4.873 ms[39m
+[02 Oct, 2024 - 19:41:45:4145] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:41:48:4148] [35mhttp[39m: [35m::1 POST /user/login 400 - 7.347 ms[39m
+[02 Oct, 2024 - 19:43:06:436] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:43:10:4310] [35mhttp[39m: [35m::1 POST /user/login 200 - 120.745 ms[39m
+[02 Oct, 2024 - 19:43:28:4328] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:43:31:4331] [35mhttp[39m: [35m::1 POST /user/login 500 - 75.576 ms[39m
+[02 Oct, 2024 - 19:44:06:446] [35mhttp[39m: [35m::1 POST /user/login 200 - 10.330 ms[39m
+[02 Oct, 2024 - 19:44:55:4455] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:45:08:458] [35mhttp[39m: [35m::1 POST /user/login 201 - 49.504 ms[39m
+[02 Oct, 2024 - 19:50:45:5045] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:50:57:5057] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:51:10:5110] [35mhttp[39m: [35m::1 POST /user/login 201 - 40.851 ms[39m
+[02 Oct, 2024 - 19:59:25:5925] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:59:53:5953] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:59:57:5957] [35mhttp[39m: [35m::1 POST /user/login 200 - 27.029 ms[39m
+[02 Oct, 2024 - 20:01:30:130] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 20:01:53:153] [35mhttp[39m: [35m::1 POST /user/login 201 - 81.677 ms[39m
+[02 Oct, 2024 - 20:03:11:311] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 20:03:22:322] [35mhttp[39m: [35m::1 POST /user/login 201 - 56.938 ms[39m
+[02 Oct, 2024 - 20:06:14:614] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 20:08:11:811] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 20:08:18:818] [35mhttp[39m: [35m::1 POST /user/login 200 - 86.842 ms[39m
+[02 Oct, 2024 - 20:08:51:851] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 20:08:59:859] [35mhttp[39m: [35m::1 POST /user/login 200 - 59.184 ms[39m
+[02 Oct, 2024 - 20:09:54:954] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 20:10:01:101] [35mhttp[39m: [35m::1 POST /user/login 201 - 64.199 ms[39m
+[02 Oct, 2024 - 20:11:14:1114] [35mhttp[39m: [35m::1 POST /user/login 200 - 19.027 ms[39m
+[02 Oct, 2024 - 20:12:49:1249] [35mhttp[39m: [35m::1 POST /user/login 200 - 20.538 ms[39m
+[02 Oct, 2024 - 21:02:45:245] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 21:03:26:326] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 21:03:34:334] [35mhttp[39m: [35m::1 POST /user/login 200 - 51.486 ms[39m
+[02 Oct, 2024 - 21:05:58:558] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 21:06:03:63] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 21:06:16:616] [35mhttp[39m: [35m::1 POST /user/login 200 - 107.343 ms[39m
+[02 Oct, 2024 - 21:06:43:643] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 21:06:49:649] [35mhttp[39m: [35m::1 POST /user/login 200 - 57.886 ms[39m
+[03 Oct, 2024 - 18:24:09:249] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 18:24:16:2416] [35mhttp[39m: [35m::1 POST /user/login 200 - 247.021 ms[39m
+[03 Oct, 2024 - 18:29:13:2913] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 18:29:20:2920] [35mhttp[39m: [35m::1 POST /user/login 201 - 133.301 ms[39m
+[03 Oct, 2024 - 19:05:32:532] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:05:43:543] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 94.140 ms[39m
+[03 Oct, 2024 - 19:12:00:120] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:12:51:1251] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:13:47:1347] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:14:42:1442] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:14:49:1449] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:14:53:1453] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 58.396 ms[39m
+[03 Oct, 2024 - 19:16:13:1613] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:17:13:1713] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:18:03:183] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:21:17:2117] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:26:51:2651] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:27:06:276] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:27:12:2712] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:18:16:1816] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:18:47:1847] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:23:10:2310] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:26:39:2639] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:27:04:274] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:33:40:3340] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:33:44:3344] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 144.458 ms[39m
+[03 Oct, 2024 - 22:38:29:3829] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:38:33:3833] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 75.901 ms[39m
+[03 Oct, 2024 - 22:39:15:3915] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:39:16:3916] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 80.125 ms[39m
+[03 Oct, 2024 - 22:39:41:3941] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:39:44:3944] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 83.020 ms[39m
+[03 Oct, 2024 - 22:43:31:4331] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:43:33:4333] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 72.647 ms[39m
+[03 Oct, 2024 - 22:44:28:4428] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:44:30:4430] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 77.863 ms[39m
+[03 Oct, 2024 - 22:44:40:4440] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:51:36:5136] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:55:03:553] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:55:28:5528] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:55:43:5543] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:57:28:5728] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:58:03:583] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:58:52:5852] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:00:35:035] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:01:34:134] [35mhttp[39m: [35m::1 GET /programmingLanguage/getData 200 - 37.127 ms[39m
+[03 Oct, 2024 - 23:09:41:941] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:28:55:2855] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:30:45:3045] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:31:44:3144] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:31:54:3154] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:33:06:336] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:34:38:3438] [35mhttp[39m: [35m::1 GET /course/getCourseData 404 - 3.881 ms[39m
+[03 Oct, 2024 - 23:34:59:3459] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:35:02:352] [35mhttp[39m: [35m::1 GET /course/getCourseData 500 - 20.216 ms[39m
+[03 Oct, 2024 - 23:36:43:3643] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:36:46:3646] [35mhttp[39m: [35m::1 GET /course/getCourseData 501 - 63.382 ms[39m
+[03 Oct, 2024 - 23:37:58:3758] [35mhttp[39m: [35m::1 GET /course/getCourseData 501 - 8.681 ms[39m
+[03 Oct, 2024 - 23:38:33:3833] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:39:52:3952] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:39:54:3954] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:39:56:3956] [35mhttp[39m: [35m::1 GET /course/getCourseData 200 - 42.992 ms[39m
+[03 Oct, 2024 - 23:40:57:4057] [35mhttp[39m: [35m::1 GET /course/getCourseData 200 - 16.523 ms[39m
+[03 Oct, 2024 - 23:41:42:4142] [35mhttp[39m: [35m::1 GET /course/getCourseData 200 - 6.544 ms[39m
+[03 Oct, 2024 - 23:44:29:4429] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:44:34:4434] [35mhttp[39m: [35m::1 GET /course/getCourseData 200 - 24.801 ms[39m
+[03 Oct, 2024 - 23:45:02:452] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:45:11:4511] [35mhttp[39m: [35m::1 GET /course/getCourseData 200 - 39.599 ms[39m
+[03 Oct, 2024 - 23:45:18:4518] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:45:29:4529] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:45:34:4534] [35mhttp[39m: [35m::1 GET /course/getCourseData 200 - 29.906 ms[39m
+[03 Oct, 2024 - 23:48:54:4854] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:49:06:496] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:50:18:5018] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:50:28:5028] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:50:30:5030] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 24.463 ms[39m
+[03 Oct, 2024 - 23:52:44:5244] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:52:56:5256] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:53:36:5336] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:54:50:5450] [35mhttp[39m: [35m::1 GET /course/getCourseData/66fecfd873abc5a50ad1b465 200 - 27.002 ms[39m
+[03 Oct, 2024 - 23:55:48:5548] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:55:53:5553] [35mhttp[39m: [35m::1 GET /course/getCourseData/66fecfd873abc5a50ad1b465 200 - 33.497 ms[39m
+[04 Oct, 2024 - 00:07:47:747] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:07:58:758] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:11:35:1135] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:13:14:1314] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:15:58:1558] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:26:24:2624] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:27:44:2744] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:27:49:2749] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:28:20:2820] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:30:11:3011] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:30:13:3013] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 404 - 3.740 ms[39m
+[04 Oct, 2024 - 00:30:35:3035] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:30:38:3038] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 404 - 2.635 ms[39m
+[04 Oct, 2024 - 00:31:00:310] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:31:01:311] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 7.667 ms[39m
+[04 Oct, 2024 - 00:32:09:329] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:32:13:3213] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 8.775 ms[39m
+[04 Oct, 2024 - 00:32:34:3234] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:32:36:3236] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 8.374 ms[39m
+[04 Oct, 2024 - 00:32:47:3247] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:32:51:3251] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 9.723 ms[39m
+[04 Oct, 2024 - 00:33:07:337] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:33:12:3312] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 14.261 ms[39m
+[04 Oct, 2024 - 00:33:24:3324] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:33:27:3327] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 9.283 ms[39m
+[04 Oct, 2024 - 00:33:38:3338] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:33:41:3341] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 7.443 ms[39m
+[04 Oct, 2024 - 00:33:56:3356] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:34:00:340] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 9.145 ms[39m
+[04 Oct, 2024 - 00:34:08:348] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:34:12:3412] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 12.402 ms[39m
+[04 Oct, 2024 - 00:34:51:3451] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:34:59:3459] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 24.189 ms[39m
+[04 Oct, 2024 - 00:35:19:3519] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:35:20:3520] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:35:24:3524] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 21.546 ms[39m
+[04 Oct, 2024 - 00:35:39:3539] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:35:42:3542] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 22.406 ms[39m
+[04 Oct, 2024 - 00:35:48:3548] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:35:51:3551] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 22.508 ms[39m
+[04 Oct, 2024 - 00:41:40:4140] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:41:44:4144] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 26.561 ms[39m
+[04 Oct, 2024 - 00:41:55:4155] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:41:58:4158] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 27.728 ms[39m
+[04 Oct, 2024 - 00:42:17:4217] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:42:19:4219] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 27.734 ms[39m
+[04 Oct, 2024 - 00:42:28:4228] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:42:32:4232] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 25.166 ms[39m
+[04 Oct, 2024 - 00:42:40:4240] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:42:40:4240] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 29.336 ms[39m
+[04 Oct, 2024 - 00:42:54:4254] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:42:56:4256] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 23.394 ms[39m
+[04 Oct, 2024 - 00:44:37:4437] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:44:42:4442] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 21.981 ms[39m
+[04 Oct, 2024 - 00:44:58:4458] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:45:02:452] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 20.622 ms[39m
+[04 Oct, 2024 - 00:45:08:458] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:45:10:4510] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 23.289 ms[39m
+[04 Oct, 2024 - 00:45:20:4520] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:45:23:4523] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 20.534 ms[39m
+[04 Oct, 2024 - 00:45:32:4532] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:45:33:4533] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 22.923 ms[39m
+[04 Oct, 2024 - 00:47:47:4747] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:48:18:4818] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:48:22:4822] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 200 - 58.458 ms[39m
+[04 Oct, 2024 - 00:49:30:4930] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:49:37:4937] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 200 - 32.312 ms[39m
+[04 Oct, 2024 - 00:55:21:5521] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:55:25:5525] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:55:51:5551] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:56:32:5632] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:56:36:5636] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 200 - 60.374 ms[39m
+[04 Oct, 2024 - 01:01:47:147] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:01:49:149] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 200 - 56.689 ms[39m
+[04 Oct, 2024 - 01:02:10:210] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:02:13:213] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 200 - 69.666 ms[39m
+[04 Oct, 2024 - 01:02:49:249] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:02:53:253] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 200 - 80.470 ms[39m
+[04 Oct, 2024 - 01:03:25:325] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:03:29:329] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 200 - 159.554 ms[39m
+[04 Oct, 2024 - 01:04:25:425] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:04:32:432] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:04:38:438] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 55.242 ms[39m
+[04 Oct, 2024 - 01:05:06:56] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:05:09:59] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 148.596 ms[39m
+[04 Oct, 2024 - 01:05:23:523] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:05:25:525] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 53.755 ms[39m
+[04 Oct, 2024 - 01:06:01:61] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:06:08:68] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 54.044 ms[39m
+[04 Oct, 2024 - 01:06:24:624] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:06:27:627] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 83.898 ms[39m
+[04 Oct, 2024 - 01:08:59:859] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:09:03:93] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 200 - 100.648 ms[39m
+[04 Oct, 2024 - 01:10:52:1052] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:10:56:1056] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 29.023 ms[39m
+[04 Oct, 2024 - 01:11:15:1115] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:11:16:1116] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 26.789 ms[39m
+[04 Oct, 2024 - 01:11:25:1125] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:11:27:1127] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 72.999 ms[39m
+[04 Oct, 2024 - 01:11:38:1138] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:11:40:1140] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 111.849 ms[39m
+[04 Oct, 2024 - 01:12:00:120] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:12:03:123] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 23.215 ms[39m
+[04 Oct, 2024 - 01:12:16:1216] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:12:17:1217] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 42.248 ms[39m
+[04 Oct, 2024 - 01:12:24:1224] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:12:26:1226] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 31.296 ms[39m
+[04 Oct, 2024 - 01:12:42:1242] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:12:44:1244] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:12:48:1248] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 200 - 76.228 ms[39m
+[04 Oct, 2024 - 01:14:00:140] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:14:09:149] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 200 - 53.992 ms[39m
+[04 Oct, 2024 - 01:16:09:169] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:16:18:1618] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 63.169 ms[39m
+[04 Oct, 2024 - 01:17:09:179] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 38.443 ms[39m
+[04 Oct, 2024 - 01:17:57:1757] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 12.754 ms[39m
+[04 Oct, 2024 - 01:18:33:1833] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 25.887 ms[39m
+[04 Oct, 2024 - 01:19:05:195] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:19:10:1910] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 108.647 ms[39m
+[04 Oct, 2024 - 01:21:21:2121] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:21:26:2126] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 500 - 42.993 ms[39m
+[04 Oct, 2024 - 01:21:45:2145] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:21:46:2146] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 200 - 60.423 ms[39m
+[04 Oct, 2024 - 01:22:19:2219] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:23:47:2347] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:23:51:2351] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 200 - 69.694 ms[39m
+[04 Oct, 2024 - 01:24:03:243] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:24:07:247] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 200 - 57.430 ms[39m
+[04 Oct, 2024 - 01:24:58:2458] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:25:01:251] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 200 - 60.392 ms[39m
+[04 Oct, 2024 - 01:25:22:2522] [35mhttp[39m: [35m::1 POST /course/rating/66fecfd873abc5a50ad1b465 200 - 31.864 ms[39m
+[04 Oct, 2024 - 01:26:18:2618] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 10.884 ms[39m
+[04 Oct, 2024 - 01:26:30:2630] [35mhttp[39m: [35m::1 POST /course/rating/66fecfbc3146bd72e83a906b 500 - 8.444 ms[39m
+[04 Oct, 2024 - 01:26:40:2640] [35mhttp[39m: [35m::1 POST /course/rating/66fecfbc3146bd72e83a906b 500 - 8.968 ms[39m
+[04 Oct, 2024 - 01:27:02:272] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:27:04:274] [35mhttp[39m: [35m::1 POST /course/rating/66fecfbc3146bd72e83a906b 200 - 49.573 ms[39m
+[04 Oct, 2024 - 01:27:12:2712] [35mhttp[39m: [35m::1 POST /course/rating/66fecfbc3146bd72e83a906b 200 - 30.702 ms[39m
+[04 Oct, 2024 - 01:28:31:2831] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:29:08:298] [35mhttp[39m: [35m::1 POST /course/rating/66fecfbc3146bd72e83a906b 200 - 80.585 ms[39m
+[04 Oct, 2024 - 01:30:26:3026] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:30:47:3047] [35mhttp[39m: [35m::1 POST /course/rating/66fecfbc3146bd72e83a906b 200 - 57.491 ms[39m
+[04 Oct, 2024 - 01:31:04:314] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:31:28:3128] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:31:34:3134] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:31:37:3137] [35mhttp[39m: [35m::1 POST /course/rating/66fecfbc3146bd72e83a906b 200 - 147.217 ms[39m
+[04 Oct, 2024 - 01:33:34:3334] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:33:52:3352] [35mhttp[39m: [35m::1 POST /course/rating/66fecfbc3146bd72e83a906b 200 - 46.476 ms[39m
+[04 Oct, 2024 - 01:34:32:3432] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:34:46:3446] [35mhttp[39m: [35m::1 POST /course/rating/66fecfbc3146bd72e83a906b 500 - 52.282 ms[39m
+[04 Oct, 2024 - 01:34:57:3457] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:34:59:3459] [35mhttp[39m: [35m::1 POST /course/rating/66fecfbc3146bd72e83a906b 500 - 76.304 ms[39m
+[04 Oct, 2024 - 01:35:46:3546] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:37:00:370] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:37:03:373] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:37:07:377] [35mhttp[39m: [35m::1 POST /course/rating/66fecfbc3146bd72e83a906b 200 - 57.845 ms[39m
+[04 Oct, 2024 - 01:37:38:3738] [35mhttp[39m: [35m::1 POST /course/rating/66fecfbc3146bd72e83a906b 200 - 21.300 ms[39m
+[04 Oct, 2024 - 16:52:56:5256] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 16:54:11:5411] [35mhttp[39m: [35m::1 POST /course/rating/66fecf914b1afb8b321f4633 200 - 132.636 ms[39m
+[04 Oct, 2024 - 16:54:24:5424] [35mhttp[39m: [35m::1 POST /course/rating/66fecf914b1afb8b321f4633 200 - 27.165 ms[39m
+[04 Oct, 2024 - 16:55:08:558] [35mhttp[39m: [35m::1 POST /course/rating/66fecf914b1afb8b321f4633 200 - 20.706 ms[39m
+[04 Oct, 2024 - 16:57:24:5724] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:00:14:014] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:01:04:14] [35mhttp[39m: [35m::1 POST /course/rating/66fecf914b1afb8b321f4633 200 - 80.012 ms[39m
+[04 Oct, 2024 - 17:02:28:228] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:04:43:443] [35mhttp[39m: [35m::1 POST /course/rating/66fecf914b1afb8b321f4633 200 - 90.200 ms[39m
+[04 Oct, 2024 - 17:21:11:2111] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:21:21:2121] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:21:53:2153] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:24:04:244] [35mhttp[39m: [35m::1 POST /course/review/66fecf914b1afb8b321f4633 200 - 67.399 ms[39m
+[04 Oct, 2024 - 17:24:31:2431] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:24:55:2455] [35mhttp[39m: [35m::1 POST /course/review/66fecf914b1afb8b321f4633 200 - 68.300 ms[39m
+[04 Oct, 2024 - 17:26:01:261] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:28:46:2846] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:28:58:2858] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:29:14:2914] [35mhttp[39m: [35m::1 POST /course/review/66fecf914b1afb8b321f4633 200 - 72.992 ms[39m
+[04 Oct, 2024 - 17:35:43:3543] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:36:03:363] [35mhttp[39m: [35m::1 POST /course/review/66fecf914b1afb8b321f4633 200 - 53.979 ms[39m
+[04 Oct, 2024 - 17:37:54:3754] [35mhttp[39m: [35m::1 POST /course/rating/66fecf914b1afb8b321f4633 200 - 26.208 ms[39m
+[04 Oct, 2024 - 17:56:05:565] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:56:22:5622] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:59:22:5922] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:59:55:5955] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:02:26:226] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:02:31:231] [35mhttp[39m: [35m::1 GET /course/delete-review/66fecf914b1afb8b321f4633 404 - 3.342 ms[39m
+[04 Oct, 2024 - 18:02:41:241] [35mhttp[39m: [35m::1 POST /course/delete-review/66fecf914b1afb8b321f4633 200 - 54.015 ms[39m
+[04 Oct, 2024 - 18:02:54:254] [35mhttp[39m: [35m::1 POST /course/review/66fecf914b1afb8b321f4633 200 - 10.231 ms[39m
+[04 Oct, 2024 - 18:03:03:33] [35mhttp[39m: [35m::1 POST /course/review/66fecf914b1afb8b321f4633 200 - 9.580 ms[39m
+[04 Oct, 2024 - 18:03:10:310] [35mhttp[39m: [35m::1 POST /course/review/66fecf914b1afb8b321f4633 200 - 9.267 ms[39m
+[04 Oct, 2024 - 18:03:37:337] [35mhttp[39m: [35m::1 POST /course/delete-review/66fecf914b1afb8b321f4633 200 - 7.944 ms[39m
+[04 Oct, 2024 - 18:12:37:1237] [35mhttp[39m: [35m::1 POST /course/review/66fecf914b1afb8b321f4633 200 - 8.397 ms[39m
+[04 Oct, 2024 - 18:12:50:1250] [35mhttp[39m: [35m::1 POST /course/delete-review/66fecf914b1afb8b321f4633 200 - 6.401 ms[39m
+[04 Oct, 2024 - 18:13:33:1333] [35mhttp[39m: [35m::1 POST /course/delete-review/66fecf914b1afb8b321f4633 200 - 7.486 ms[39m
+[04 Oct, 2024 - 18:14:31:1431] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:14:34:1434] [35mhttp[39m: [35m::1 POST /course/delete-review/66fecf914b1afb8b321f4633 200 - 74.114 ms[39m
+[04 Oct, 2024 - 18:14:55:1455] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:16:48:1648] [35mhttp[39m: [35m::1 GET /course/getCourseData/66fecfd873abc5a50ad1b465 200 - 35.318 ms[39m
+[04 Oct, 2024 - 18:17:07:177] [35mhttp[39m: [35m::1 GET /course/getCourseData/66fecf914b1afb8b321f4633 200 - 16.233 ms[39m
+[04 Oct, 2024 - 18:18:30:1830] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:18:40:1840] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 194.107 ms[39m
+[04 Oct, 2024 - 18:19:23:1923] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:21:12:2112] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:21:22:2122] [35mhttp[39m: [35m::1 POST /course/rating/66fecf914b1afb8b321f4633 200 - 99.899 ms[39m
+[04 Oct, 2024 - 18:22:03:223] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:22:21:2221] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:22:42:2242] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:26:49:2649] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:27:54:2754] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:28:08:288] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:28:11:2811] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:29:11:2911] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:30:41:3041] [35mhttp[39m: [35m::1 GET /user/getUserData/66fe95280d91421a52a9f418 200 - 29.177 ms[39m
+[04 Oct, 2024 - 18:31:46:3146] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:31:57:3157] [35mhttp[39m: [35m::1 GET /user/getUserData/66fe95280d91421a52a9f418 200 - 26.165 ms[39m
+[04 Oct, 2024 - 18:32:04:324] [35mhttp[39m: [35m::1 GET /user/getUserData/66fe95280d91421a52a9f418 200 - 4.756 ms[39m
+[04 Oct, 2024 - 18:36:04:364] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:36:51:3651] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:38:32:3832] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:40:02:402] [35mhttp[39m: [35m::1 POST /user/bookmark-course/66fe95280d91421a52a9f418 201 - 24.506 ms[39m
+[04 Oct, 2024 - 18:40:27:4027] [35mhttp[39m: [35m::1 POST /user/bookmark-course/66fe95280d91421a52a9f418 201 - 5.036 ms[39m
+[04 Oct, 2024 - 18:40:50:4050] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:44:27:4427] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:46:32:4632] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:47:38:4738] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:48:08:488] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:48:10:4810] [35mhttp[39m: [35m::1 GET /user/getUserData/66fe95280d91421a52a9f418 200 - 20.656 ms[39m
+[04 Oct, 2024 - 18:48:37:4837] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:51:42:5142] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 75.040 ms[39m
+[04 Oct, 2024 - 18:54:59:5459] [35mhttp[39m: [35m::1 GET /course/getCourseData/66fecf914b1afb8b321f4633 200 - 16.028 ms[39m
+[04 Oct, 2024 - 18:56:10:5610] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:56:11:5611] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 26.280 ms[39m
+[04 Oct, 2024 - 19:02:29:229] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 11.569 ms[39m
+[04 Oct, 2024 - 19:03:01:31] [35mhttp[39m: [35m::1 GET /course/getCourseData/66fecf914b1afb8b321f4633 200 - 19.917 ms[39m
+[04 Oct, 2024 - 19:06:42:642] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 19:08:32:832] [35mhttp[39m: [35m::1 GET /course/tag 200 - 32.292 ms[39m
+[04 Oct, 2024 - 19:09:50:950] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 19:09:52:952] [35mhttp[39m: [35m::1 GET /course/tag 200 - 18.962 ms[39m
+[04 Oct, 2024 - 19:10:06:106] [35mhttp[39m: [35m::1 GET /course/tag 200 - 10.880 ms[39m
+[04 Oct, 2024 - 19:10:43:1043] [35mhttp[39m: [35m::1 GET /course/tag 200 - 4.374 ms[39m
+[04 Oct, 2024 - 19:11:24:1124] [35mhttp[39m: [35m::1 GET /course/tag 200 - 5.473 ms[39m
+[04 Oct, 2024 - 19:24:55:2455] [35mhttp[39m: [35m::1 GET /course/tag 200 - 3.198 ms[39m
+[04 Oct, 2024 - 19:26:12:2612] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 19:26:14:2614] [35mhttp[39m: [35m::1 GET /course/tag 200 - 17.942 ms[39m
+[04 Oct, 2024 - 19:26:23:2623] [35mhttp[39m: [35m::1 GET /course/tag 200 - 8.363 ms[39m
+[04 Oct, 2024 - 19:26:32:2632] [35mhttp[39m: [35m::1 GET /course/tag 200 - 3.341 ms[39m
+[06 Oct, 2024 - 10:33:14:3314] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 10:35:25:3525] [35mhttp[39m: [35m::1 GET /course/tag 200 - 72.304 ms[39m
+[06 Oct, 2024 - 10:35:29:3529] [35mhttp[39m: [35m::1 GET /course/tag 200 - 8.980 ms[39m
+[06 Oct, 2024 - 10:35:38:3538] [35mhttp[39m: [35m::1 POST /course/review/66fecf914b1afb8b321f4633 200 - 154.969 ms[39m
+[06 Oct, 2024 - 10:36:22:3622] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 10:36:23:3623] [35mhttp[39m: [35m::1 POST /course/review/66fecf914b1afb8b321f4633 200 - 82.426 ms[39m
+[06 Oct, 2024 - 10:38:57:3857] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 10:38:59:3859] [35mhttp[39m: [35m::1 POST /course/review/66fecf914b1afb8b321f4633 200 - 53.621 ms[39m
+[06 Oct, 2024 - 10:39:12:3912] [35mhttp[39m: [35m::1 POST /course/delete-review/66fecf914b1afb8b321f4633 200 - 21.920 ms[39m
+[06 Oct, 2024 - 10:40:02:402] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 10:41:30:4130] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 10:42:04:424] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 10:42:20:4220] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 10:42:34:4234] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:01:57:157] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:02:25:225] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:06:26:626] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:06:29:629] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:08:07:87] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:08:18:818] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:09:48:948] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:09:55:955] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:12:28:1228] [35mhttp[39m: [35m::1 POST /library/addLibrary 200 - 75.441 ms[39m
+[06 Oct, 2024 - 11:12:48:1248] [35mhttp[39m: [35m::1 POST /library/addLibrary 200 - 6.604 ms[39m
+[06 Oct, 2024 - 11:12:59:1259] [35mhttp[39m: [35m::1 POST /library/addLibrary 200 - 8.419 ms[39m
+[06 Oct, 2024 - 11:13:11:1311] [35mhttp[39m: [35m::1 POST /library/addLibrary 200 - 6.334 ms[39m
+[06 Oct, 2024 - 11:13:22:1322] [35mhttp[39m: [35m::1 POST /library/addLibrary 200 - 6.111 ms[39m
+[06 Oct, 2024 - 11:13:33:1333] [35mhttp[39m: [35m::1 POST /library/addLibrary 200 - 4.460 ms[39m
+[06 Oct, 2024 - 11:13:42:1342] [35mhttp[39m: [35m::1 POST /library/addLibrary 200 - 5.846 ms[39m
+[06 Oct, 2024 - 11:13:51:1351] [35mhttp[39m: [35m::1 POST /library/addLibrary 200 - 5.350 ms[39m
+[06 Oct, 2024 - 11:14:02:142] [35mhttp[39m: [35m::1 POST /library/addLibrary 200 - 4.763 ms[39m
+[06 Oct, 2024 - 11:14:12:1412] [35mhttp[39m: [35m::1 POST /library/addLibrary 200 - 5.397 ms[39m
+[06 Oct, 2024 - 11:18:15:1815] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:18:35:1835] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:19:04:194] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:19:40:1940] [35mhttp[39m: [35m::1 GET /library/getAllLibraries 200 - 34.221 ms[39m
+[06 Oct, 2024 - 11:21:13:2113] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:21:14:2114] [35mhttp[39m: [35m::1 GET /library/getAllLibraries 200 - 23.695 ms[39m
+[06 Oct, 2024 - 11:25:28:2528] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:25:44:2544] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:26:17:2617] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:27:14:2714] [35mhttp[39m: [35m::1 GET /library/getLibraryData/6702238534998e60dd85bceb 500 - 5.186 ms[39m
+[06 Oct, 2024 - 11:27:57:2757] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:28:00:280] [35mhttp[39m: [35m::1 GET /library/getLibraryData/6702238534998e60dd85bceb 500 - 10.921 ms[39m
+[06 Oct, 2024 - 11:28:14:2814] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:28:15:2815] [35mhttp[39m: [35m::1 GET /library/getLibraryData/6702238534998e60dd85bceb 500 - 10.688 ms[39m
+[06 Oct, 2024 - 11:28:29:2829] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:28:32:2832] [35mhttp[39m: [35m::1 GET /library/getLibraryData/6702238534998e60dd85bceb 200 - 20.526 ms[39m
+[06 Oct, 2024 - 11:28:59:2859] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:29:01:291] [35mhttp[39m: [35m::1 GET /library/getLibraryData/6702238534998e60dd85bceb 200 - 24.021 ms[39m
+[06 Oct, 2024 - 11:32:45:3245] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:34:10:3410] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:34:41:3441] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:40:36:4036] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:40:54:4054] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 215.085 ms[39m
+[06 Oct, 2024 - 11:41:04:414] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 34.050 ms[39m
+[06 Oct, 2024 - 11:43:52:4352] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:44:21:4421] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:44:23:4423] [35mhttp[39m: [35m::1 GET /library/rateLibrary/6702234434998e60dd85bce1 404 - 1.945 ms[39m
+[06 Oct, 2024 - 11:44:31:4431] [35mhttp[39m: [35m::1 POST /library/rateLibrary/6702234434998e60dd85bce1 500 - 43.159 ms[39m
+[06 Oct, 2024 - 11:46:18:4618] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:46:22:4622] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:46:24:4624] [35mhttp[39m: [35m::1 POST /library/rateLibrary/6702234434998e60dd85bce1 500 - 66.575 ms[39m
+[06 Oct, 2024 - 11:46:36:4636] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:46:39:4639] [35mhttp[39m: [35m::1 POST /library/rateLibrary/6702234434998e60dd85bce1 500 - 36.230 ms[39m
+[06 Oct, 2024 - 11:46:43:4643] [35mhttp[39m: [35m::1 POST /library/rateLibrary/6702234434998e60dd85bce1 500 - 8.749 ms[39m
+[06 Oct, 2024 - 11:47:17:4717] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:47:18:4718] [35mhttp[39m: [35m::1 POST /library/rateLibrary/6702234434998e60dd85bce1 500 - 63.371 ms[39m
+[06 Oct, 2024 - 11:47:50:4750] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:47:50:4750] [35mhttp[39m: [35m::1 POST /library/rateLibrary/6702234434998e60dd85bce1 200 - 45.543 ms[39m
+[06 Oct, 2024 - 11:48:13:4813] [35mhttp[39m: [35m::1 POST /library/rateLibrary/6702234434998e60dd85bce1 200 - 9.806 ms[39m
+[06 Oct, 2024 - 11:48:43:4843] [35mhttp[39m: [35m::1 POST /library/rateLibrary/6702234434998e60dd85bce1 200 - 7.487 ms[39m
+[06 Oct, 2024 - 11:49:07:497] [35mhttp[39m: [35m::1 POST /library/rateLibrary/6702234434998e60dd85bce1 200 - 10.950 ms[39m
+[06 Oct, 2024 - 11:52:24:5224] [35mhttp[39m: [35m::1 POST /library/rateLibrary/6702235834998e60dd85bce3 200 - 10.557 ms[39m
+[06 Oct, 2024 - 11:55:12:5512] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:55:54:5554] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:55:56:5556] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:59:19:5919] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:59:39:5939] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:00:22:022] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:02:18:218] [35mhttp[39m: [35m::1 GET /library/addReviewLibrary/6702238534998e60dd85bceb 404 - 4.026 ms[39m
+[06 Oct, 2024 - 12:02:25:225] [35mhttp[39m: [35m::1 POST /library/addReviewLibrary/6702238534998e60dd85bceb 500 - 34.962 ms[39m
+[06 Oct, 2024 - 12:03:15:315] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:03:15:315] [35mhttp[39m: [35m::1 POST /library/addReviewLibrary/6702238534998e60dd85bceb 500 - 28.830 ms[39m
+[06 Oct, 2024 - 12:03:24:324] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:03:24:324] [35mhttp[39m: [35m::1 POST /library/addReviewLibrary/6702238534998e60dd85bceb 500 - 36.208 ms[39m
+[06 Oct, 2024 - 12:03:33:333] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:03:34:334] [35mhttp[39m: [35m::1 POST /library/addReviewLibrary/6702238534998e60dd85bceb 500 - 31.261 ms[39m
+[06 Oct, 2024 - 12:03:43:343] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:03:44:344] [35mhttp[39m: [35m::1 POST /library/addReviewLibrary/6702238534998e60dd85bceb 500 - 27.313 ms[39m
+[06 Oct, 2024 - 12:03:53:353] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:03:54:354] [35mhttp[39m: [35m::1 POST /library/addReviewLibrary/6702238534998e60dd85bceb 200 - 47.871 ms[39m
+[06 Oct, 2024 - 12:04:05:45] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:04:24:424] [35mhttp[39m: [35m::1 POST /library/rateLibrary/6702235834998e60dd85bce3 200 - 50.725 ms[39m
+[06 Oct, 2024 - 12:04:32:432] [35mhttp[39m: [35m::1 POST /library/addReviewLibrary/6702238534998e60dd85bceb 200 - 13.053 ms[39m
+[06 Oct, 2024 - 12:09:08:98] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:09:28:928] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:09:59:959] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:11:57:1157] [35mhttp[39m: [35m::1 POST /library/deleteReviewLibrary/6702238534998e60dd85bceb 200 - 39.484 ms[39m
+[06 Oct, 2024 - 12:13:34:1334] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:15:17:1517] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:16:17:1617] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:16:26:1626] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:17:02:172] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:17:07:177] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:17:14:1714] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:17:18:1718] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:17:22:1722] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:17:54:1754] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:19:05:195] [35mhttp[39m: [35m::1 GET /library/getLibraryByTag 500 - 5.422 ms[39m
+[06 Oct, 2024 - 12:19:23:1923] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:19:23:1923] [35mhttp[39m: [35m::1 GET /library/getLibraryByTag 200 - 22.499 ms[39m
+[06 Oct, 2024 - 12:20:53:2053] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:21:03:213] [35mhttp[39m: [35m::1 GET /library/getLibraryByTag 200 - 27.273 ms[39m
+[06 Oct, 2024 - 12:21:12:2112] [35mhttp[39m: [35m::1 GET /library/getLibraryByTag 404 - 5.150 ms[39m
+[06 Oct, 2024 - 12:21:20:2120] [35mhttp[39m: [35m::1 GET /library/getLibraryByTag 404 - 6.993 ms[39m
+[06 Oct, 2024 - 12:22:03:223] [35mhttp[39m: [35m::1 GET /library/getLibraryByTag 200 - 5.076 ms[39m
+[06 Oct, 2024 - 12:22:12:2212] [35mhttp[39m: [35m::1 GET /library/getLibraryByTag 200 - 6.145 ms[39m
+[06 Oct, 2024 - 12:22:32:2232] [35mhttp[39m: [35m::1 GET /library/getLibraryByTag 404 - 3.613 ms[39m
+[06 Oct, 2024 - 12:22:41:2241] [35mhttp[39m: [35m::1 GET /library/getLibraryByTag 200 - 3.084 ms[39m
+[06 Oct, 2024 - 13:51:12:5112] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 13:52:12:5212] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 13:55:25:5525] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 13:55:40:5540] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 13:56:14:5614] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 13:58:14:5814] [35mhttp[39m: [35m::1 GET /user/bookmark-library/66fe95280d91421a52a9f418 404 - 2.364 ms[39m
+[06 Oct, 2024 - 13:58:21:5821] [35mhttp[39m: [35m::1 POST /user/bookmark-library/66fe95280d91421a52a9f418 201 - 50.841 ms[39m
+[06 Oct, 2024 - 13:58:59:5859] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 61.033 ms[39m
+[06 Oct, 2024 - 14:08:26:826] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:09:02:92] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:09:34:934] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:09:52:952] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:11:15:1115] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:11:31:1131] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:11:59:1159] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:15:30:1530] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:16:43:1643] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:16:54:1654] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:17:30:1730] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:18:34:1834] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 42.093 ms[39m
+[06 Oct, 2024 - 14:18:47:1847] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 6.023 ms[39m
+[06 Oct, 2024 - 14:18:59:1859] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 4.121 ms[39m
+[06 Oct, 2024 - 14:19:16:1916] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 3.497 ms[39m
+[06 Oct, 2024 - 14:19:27:1927] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 9.629 ms[39m
+[06 Oct, 2024 - 14:19:37:1937] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 3.943 ms[39m
+[06 Oct, 2024 - 14:19:47:1947] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 3.970 ms[39m
+[06 Oct, 2024 - 14:19:56:1956] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 11.814 ms[39m
+[06 Oct, 2024 - 14:20:07:207] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 4.144 ms[39m
+[06 Oct, 2024 - 14:20:16:2016] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 9.798 ms[39m
+[06 Oct, 2024 - 14:24:40:2440] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:24:48:2448] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:25:13:2513] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:25:40:2540] [35mhttp[39m: [35m::1 GET /asset/getAllAssetData 200 - 34.262 ms[39m
+[06 Oct, 2024 - 14:26:23:2623] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:26:26:2626] [35mhttp[39m: [35m::1 GET /asset/getAllAssetData 200 - 23.431 ms[39m
+[06 Oct, 2024 - 14:30:25:3025] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:30:32:3032] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:31:05:315] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:31:13:3113] [35mhttp[39m: [35m::1 GET /asset/getAllAssetData 200 - 29.347 ms[39m
+[06 Oct, 2024 - 14:31:44:3144] [35mhttp[39m: [35m::1 GET /asset/getAsset/67024ee21865580bd9332d36 500 - 4.201 ms[39m
+[06 Oct, 2024 - 14:33:10:3310] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:33:11:3311] [35mhttp[39m: [35m::1 GET /asset/getAsset/67024ee21865580bd9332d36 200 - 22.028 ms[39m
+[06 Oct, 2024 - 14:35:39:3539] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:38:57:3857] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:39:22:3922] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:40:13:4013] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:40:22:4022] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:40:27:4027] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:41:00:410] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:41:40:4140] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 96.973 ms[39m
+[06 Oct, 2024 - 14:42:10:4210] [35mhttp[39m: [35m::1 GET /asset/rateAsset/67024ee21865580bd9332d36 404 - 2.277 ms[39m
+[06 Oct, 2024 - 14:42:18:4218] [35mhttp[39m: [35m::1 POST /asset/rateAsset/67024ee21865580bd9332d36 200 - 17.294 ms[39m
+[06 Oct, 2024 - 15:01:39:139] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:02:51:251] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:03:01:31] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:03:32:332] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:04:08:48] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:05:49:549] [35mhttp[39m: [35m::1 GET /asset/reviewAsset/67024ee21865580bd9332d36 404 - 3.420 ms[39m
+[06 Oct, 2024 - 15:05:55:555] [35mhttp[39m: [35m::1 POST /asset/reviewAsset/67024ee21865580bd9332d36 500 - 1.796 ms[39m
+[06 Oct, 2024 - 15:06:26:626] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:06:29:629] [35mhttp[39m: [35m::1 POST /asset/reviewAsset/67024ee21865580bd9332d36 500 - 122.127 ms[39m
+[06 Oct, 2024 - 15:07:19:719] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:07:22:722] [35mhttp[39m: [35m::1 POST /asset/reviewAsset/67024ee21865580bd9332d36 500 - 50.217 ms[39m
+[06 Oct, 2024 - 15:07:42:742] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:07:46:746] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:07:58:758] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:07:58:758] [35mhttp[39m: [35m::1 POST /asset/reviewAsset/67024ee21865580bd9332d36 500 - 46.074 ms[39m
+[06 Oct, 2024 - 15:08:17:817] [35mhttp[39m: [35m::1 POST /asset/reviewAsset/67024ee21865580bd9332d36 500 - 20.293 ms[39m
+[06 Oct, 2024 - 15:08:37:837] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:08:38:838] [35mhttp[39m: [35m::1 POST /asset/reviewAsset/67024ee21865580bd9332d36 200 - 39.308 ms[39m
+[06 Oct, 2024 - 15:08:43:843] [35mhttp[39m: [35m::1 POST /asset/reviewAsset/67024ee21865580bd9332d36 200 - 11.487 ms[39m
+[06 Oct, 2024 - 15:12:49:1249] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:13:02:132] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:13:50:1350] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:15:20:1520] [35mhttp[39m: [35m::1 GET /asset/deleteReviewAsset/67024ee21865580bd9332d36 404 - 8.095 ms[39m
+[06 Oct, 2024 - 15:15:27:1527] [35mhttp[39m: [35m::1 POST /asset/deleteReviewAsset/67024ee21865580bd9332d36 200 - 76.349 ms[39m
+[06 Oct, 2024 - 15:19:32:1932] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:19:44:1944] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:20:11:2011] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:21:12:2112] [35mhttp[39m: [35m::1 GET /asset/getAssetByTag 200 - 20.435 ms[39m
+[06 Oct, 2024 - 15:22:50:2250] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:23:01:231] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:23:29:2329] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:24:32:2432] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 162.046 ms[39m
+[06 Oct, 2024 - 15:25:10:2510] [35mhttp[39m: [35m::1 GET /user/bookmark-asset/66fe95280d91421a52a9f418 404 - 2.075 ms[39m
+[06 Oct, 2024 - 15:25:16:2516] [35mhttp[39m: [35m::1 POST /user/bookmark-asset/66fe95280d91421a52a9f418 201 - 12.806 ms[39m
+[06 Oct, 2024 - 17:56:29:5629] [31merror[39m: [31mMongoDB connection error:  connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[06 Oct, 2024 - 17:57:53:5753] [31merror[39m: [31mMongoDB connection error:  connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[06 Oct, 2024 - 18:02:22:222] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:02:37:237] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:02:55:255] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:04:42:442] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:05:17:517] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:07:37:737] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:07:48:748] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:11:09:119] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:13:13:1313] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:14:20:1420] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:14:36:1436] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:15:43:1543] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:15:50:1550] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:15:56:1556] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:16:47:1647] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:18:59:1859] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:20:07:207] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:20:41:2041] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:21:44:2144] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:22:04:224] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:22:14:2214] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:22:28:2228] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:25:27:2527] [35mhttp[39m: [35m::1 GET /interview/addData 404 - 2.972 ms[39m
+[06 Oct, 2024 - 18:25:35:2535] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 95.843 ms[39m
+[06 Oct, 2024 - 18:25:47:2547] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 15.293 ms[39m
+[06 Oct, 2024 - 18:26:03:263] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 8.380 ms[39m
+[06 Oct, 2024 - 18:26:15:2615] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 4.082 ms[39m
+[06 Oct, 2024 - 18:26:24:2624] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 3.666 ms[39m
+[06 Oct, 2024 - 18:26:34:2634] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 3.559 ms[39m
+[06 Oct, 2024 - 18:26:45:2645] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 4.255 ms[39m
+[06 Oct, 2024 - 18:26:57:2657] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 5.053 ms[39m
+[06 Oct, 2024 - 18:27:07:277] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 12.417 ms[39m
+[06 Oct, 2024 - 18:27:16:2716] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 3.413 ms[39m
+[06 Oct, 2024 - 18:27:49:2749] [35mhttp[39m: [35m::1 GET /interview/getAllData 500 - 17.452 ms[39m
+[06 Oct, 2024 - 18:28:20:2820] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:28:20:2820] [35mhttp[39m: [35m::1 GET /interview/getAllData 200 - 22.185 ms[39m
+[06 Oct, 2024 - 18:29:02:292] [35mhttp[39m: [35m::1 GET /interview/getData/6702892c5f085634242caff6 200 - 11.782 ms[39m
+[06 Oct, 2024 - 18:29:46:2946] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 159.524 ms[39m
+[06 Oct, 2024 - 18:30:17:3017] [35mhttp[39m: [35m::1 GET /interview/rating/6702892c5f085634242caff6 404 - 1.578 ms[39m
+[06 Oct, 2024 - 18:30:23:3023] [35mhttp[39m: [35m::1 POST /interview/rating/6702892c5f085634242caff6 500 - 10.309 ms[39m
+[06 Oct, 2024 - 18:31:04:314] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:31:04:314] [35mhttp[39m: [35m::1 POST /interview/rating/6702892c5f085634242caff6 200 - 88.290 ms[39m
+[06 Oct, 2024 - 18:32:55:3255] [35mhttp[39m: [35m::1 POST /interview/review/6702892c5f085634242caff6 500 - 7.468 ms[39m
+[06 Oct, 2024 - 18:33:12:3312] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:33:15:3315] [35mhttp[39m: [35m::1 POST /interview/review/6702892c5f085634242caff6 200 - 42.084 ms[39m
+[06 Oct, 2024 - 18:33:20:3320] [35mhttp[39m: [35m::1 POST /interview/review/6702892c5f085634242caff6 200 - 14.994 ms[39m
+[06 Oct, 2024 - 18:34:13:3413] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:34:37:3437] [35mhttp[39m: [35m::1 GET /interview/deleteReview/6702892c5f085634242caff6 404 - 2.117 ms[39m
+[06 Oct, 2024 - 18:34:44:3444] [35mhttp[39m: [35m::1 POST /interview/deleteReview/6702892c5f085634242caff6 500 - 33.526 ms[39m
+[06 Oct, 2024 - 18:35:07:357] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:35:08:358] [35mhttp[39m: [35m::1 POST /interview/deleteReview/6702892c5f085634242caff6 200 - 48.845 ms[39m
+[06 Oct, 2024 - 18:36:28:3628] [35mhttp[39m: [35m::1 GET /interview/getDataByTag 200 - 9.312 ms[39m
+[06 Oct, 2024 - 19:00:30:030] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:02:23:223] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:05:00:50] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:05:29:529] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:06:46:646] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:06:58:658] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:07:19:719] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:07:33:733] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:08:42:842] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:10:06:106] [35mhttp[39m: [35m::1 POST /suggestion/suggest-link/66fe95280d91421a52a9f418 500 - 9.224 ms[39m
+[06 Oct, 2024 - 19:10:35:1035] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:10:38:1038] [35mhttp[39m: [35m::1 POST /suggestion/suggest-link/66fe95280d91421a52a9f418 500 - 25.827 ms[39m
+[06 Oct, 2024 - 19:10:57:1057] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:11:18:1118] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:11:23:1123] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:11:29:1129] [35mhttp[39m: [35m::1 POST /suggestion/suggest-link/66fe95280d91421a52a9f418 200 - 3767.027 ms[39m
+[06 Oct, 2024 - 19:14:15:1415] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:14:31:1431] [35mhttp[39m: [35m::1 POST /suggestion/suggest-link/66fe95280d91421a52a9f418 200 - 5688.971 ms[39m
+[06 Oct, 2024 - 19:15:55:1555] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:16:01:161] [35mhttp[39m: [35m::1 POST /suggestion/suggest-link/66fe95280d91421a52a9f418 200 - 5155.989 ms[39m
+[06 Oct, 2024 - 19:18:07:187] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:21:09:219] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:21:28:2128] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:21:48:2148] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:28:10:2810] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:28:27:2827] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:29:50:2950] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:29:54:2954] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:32:43:3243] [35mhttp[39m: [35m::1 POST /review/user-review/66fe95280d91421a52a9f418 201 - 21.507 ms[39m
+[06 Oct, 2024 - 20:53:41:5341] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 20:55:16:5516] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 20:55:25:5525] [35mhttp[39m: [35m::1 POST /suggestion/suggest-link/66fe95280d91421a52a9f418 200 - 6525.459 ms[39m
+[06 Oct, 2024 - 20:57:10:5710] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 20:57:17:5717] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 20:57:23:5723] [35mhttp[39m: [35m::1 POST /suggestion/suggest-link/66fe95280d91421a52a9f418 200 - 3633.563 ms[39m
+[06 Oct, 2024 - 20:58:31:5831] [35mhttp[39m: [35m::1 POST /suggestion/suggest-link/66fe95280d91421a52a9f418 200 - 3460.210 ms[39m
+[06 Oct, 2024 - 20:59:20:5920] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 20:59:28:5928] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:02:22:222] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:07:20:720] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:08:11:811] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:09:09:99] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:10:06:106] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:10:09:109] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:11:21:1121] [35mhttp[39m: [35m::1 POST /contact-us/contact-detail 200 - 3763.630 ms[39m
+[06 Oct, 2024 - 21:57:25:5725] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:59:19:5919] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:00:35:035] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:02:07:27] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:02:24:224] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:08:18:818] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:08:27:827] [35mhttp[39m: [35m::1 GET /auth/github 302 - 10.023 ms[39m
+[06 Oct, 2024 - 22:08:33:833] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=5ba308f1571339352702 302 - 1226.633 ms[39m
+[06 Oct, 2024 - 22:08:34:834] [35mhttp[39m: [35m::1 GET /api/user 200 - 3.452 ms[39m
+[06 Oct, 2024 - 22:08:34:834] [35mhttp[39m: [35m::1 GET /api/user 304 - 2.183 ms[39m
+[06 Oct, 2024 - 22:10:03:103] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:10:08:108] [35mhttp[39m: [35m::1 GET /api/user 401 - 12.638 ms[39m
+[06 Oct, 2024 - 22:10:08:108] [35mhttp[39m: [35m::1 GET /api/user 401 - 2.997 ms[39m
+[06 Oct, 2024 - 22:10:11:1011] [35mhttp[39m: [35m::1 GET /auth/github 302 - 3.226 ms[39m
+[06 Oct, 2024 - 22:10:12:1012] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=159e90464edc664f0228 302 - 1125.587 ms[39m
+[06 Oct, 2024 - 22:10:12:1012] [35mhttp[39m: [35m::1 GET /api/user 304 - 28.949 ms[39m
+[06 Oct, 2024 - 22:10:12:1012] [35mhttp[39m: [35m::1 GET /api/user 304 - 24.541 ms[39m
+[06 Oct, 2024 - 22:12:10:1210] [35mhttp[39m: [35m::1 GET /api/user 304 - 20.685 ms[39m
+[06 Oct, 2024 - 22:12:10:1210] [35mhttp[39m: [35m::1 GET /api/user 304 - 29.831 ms[39m
+[06 Oct, 2024 - 22:12:12:1212] [35mhttp[39m: [35m::1 GET /logout 302 - 2.408 ms[39m
+[06 Oct, 2024 - 22:12:13:1213] [35mhttp[39m: [35m::1 GET /api/user 401 - 1.006 ms[39m
+[06 Oct, 2024 - 22:12:13:1213] [35mhttp[39m: [35m::1 GET /api/user 401 - 1.076 ms[39m
+[06 Oct, 2024 - 22:12:16:1216] [35mhttp[39m: [35m::1 GET /auth/github 302 - 1.254 ms[39m
+[06 Oct, 2024 - 22:12:18:1218] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=ff9bc83c51d8d44d2622 302 - 1239.143 ms[39m
+[06 Oct, 2024 - 22:12:18:1218] [35mhttp[39m: [35m::1 GET /api/user 304 - 21.800 ms[39m
+[06 Oct, 2024 - 22:12:18:1218] [35mhttp[39m: [35m::1 GET /api/user 304 - 16.472 ms[39m
+[06 Oct, 2024 - 22:12:23:1223] [35mhttp[39m: [35m::1 GET /logout 302 - 1.142 ms[39m
+[06 Oct, 2024 - 22:12:23:1223] [35mhttp[39m: [35m::1 GET /api/user 401 - 4.250 ms[39m
+[06 Oct, 2024 - 22:12:23:1223] [35mhttp[39m: [35m::1 GET /api/user 401 - 0.793 ms[39m
+[06 Oct, 2024 - 22:12:26:1226] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.885 ms[39m
+[06 Oct, 2024 - 22:12:27:1227] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=053b8de74ada599150d8 302 - 968.108 ms[39m
+[06 Oct, 2024 - 22:12:27:1227] [35mhttp[39m: [35m::1 GET /api/user 304 - 21.174 ms[39m
+[06 Oct, 2024 - 22:12:27:1227] [35mhttp[39m: [35m::1 GET /api/user 304 - 16.288 ms[39m
+[06 Oct, 2024 - 22:12:30:1230] [35mhttp[39m: [35m::1 GET /logout 302 - 3.669 ms[39m
+[06 Oct, 2024 - 22:12:30:1230] [35mhttp[39m: [35m::1 GET /api/user 401 - 3.808 ms[39m
+[06 Oct, 2024 - 22:12:30:1230] [35mhttp[39m: [35m::1 GET /api/user 401 - 1.277 ms[39m
+[06 Oct, 2024 - 22:12:32:1232] [35mhttp[39m: [35m::1 GET /auth/github 302 - 1.223 ms[39m
+[06 Oct, 2024 - 22:12:34:1234] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=4a18f19b69f6f394b635 - - - ms[39m
+[06 Oct, 2024 - 22:12:34:1234] [35mhttp[39m: [35m::1 GET /auth/github 302 - 1.536 ms[39m
+[06 Oct, 2024 - 22:12:35:1235] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=8dd2b1e3d0cc9bf92300 302 - 793.867 ms[39m
+[06 Oct, 2024 - 22:12:35:1235] [35mhttp[39m: [35m::1 GET /api/user 304 - 20.538 ms[39m
+[06 Oct, 2024 - 22:12:35:1235] [35mhttp[39m: [35m::1 GET /api/user 304 - 19.244 ms[39m
+[06 Oct, 2024 - 22:12:38:1238] [35mhttp[39m: [35m::1 GET /logout 302 - 1.197 ms[39m
+[06 Oct, 2024 - 22:12:38:1238] [35mhttp[39m: [35m::1 GET /api/user 401 - 1.534 ms[39m
+[06 Oct, 2024 - 22:12:38:1238] [35mhttp[39m: [35m::1 GET /api/user 401 - 1.184 ms[39m
+[06 Oct, 2024 - 22:12:40:1240] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.699 ms[39m
+[06 Oct, 2024 - 22:12:42:1242] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=9bc4d45b7459f9361afd 302 - 955.201 ms[39m
+[06 Oct, 2024 - 22:12:42:1242] [35mhttp[39m: [35m::1 GET /api/user 304 - 28.562 ms[39m
+[06 Oct, 2024 - 22:12:42:1242] [35mhttp[39m: [35m::1 GET /api/user 304 - 19.900 ms[39m
+[06 Oct, 2024 - 22:12:45:1245] [35mhttp[39m: [35m::1 GET /logout 302 - 0.928 ms[39m
+[06 Oct, 2024 - 22:12:45:1245] [35mhttp[39m: [35m::1 GET /api/user 401 - 1.153 ms[39m
+[06 Oct, 2024 - 22:12:45:1245] [35mhttp[39m: [35m::1 GET /api/user 401 - 0.646 ms[39m
+[06 Oct, 2024 - 22:19:05:195] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.881 ms[39m
+[06 Oct, 2024 - 22:19:06:196] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=9b207a7ada7626c7736f 302 - 1114.806 ms[39m
+[06 Oct, 2024 - 22:19:07:197] [35mhttp[39m: [35m::1 GET /api/user 304 - 20.588 ms[39m
+[06 Oct, 2024 - 22:19:07:197] [35mhttp[39m: [35m::1 GET /api/user 304 - 21.484 ms[39m
+[06 Oct, 2024 - 22:19:10:1910] [35mhttp[39m: [35m::1 GET /logout 302 - 3.410 ms[39m
+[06 Oct, 2024 - 22:19:10:1910] [35mhttp[39m: [35m::1 GET /api/user 401 - 0.952 ms[39m
+[06 Oct, 2024 - 22:19:10:1910] [35mhttp[39m: [35m::1 GET /api/user 401 - 0.879 ms[39m
+[06 Oct, 2024 - 22:20:14:2014] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:20:14:2014] [35mhttp[39m: [35m::1 GET /auth/github 302 - 9.875 ms[39m
+[06 Oct, 2024 - 22:20:16:2016] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=c3d9aeb635c7fe9f22cb 302 - 1289.748 ms[39m
+[06 Oct, 2024 - 22:20:16:2016] [35mhttp[39m: [35m::1 GET /api/user 304 - 8.434 ms[39m
+[06 Oct, 2024 - 22:20:16:2016] [35mhttp[39m: [35m::1 GET /api/user 304 - 5.673 ms[39m
+[06 Oct, 2024 - 22:22:46:2246] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:22:54:2254] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:22:58:2258] [35mhttp[39m: [35m::1 GET /logout 302 - 7.698 ms[39m
+[06 Oct, 2024 - 22:22:58:2258] [35mhttp[39m: [35m::1 GET /api/user 401 - 2.893 ms[39m
+[06 Oct, 2024 - 22:22:58:2258] [35mhttp[39m: [35m::1 GET /api/user 401 - 1.394 ms[39m
+[06 Oct, 2024 - 22:22:59:2259] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.694 ms[39m
+[06 Oct, 2024 - 22:23:02:232] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=4b8fcf519f4caa9bc808 302 - 1596.530 ms[39m
+[06 Oct, 2024 - 22:23:02:232] [35mhttp[39m: [35m::1 GET /api/user 304 - 2.587 ms[39m
+[06 Oct, 2024 - 22:23:02:232] [35mhttp[39m: [35m::1 GET /api/user 304 - 2.661 ms[39m
+[06 Oct, 2024 - 22:24:47:2447] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:24:49:2449] [35mhttp[39m: [35m::1 GET /logout 302 - 7.162 ms[39m
+[06 Oct, 2024 - 22:24:49:2449] [35mhttp[39m: [35m::1 GET /api/user 401 - 7.238 ms[39m
+[06 Oct, 2024 - 22:24:49:2449] [35mhttp[39m: [35m::1 GET /api/user 401 - 1.940 ms[39m
+[06 Oct, 2024 - 22:24:51:2451] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.078 ms[39m
+[06 Oct, 2024 - 22:35:54:3554] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:36:00:360] [35mhttp[39m: [35m::1 GET /auth/github 302 - 9.279 ms[39m
+[06 Oct, 2024 - 22:36:02:362] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=bcc8774bceae2dd29079 302 - 1174.101 ms[39m
+[06 Oct, 2024 - 22:36:02:362] [35mhttp[39m: [35m::1 GET /api/user 200 - 4.799 ms[39m
+[06 Oct, 2024 - 22:36:02:362] [35mhttp[39m: [35m::1 GET /api/user 304 - 3.322 ms[39m
+[06 Oct, 2024 - 22:36:09:369] [35mhttp[39m: [35m::1 GET /logout 302 - 2.990 ms[39m
+[06 Oct, 2024 - 22:36:09:369] [35mhttp[39m: [35m::1 GET /api/user 401 - 1.786 ms[39m
+[06 Oct, 2024 - 22:36:09:369] [35mhttp[39m: [35m::1 GET /api/user 401 - 1.875 ms[39m
+[06 Oct, 2024 - 22:36:11:3611] [35mhttp[39m: [35m::1 GET /auth/github 302 - 1.118 ms[39m
+[06 Oct, 2024 - 22:36:13:3613] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=046231f47e0fd4d6aabe 302 - 1142.538 ms[39m
+[06 Oct, 2024 - 22:36:13:3613] [35mhttp[39m: [35m::1 GET /api/user 304 - 3.505 ms[39m
+[06 Oct, 2024 - 22:36:13:3613] [35mhttp[39m: [35m::1 GET /api/user 304 - 1.928 ms[39m
+[06 Oct, 2024 - 22:37:06:376] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:37:07:377] [35mhttp[39m: [35m::1 GET /logout 302 - 6.343 ms[39m
+[06 Oct, 2024 - 22:37:07:377] [35mhttp[39m: [35m::1 GET /api/user 401 - 4.691 ms[39m
+[06 Oct, 2024 - 22:37:07:377] [35mhttp[39m: [35m::1 GET /api/user 401 - 3.064 ms[39m
+[06 Oct, 2024 - 22:37:10:3710] [35mhttp[39m: [35m::1 GET /auth/github 302 - 1.797 ms[39m
+[06 Oct, 2024 - 22:37:12:3712] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=20f44a33278b46de18ff 302 - 1265.967 ms[39m
+[06 Oct, 2024 - 22:37:12:3712] [35mhttp[39m: [35m::1 GET /api/user 304 - 25.266 ms[39m
+[06 Oct, 2024 - 22:37:12:3712] [35mhttp[39m: [35m::1 GET /api/user 304 - 24.122 ms[39m
+[06 Oct, 2024 - 22:38:58:3858] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:39:10:3910] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:39:25:3925] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:39:29:3929] [35mhttp[39m: [35m::1 GET /logout 302 - 9.053 ms[39m
+[06 Oct, 2024 - 22:39:29:3929] [35mhttp[39m: [35m::1 GET /api/user 401 - 9.040 ms[39m
+[06 Oct, 2024 - 22:39:29:3929] [35mhttp[39m: [35m::1 GET /api/user 401 - 2.945 ms[39m
+[06 Oct, 2024 - 22:39:31:3931] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.404 ms[39m
+[06 Oct, 2024 - 22:39:33:3933] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=811b5b90e0a806bcbbc4 302 - 1266.618 ms[39m
+[06 Oct, 2024 - 22:39:56:3956] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:39:57:3957] [35mhttp[39m: [35m::1 GET /auth/github 302 - 9.151 ms[39m
+[06 Oct, 2024 - 22:39:58:3958] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=f5495530b26296ffc770 302 - 1110.466 ms[39m
+[06 Oct, 2024 - 22:39:59:3959] [35mhttp[39m: [35m::1 GET /api/user 200 - 29.720 ms[39m
+[06 Oct, 2024 - 22:39:59:3959] [35mhttp[39m: [35m::1 GET /api/user 304 - 16.893 ms[39m
+[06 Oct, 2024 - 22:40:01:401] [35mhttp[39m: [35m::1 GET /logout 302 - 2.454 ms[39m
+[06 Oct, 2024 - 22:40:01:401] [35mhttp[39m: [35m::1 GET /api/user 401 - 1.447 ms[39m
+[06 Oct, 2024 - 22:40:01:401] [35mhttp[39m: [35m::1 GET /api/user 401 - 1.684 ms[39m
+[07 Oct, 2024 - 17:09:05:95] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:09:31:931] [35mhttp[39m: [35m::1 GET /api/user 404 - 6.443 ms[39m
+[07 Oct, 2024 - 17:09:31:931] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.438 ms[39m
+[07 Oct, 2024 - 17:09:33:933] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.591 ms[39m
+[07 Oct, 2024 - 17:09:33:933] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.538 ms[39m
+[07 Oct, 2024 - 17:26:40:2640] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:27:13:2713] [35mhttp[39m: [35m::1 GET /api/user 404 - 12.223 ms[39m
+[07 Oct, 2024 - 17:27:13:2713] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.541 ms[39m
+[07 Oct, 2024 - 17:27:19:2719] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.663 ms[39m
+[07 Oct, 2024 - 17:27:19:2719] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.239 ms[39m
+[07 Oct, 2024 - 17:33:03:333] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:34:07:347] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:34:46:3446] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:36:05:365] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:41:44:4144] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:42:31:4231] [35mhttp[39m: [35m::1 GET /api/user 404 - 23.351 ms[39m
+[07 Oct, 2024 - 17:42:31:4231] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.425 ms[39m
+[07 Oct, 2024 - 17:43:46:4346] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.990 ms[39m
+[07 Oct, 2024 - 17:43:46:4346] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.002 ms[39m
+[07 Oct, 2024 - 17:43:47:4347] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.234 ms[39m
+[07 Oct, 2024 - 17:43:50:4350] [35mhttp[39m: [35m::1 GET /auth/github 500 - 2.410 ms[39m
+[07 Oct, 2024 - 17:47:50:4750] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:48:35:4835] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:48:49:4849] [35mhttp[39m: [35m::1 GET /api/user 404 - 10.270 ms[39m
+[07 Oct, 2024 - 17:48:49:4849] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.281 ms[39m
+[07 Oct, 2024 - 17:48:50:4850] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.923 ms[39m
+[07 Oct, 2024 - 17:48:52:4852] [35mhttp[39m: [35m::1 GET /auth/github 500 - 1.932 ms[39m
+[07 Oct, 2024 - 17:50:32:5032] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:50:39:5039] [35mhttp[39m: [35m::1 GET /api/user 404 - 7.653 ms[39m
+[07 Oct, 2024 - 17:50:39:5039] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.751 ms[39m
+[07 Oct, 2024 - 17:50:40:5040] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.050 ms[39m
+[07 Oct, 2024 - 17:50:41:5041] [35mhttp[39m: [35m::1 GET /auth/github 500 - 5.475 ms[39m
+[07 Oct, 2024 - 17:58:33:5833] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:59:30:5930] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:00:01:01] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:02:01:21] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:03:28:328] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:04:05:45] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:05:56:556] [35mhttp[39m: [35m::1 GET /api/user 404 - 7.232 ms[39m
+[07 Oct, 2024 - 18:05:56:556] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.476 ms[39m
+[07 Oct, 2024 - 18:06:11:611] [35mhttp[39m: [35m::1 GET /api/user 404 - 4.257 ms[39m
+[07 Oct, 2024 - 18:06:11:611] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.317 ms[39m
+[07 Oct, 2024 - 18:06:16:616] [35mhttp[39m: [35m::1 GET /auth/github 500 - 3.357 ms[39m
+[07 Oct, 2024 - 18:10:17:1017] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:10:26:1026] [35mhttp[39m: [35m::1 GET /api/user 404 - 11.002 ms[39m
+[07 Oct, 2024 - 18:10:26:1026] [35mhttp[39m: [35m::1 GET /api/user 404 - 3.361 ms[39m
+[07 Oct, 2024 - 18:10:30:1030] [35mhttp[39m: [35m::1 GET /auth/github 500 - 2.253 ms[39m
+[07 Oct, 2024 - 18:10:34:1034] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.193 ms[39m
+[07 Oct, 2024 - 18:10:34:1034] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.610 ms[39m
+[07 Oct, 2024 - 18:11:40:1140] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:12:52:1252] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:13:23:1323] [35mhttp[39m: [35m::1 GET /auth/github 500 - 6.922 ms[39m
+[07 Oct, 2024 - 18:15:18:1518] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:15:41:1541] [35mhttp[39m: [35m::1 GET /api/user 404 - 8.347 ms[39m
+[07 Oct, 2024 - 18:15:41:1541] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.577 ms[39m
+[07 Oct, 2024 - 18:15:44:1544] [35mhttp[39m: [35m::1 GET /auth/github 500 - 3.038 ms[39m
+[07 Oct, 2024 - 18:17:43:1743] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:17:45:1745] [35mhttp[39m: [35m::1 GET /api/user 404 - 6.743 ms[39m
+[07 Oct, 2024 - 18:17:45:1745] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.563 ms[39m
+[07 Oct, 2024 - 18:17:49:1749] [35mhttp[39m: [35m::1 GET /auth/github 500 - 4.126 ms[39m
+[07 Oct, 2024 - 18:18:05:185] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:18:33:1833] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:18:36:1836] [35mhttp[39m: [35m::1 GET /api/user 404 - 13.886 ms[39m
+[07 Oct, 2024 - 18:18:36:1836] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.371 ms[39m
+[07 Oct, 2024 - 18:18:37:1837] [35mhttp[39m: [35m::1 GET /auth/github 500 - 3.412 ms[39m
+[07 Oct, 2024 - 18:19:23:1923] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:19:24:1924] [35mhttp[39m: [35m::1 GET /api/user 404 - 3.185 ms[39m
+[07 Oct, 2024 - 18:19:24:1924] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.420 ms[39m
+[07 Oct, 2024 - 18:19:26:1926] [35mhttp[39m: [35m::1 GET /auth/github 500 - 3.599 ms[39m
+[07 Oct, 2024 - 18:20:57:2057] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:36:20:3620] [35mhttp[39m: [35m::1 GET /api/user 404 - 9.047 ms[39m
+[07 Oct, 2024 - 18:36:20:3620] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.943 ms[39m
+[07 Oct, 2024 - 18:36:24:3624] [35mhttp[39m: [35m::1 GET /auth/github 500 - 2.084 ms[39m
+[07 Oct, 2024 - 18:41:54:4154] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:42:16:4216] [35mhttp[39m: [35m::1 GET /api/user 404 - 8.656 ms[39m
+[07 Oct, 2024 - 18:42:16:4216] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.790 ms[39m
+[07 Oct, 2024 - 18:42:18:4218] [35mhttp[39m: [35m::1 GET /auth/github 302 - 9.438 ms[39m
+[07 Oct, 2024 - 18:42:24:4224] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=fd26c5f59091306db94f 500 - 1447.310 ms[39m
+[07 Oct, 2024 - 18:42:46:4246] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:42:55:4255] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=1c065021cc7ca24b5a69 500 - 1954.637 ms[39m
+[07 Oct, 2024 - 18:43:15:4315] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:43:22:4322] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=29658a280af4bd76d3ad 500 - 1783.480 ms[39m
+[07 Oct, 2024 - 19:01:12:112] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:01:28:128] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:02:13:213] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=8ea597c49ccf577d56b8 500 - 1199.226 ms[39m
+[07 Oct, 2024 - 19:03:01:31] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:03:10:310] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=065a13ad334cc37295a1 500 - 1369.976 ms[39m
+[07 Oct, 2024 - 19:03:27:327] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:03:31:331] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=f9ce513efdad0b8bd4e4 302 - 1479.495 ms[39m
+[07 Oct, 2024 - 19:03:31:331] [35mhttp[39m: [35m::1 GET /profile 404 - 2.144 ms[39m
+[07 Oct, 2024 - 19:04:03:43] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:04:11:411] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=cfed46f05887275fe066 500 - 1310.242 ms[39m
+[07 Oct, 2024 - 19:04:55:455] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:05:02:52] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=33a9fb5bc4f1fb1d6453 500 - 1426.001 ms[39m
+[07 Oct, 2024 - 19:10:00:100] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:10:08:108] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:10:35:1035] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:10:45:1045] [35mhttp[39m: [35m::1 GET /api/user 404 - 5.476 ms[39m
+[07 Oct, 2024 - 19:10:45:1045] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.717 ms[39m
+[07 Oct, 2024 - 19:10:47:1047] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.181 ms[39m
+[07 Oct, 2024 - 19:10:49:1049] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=f4667b8c8f943965dcb3 500 - 1245.061 ms[39m
+[07 Oct, 2024 - 19:11:17:1117] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:11:19:1119] [35mhttp[39m: [35m::1 GET /api/user 404 - 9.375 ms[39m
+[07 Oct, 2024 - 19:11:19:1119] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.903 ms[39m
+[07 Oct, 2024 - 19:11:21:1121] [35mhttp[39m: [35m::1 GET /auth/github 302 - 3.608 ms[39m
+[07 Oct, 2024 - 19:11:23:1123] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=808ae98f2bba211826c8 500 - 2165.613 ms[39m
+[07 Oct, 2024 - 19:12:21:1221] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.853 ms[39m
+[07 Oct, 2024 - 19:12:21:1221] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.024 ms[39m
+[07 Oct, 2024 - 19:12:23:1223] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.536 ms[39m
+[07 Oct, 2024 - 19:12:29:1229] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=2110692cd2eba818db09 302 - 1711.716 ms[39m
+[07 Oct, 2024 - 19:12:29:1229] [35mhttp[39m: [35m::1 GET /profile 404 - 0.731 ms[39m
+[07 Oct, 2024 - 19:26:14:2614] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:26:34:2634] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=5cd7d87f27cfdba3544d 500 - 2013.248 ms[39m
+[07 Oct, 2024 - 19:26:55:2655] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.364 ms[39m
+[07 Oct, 2024 - 19:26:55:2655] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.948 ms[39m
+[07 Oct, 2024 - 19:26:57:2657] [35mhttp[39m: [35m::1 GET /auth/github 302 - 1.603 ms[39m
+[07 Oct, 2024 - 19:27:00:270] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=63e3935ded713c12d73d 500 - 1836.808 ms[39m
+[07 Oct, 2024 - 19:27:03:273] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.795 ms[39m
+[07 Oct, 2024 - 19:27:03:273] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.750 ms[39m
+[07 Oct, 2024 - 19:27:23:2723] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.435 ms[39m
+[07 Oct, 2024 - 19:27:26:2726] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=76b3721306877fdcd135 302 - 1686.408 ms[39m
+[07 Oct, 2024 - 19:27:26:2726] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.143 ms[39m
+[07 Oct, 2024 - 19:27:26:2726] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.028 ms[39m
+[07 Oct, 2024 - 19:27:30:2730] [35mhttp[39m: [35m::1 GET /auth/github 302 - 1.177 ms[39m
+[07 Oct, 2024 - 19:27:32:2732] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=eb20132c2f4ce9050cbb 500 - 1700.644 ms[39m
+[07 Oct, 2024 - 19:27:35:2735] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.857 ms[39m
+[07 Oct, 2024 - 19:27:35:2735] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.493 ms[39m
+[07 Oct, 2024 - 19:27:48:2748] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.658 ms[39m
+[07 Oct, 2024 - 19:27:50:2750] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=3b3b57ec4136746ce4e9 302 - 1633.735 ms[39m
+[07 Oct, 2024 - 19:27:51:2751] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.685 ms[39m
+[07 Oct, 2024 - 19:27:51:2751] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.873 ms[39m
+[07 Oct, 2024 - 19:28:15:2815] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.210 ms[39m
+[07 Oct, 2024 - 19:28:15:2815] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.593 ms[39m
+[07 Oct, 2024 - 19:28:30:2830] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:28:40:2840] [35mhttp[39m: [35m::1 GET /api/user 404 - 8.712 ms[39m
+[07 Oct, 2024 - 19:28:40:2840] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.891 ms[39m
+[07 Oct, 2024 - 19:28:41:2841] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.687 ms[39m
+[07 Oct, 2024 - 19:28:41:2841] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.794 ms[39m
+[07 Oct, 2024 - 19:28:43:2843] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.895 ms[39m
+[07 Oct, 2024 - 19:28:43:2843] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.858 ms[39m
+[07 Oct, 2024 - 19:28:45:2845] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.754 ms[39m
+[07 Oct, 2024 - 19:28:48:2848] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=15347cc2f3a6b6b0d843 302 - 2230.612 ms[39m
+[07 Oct, 2024 - 19:28:48:2848] [35mhttp[39m: [35m::1 GET /profile 404 - 0.948 ms[39m
+[07 Oct, 2024 - 19:30:25:3025] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:30:29:3029] [35mhttp[39m: [35m::1 GET /api/user 404 - 6.618 ms[39m
+[07 Oct, 2024 - 19:30:29:3029] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.039 ms[39m
+[07 Oct, 2024 - 19:30:30:3030] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.598 ms[39m
+[07 Oct, 2024 - 19:30:33:3033] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=3f709953fcfe4798487c 500 - 2265.519 ms[39m
+[07 Oct, 2024 - 19:30:49:3049] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.206 ms[39m
+[07 Oct, 2024 - 19:30:49:3049] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.183 ms[39m
+[07 Oct, 2024 - 19:30:51:3051] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.439 ms[39m
+[07 Oct, 2024 - 19:30:51:3051] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.866 ms[39m
+[07 Oct, 2024 - 19:30:53:3053] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.768 ms[39m
+[07 Oct, 2024 - 19:30:55:3055] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=6fdd9f23d2f2cb2cff9a 302 - 1875.156 ms[39m
+[07 Oct, 2024 - 19:30:55:3055] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.046 ms[39m
+[07 Oct, 2024 - 19:30:55:3055] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.919 ms[39m
+[07 Oct, 2024 - 19:31:20:3120] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.312 ms[39m
+[07 Oct, 2024 - 19:31:20:3120] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.936 ms[39m
+[07 Oct, 2024 - 19:31:21:3121] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.735 ms[39m
+[07 Oct, 2024 - 19:31:21:3121] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.866 ms[39m
+[07 Oct, 2024 - 19:31:21:3121] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.993 ms[39m
+[07 Oct, 2024 - 19:31:21:3121] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.832 ms[39m
+[07 Oct, 2024 - 19:31:21:3121] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.712 ms[39m
+[07 Oct, 2024 - 19:31:21:3121] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.749 ms[39m
+[07 Oct, 2024 - 19:31:22:3122] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.664 ms[39m
+[07 Oct, 2024 - 19:31:22:3122] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.657 ms[39m
+[07 Oct, 2024 - 19:31:22:3122] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.557 ms[39m
+[07 Oct, 2024 - 19:31:22:3122] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.435 ms[39m
+[07 Oct, 2024 - 19:31:22:3122] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.777 ms[39m
+[07 Oct, 2024 - 19:31:22:3122] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.192 ms[39m
+[07 Oct, 2024 - 19:31:23:3123] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.707 ms[39m
+[07 Oct, 2024 - 19:31:23:3123] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.610 ms[39m
+[07 Oct, 2024 - 19:31:23:3123] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.530 ms[39m
+[07 Oct, 2024 - 19:31:23:3123] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.768 ms[39m
+[07 Oct, 2024 - 19:31:24:3124] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.576 ms[39m
+[07 Oct, 2024 - 19:31:24:3124] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.626 ms[39m
+[07 Oct, 2024 - 19:31:24:3124] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.861 ms[39m
+[07 Oct, 2024 - 19:31:24:3124] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.857 ms[39m
+[07 Oct, 2024 - 19:31:24:3124] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.564 ms[39m
+[07 Oct, 2024 - 19:31:24:3124] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.904 ms[39m
+[07 Oct, 2024 - 19:31:25:3125] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.705 ms[39m
+[07 Oct, 2024 - 19:31:25:3125] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.264 ms[39m
+[07 Oct, 2024 - 19:31:36:3136] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.807 ms[39m
+[07 Oct, 2024 - 19:31:36:3136] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.657 ms[39m
+[07 Oct, 2024 - 19:31:43:3143] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.495 ms[39m
+[07 Oct, 2024 - 19:31:43:3143] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.112 ms[39m
+[07 Oct, 2024 - 19:34:14:3414] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.752 ms[39m
+[07 Oct, 2024 - 19:34:14:3414] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.603 ms[39m
+[07 Oct, 2024 - 19:34:14:3414] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.758 ms[39m
+[07 Oct, 2024 - 19:34:14:3414] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.443 ms[39m
+[07 Oct, 2024 - 19:34:14:3414] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.780 ms[39m
+[07 Oct, 2024 - 19:34:15:3415] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.783 ms[39m
+[07 Oct, 2024 - 19:34:15:3415] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.933 ms[39m
+[07 Oct, 2024 - 19:34:15:3415] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.589 ms[39m
+[07 Oct, 2024 - 19:34:15:3415] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.960 ms[39m
+[07 Oct, 2024 - 19:34:15:3415] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.260 ms[39m
+[07 Oct, 2024 - 19:34:15:3415] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.862 ms[39m
+[07 Oct, 2024 - 19:34:16:3416] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.951 ms[39m
+[07 Oct, 2024 - 19:37:50:3750] [35mhttp[39m: [35m::1 GET /auth/github 302 - 3.378 ms[39m
+[07 Oct, 2024 - 19:37:52:3752] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=d5f24c57209d6f7aa64c 500 - 1450.897 ms[39m
+[07 Oct, 2024 - 19:38:08:388] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.568 ms[39m
+[07 Oct, 2024 - 19:38:08:388] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.027 ms[39m
+[07 Oct, 2024 - 19:38:10:3810] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.527 ms[39m
+[07 Oct, 2024 - 19:38:12:3812] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=f29ad752bd15fee44d2e 302 - 1474.113 ms[39m
+[07 Oct, 2024 - 19:38:12:3812] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.739 ms[39m
+[07 Oct, 2024 - 19:38:12:3812] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.715 ms[39m
+[07 Oct, 2024 - 19:38:16:3816] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.625 ms[39m
+[07 Oct, 2024 - 19:38:16:3816] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.845 ms[39m
+[07 Oct, 2024 - 19:38:17:3817] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.107 ms[39m
+[07 Oct, 2024 - 19:38:17:3817] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.716 ms[39m
+[07 Oct, 2024 - 19:38:19:3819] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.479 ms[39m
+[07 Oct, 2024 - 19:38:19:3819] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.760 ms[39m
+[07 Oct, 2024 - 19:38:19:3819] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.050 ms[39m
+[07 Oct, 2024 - 19:38:19:3819] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.827 ms[39m
+[07 Oct, 2024 - 19:38:19:3819] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.700 ms[39m
+[07 Oct, 2024 - 19:38:19:3819] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.765 ms[39m
+[07 Oct, 2024 - 19:38:20:3820] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.756 ms[39m
+[07 Oct, 2024 - 19:38:20:3820] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.622 ms[39m
+[07 Oct, 2024 - 19:38:20:3820] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.648 ms[39m
+[07 Oct, 2024 - 19:38:20:3820] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.536 ms[39m
+[07 Oct, 2024 - 19:38:36:3836] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.336 ms[39m
+[07 Oct, 2024 - 19:38:36:3836] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.352 ms[39m
+[07 Oct, 2024 - 19:38:42:3842] [35mhttp[39m: [35m::1 GET /auth/github 302 - 1.431 ms[39m
+[07 Oct, 2024 - 19:38:48:3848] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=3f5abb19be1066ae6854 302 - 1563.224 ms[39m
+[07 Oct, 2024 - 19:38:48:3848] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.535 ms[39m
+[07 Oct, 2024 - 19:38:48:3848] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.620 ms[39m
+[07 Oct, 2024 - 19:39:34:3934] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.823 ms[39m
+[07 Oct, 2024 - 19:39:34:3934] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.023 ms[39m
+[07 Oct, 2024 - 19:39:50:3950] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.582 ms[39m
+[07 Oct, 2024 - 19:39:50:3950] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.738 ms[39m
+[07 Oct, 2024 - 19:40:12:4012] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.577 ms[39m
+[07 Oct, 2024 - 19:40:14:4014] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=d131dda1fb04851eec95 302 - 1640.930 ms[39m
+[07 Oct, 2024 - 19:40:15:4015] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.697 ms[39m
+[07 Oct, 2024 - 19:40:15:4015] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.691 ms[39m
+[07 Oct, 2024 - 19:51:25:5125] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.358 ms[39m
+[07 Oct, 2024 - 19:51:25:5125] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.457 ms[39m
+[07 Oct, 2024 - 19:51:28:5128] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.532 ms[39m
+[07 Oct, 2024 - 19:51:28:5128] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.576 ms[39m
+[07 Oct, 2024 - 19:51:28:5128] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.062 ms[39m
+[07 Oct, 2024 - 19:51:28:5128] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.919 ms[39m
+[07 Oct, 2024 - 19:51:29:5129] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.588 ms[39m
+[07 Oct, 2024 - 19:51:29:5129] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.707 ms[39m
+[07 Oct, 2024 - 19:51:29:5129] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.717 ms[39m
+[07 Oct, 2024 - 19:51:29:5129] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.600 ms[39m
+[07 Oct, 2024 - 19:51:31:5131] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.586 ms[39m
+[07 Oct, 2024 - 19:51:34:5134] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=3c24d413f814c5d1c8b2 302 - 1571.126 ms[39m
+[07 Oct, 2024 - 19:51:34:5134] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.772 ms[39m
+[07 Oct, 2024 - 19:51:34:5134] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.331 ms[39m
+[07 Oct, 2024 - 20:10:27:1027] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:10:47:1047] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:10:53:1053] [35mhttp[39m: [35m::1 GET /api/user 404 - 3.895 ms[39m
+[07 Oct, 2024 - 20:10:53:1053] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.263 ms[39m
+[07 Oct, 2024 - 20:10:55:1055] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.011 ms[39m
+[07 Oct, 2024 - 20:10:55:1055] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.346 ms[39m
+[07 Oct, 2024 - 20:10:56:1056] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.747 ms[39m
+[07 Oct, 2024 - 20:10:59:1059] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=5ac67ea231f1998c4087 500 - 1808.476 ms[39m
+[07 Oct, 2024 - 20:11:59:1159] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:13:34:1334] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:13:37:1337] [35mhttp[39m: [35m::1 GET /api/user 404 - 3.011 ms[39m
+[07 Oct, 2024 - 20:13:37:1337] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.984 ms[39m
+[07 Oct, 2024 - 20:13:39:1339] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.077 ms[39m
+[07 Oct, 2024 - 20:13:41:1341] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=d2e94ea88086adc1f217 302 - 1661.925 ms[39m
+[07 Oct, 2024 - 20:13:41:1341] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.598 ms[39m
+[07 Oct, 2024 - 20:13:41:1341] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.986 ms[39m
+[07 Oct, 2024 - 20:13:56:1356] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:14:10:1410] [35mhttp[39m: [35m::1 GET /api/user 404 - 8.601 ms[39m
+[07 Oct, 2024 - 20:14:10:1410] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.562 ms[39m
+[07 Oct, 2024 - 20:14:12:1412] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.950 ms[39m
+[07 Oct, 2024 - 20:14:14:1414] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=1d080ac77031b23718f2 302 - 1713.309 ms[39m
+[07 Oct, 2024 - 20:14:14:1414] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.678 ms[39m
+[07 Oct, 2024 - 20:14:14:1414] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.385 ms[39m
+[07 Oct, 2024 - 20:14:32:1432] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:14:36:1436] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:14:48:1448] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:14:52:1452] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:14:55:1455] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.386 ms[39m
+[07 Oct, 2024 - 20:14:58:1458] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=3c0cfc718fdb0816cd85 302 - 1901.546 ms[39m
+[07 Oct, 2024 - 20:14:58:1458] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.034 ms[39m
+[07 Oct, 2024 - 20:14:58:1458] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.674 ms[39m
+[07 Oct, 2024 - 20:25:48:2548] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:26:06:266] [35mhttp[39m: [35m::1 GET /api/user 404 - 6.470 ms[39m
+[07 Oct, 2024 - 20:26:06:266] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.949 ms[39m
+[07 Oct, 2024 - 20:26:07:267] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.916 ms[39m
+[07 Oct, 2024 - 20:26:07:267] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.223 ms[39m
+[07 Oct, 2024 - 20:26:08:268] [35mhttp[39m: [35m::1 GET /auth/github 302 - 1.811 ms[39m
+[07 Oct, 2024 - 20:26:10:2610] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=f0119de9c46ad8c7b5cc 302 - 1667.643 ms[39m
+[07 Oct, 2024 - 20:26:11:2611] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.352 ms[39m
+[07 Oct, 2024 - 20:26:11:2611] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.856 ms[39m
+[07 Oct, 2024 - 20:31:43:3143] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:32:41:3241] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:32:53:3253] [35mhttp[39m: [35m::1 GET /api/user 404 - 5.590 ms[39m
+[07 Oct, 2024 - 20:32:53:3253] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.573 ms[39m
+[07 Oct, 2024 - 20:32:55:3255] [35mhttp[39m: [35m::1 GET /auth/github 302 - 4.390 ms[39m
+[07 Oct, 2024 - 20:32:57:3257] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=dd5ecfbebc854cedb0b9 500 - 1300.618 ms[39m
+[07 Oct, 2024 - 20:34:50:3450] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:34:53:3453] [35mhttp[39m: [35m::1 GET /api/user 404 - 8.675 ms[39m
+[07 Oct, 2024 - 20:34:54:3454] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.895 ms[39m
+[07 Oct, 2024 - 20:35:01:351] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.375 ms[39m
+[07 Oct, 2024 - 20:35:05:355] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=f5133ec9282e30ba4fd2 302 - 3141.679 ms[39m
+[07 Oct, 2024 - 20:35:05:355] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.917 ms[39m
+[07 Oct, 2024 - 20:35:05:355] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.905 ms[39m
+[07 Oct, 2024 - 20:41:08:418] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:41:46:4146] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:41:55:4155] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:42:14:4214] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.393 ms[39m
+[07 Oct, 2024 - 20:42:16:4216] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=02aeb973b3883250fcfb 302 - 1674.751 ms[39m
+[07 Oct, 2024 - 20:42:17:4217] [35mhttp[39m: [35m::1 GET /api/user 404 - 3.259 ms[39m
+[07 Oct, 2024 - 20:42:17:4217] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.032 ms[39m
+[07 Oct, 2024 - 20:43:17:4317] [35mhttp[39m: [35m::1 GET /auth/github 302 - 3.677 ms[39m
+[07 Oct, 2024 - 20:43:17:4317] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:43:19:4319] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=de32b8d1273dea5890d5 302 - 1773.400 ms[39m
+[07 Oct, 2024 - 20:43:19:4319] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.764 ms[39m
+[07 Oct, 2024 - 20:43:20:4320] [35mhttp[39m: [35m::ffff:127.0.0.1 GET /api/user 404 - 1.234 ms[39m
+[07 Oct, 2024 - 20:43:41:4341] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:45:55:4555] [35mhttp[39m: [35m::1 GET /auth/me 401 - 7.547 ms[39m
+[07 Oct, 2024 - 20:45:55:4555] [35mhttp[39m: [35m::1 GET /favicon.ico 404 - 3.970 ms[39m
+[07 Oct, 2024 - 20:48:10:4810] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:48:17:4817] [35mhttp[39m: [35m::1 GET /auth/me 401 - 6.365 ms[39m
+[07 Oct, 2024 - 20:49:25:4925] [35mhttp[39m: [35m::1 GET /api/user 404 - 5.769 ms[39m
+[07 Oct, 2024 - 20:49:25:4925] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.833 ms[39m
+[07 Oct, 2024 - 20:49:26:4926] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.672 ms[39m
+[07 Oct, 2024 - 20:49:26:4926] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.998 ms[39m
+[07 Oct, 2024 - 20:49:29:4929] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.674 ms[39m
+[07 Oct, 2024 - 20:49:31:4931] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=23f61840bef310bede1f 302 - 1659.928 ms[39m
+[07 Oct, 2024 - 20:49:31:4931] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.732 ms[39m
+[07 Oct, 2024 - 20:49:31:4931] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.805 ms[39m
+[07 Oct, 2024 - 20:49:48:4948] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.715 ms[39m
+[07 Oct, 2024 - 20:49:48:4948] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.750 ms[39m
+[07 Oct, 2024 - 20:50:07:507] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.314 ms[39m
+[07 Oct, 2024 - 20:50:09:509] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=8a76cbf8719aeebef532 302 - 1604.999 ms[39m
+[07 Oct, 2024 - 20:50:09:509] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.755 ms[39m
+[07 Oct, 2024 - 20:50:09:509] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.857 ms[39m
+[07 Oct, 2024 - 20:50:27:5027] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:50:28:5028] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.688 ms[39m
+[07 Oct, 2024 - 20:50:30:5030] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=f7c2f7bee14741b4e99a 302 - 1884.373 ms[39m
+[07 Oct, 2024 - 20:50:31:5031] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.979 ms[39m
+[07 Oct, 2024 - 20:50:31:5031] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.454 ms[39m
+[07 Oct, 2024 - 20:50:46:5046] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:50:49:5049] [35mhttp[39m: [35m::1 GET /auth/github 302 - 5.720 ms[39m
+[07 Oct, 2024 - 20:50:51:5051] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=72b5a6c3fbe7c369a294 302 - 1638.329 ms[39m
+[07 Oct, 2024 - 20:50:52:5052] [35mhttp[39m: [35m::1 GET /api/user 404 - 5.034 ms[39m
+[07 Oct, 2024 - 20:50:52:5052] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.777 ms[39m
+[07 Oct, 2024 - 20:54:09:549] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:54:14:5414] [35mhttp[39m: [35m::1 GET /auth/github 302 - 3.556 ms[39m
+[07 Oct, 2024 - 20:54:17:5417] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=349140c59ff76911c90b 302 - 2198.161 ms[39m
+[07 Oct, 2024 - 20:54:17:5417] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.976 ms[39m
+[07 Oct, 2024 - 20:54:17:5417] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.441 ms[39m
+[07 Oct, 2024 - 20:55:34:5534] [35mhttp[39m: [35m::1 GET /auth/me 200 - 30.420 ms[39m
+[07 Oct, 2024 - 20:56:26:5626] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=349140c59ff76911c90b 500 - 618.497 ms[39m
+[07 Oct, 2024 - 20:56:37:5637] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.984 ms[39m
+[07 Oct, 2024 - 20:56:40:5640] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=1e6d816dc2c8fc5a2152 302 - 2584.595 ms[39m
+[07 Oct, 2024 - 20:56:41:5641] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.574 ms[39m
+[07 Oct, 2024 - 20:56:41:5641] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.794 ms[39m
+[07 Oct, 2024 - 20:56:44:5644] [35mhttp[39m: [35m::1 GET /auth/github 302 - 1.233 ms[39m
+[07 Oct, 2024 - 20:56:46:5646] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=b7e737330546b9f96286 302 - 1714.362 ms[39m
+[07 Oct, 2024 - 20:56:47:5647] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.796 ms[39m
+[07 Oct, 2024 - 20:56:47:5647] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.266 ms[39m
+[07 Oct, 2024 - 20:57:10:5710] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.011 ms[39m
+[07 Oct, 2024 - 20:57:10:5710] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.813 ms[39m
+[07 Oct, 2024 - 20:57:15:5715] [35mhttp[39m: [35m::1 GET /auth/me 304 - 10.634 ms[39m
+[07 Oct, 2024 - 21:01:48:148] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.089 ms[39m
+[07 Oct, 2024 - 21:01:48:148] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.912 ms[39m
+[07 Oct, 2024 - 21:01:49:149] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.828 ms[39m
+[07 Oct, 2024 - 21:01:49:149] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.897 ms[39m
+[07 Oct, 2024 - 21:01:51:151] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.918 ms[39m
+[07 Oct, 2024 - 21:01:51:151] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.851 ms[39m
+[07 Oct, 2024 - 21:01:51:151] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.917 ms[39m
+[07 Oct, 2024 - 21:01:51:151] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.471 ms[39m
+[07 Oct, 2024 - 21:01:52:152] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.100 ms[39m
+[07 Oct, 2024 - 21:01:52:152] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.945 ms[39m
+[07 Oct, 2024 - 21:01:53:153] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.737 ms[39m
+[07 Oct, 2024 - 21:01:53:153] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.613 ms[39m
+[07 Oct, 2024 - 21:01:53:153] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.847 ms[39m
+[07 Oct, 2024 - 21:01:53:153] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.814 ms[39m
+[07 Oct, 2024 - 21:01:56:156] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.757 ms[39m
+[07 Oct, 2024 - 21:02:02:22] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=9cc73c4595dee197edde 302 - 1556.911 ms[39m
+[07 Oct, 2024 - 21:02:02:22] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.708 ms[39m
+[07 Oct, 2024 - 21:02:02:22] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.644 ms[39m
+[07 Oct, 2024 - 21:02:50:250] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.592 ms[39m
+[07 Oct, 2024 - 21:02:50:250] [35mhttp[39m: [35m::1 GET /api/user 404 - 1.275 ms[39m
+[07 Oct, 2024 - 21:03:48:348] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.375 ms[39m
+[07 Oct, 2024 - 21:03:51:351] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=dfed3d4a800d8a7e3f0d - - - ms[39m
+[07 Oct, 2024 - 21:03:51:351] [35mhttp[39m: [35m::1 GET /auth/github 302 - 2.678 ms[39m
+[07 Oct, 2024 - 21:03:52:352] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=88d11436e80712c7a3fc 302 - 1274.314 ms[39m
+[07 Oct, 2024 - 21:03:53:353] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.281 ms[39m
+[07 Oct, 2024 - 21:03:53:353] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.370 ms[39m
+[07 Oct, 2024 - 21:06:01:61] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.825 ms[39m
+[07 Oct, 2024 - 21:06:04:64] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=119b8e46225457878fdb 302 - 2232.674 ms[39m
+[07 Oct, 2024 - 21:06:04:64] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.742 ms[39m
+[07 Oct, 2024 - 21:06:04:64] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.890 ms[39m
+[07 Oct, 2024 - 21:06:05:65] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.836 ms[39m
+[07 Oct, 2024 - 21:06:05:65] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.724 ms[39m
+[07 Oct, 2024 - 21:06:05:65] [35mhttp[39m: [35m::1 GET /api/user 404 - 2.109 ms[39m
+[07 Oct, 2024 - 21:06:05:65] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.904 ms[39m
+[07 Oct, 2024 - 21:06:06:66] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.643 ms[39m
+[07 Oct, 2024 - 21:06:06:66] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.700 ms[39m
+[07 Oct, 2024 - 21:06:08:68] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.363 ms[39m
+[07 Oct, 2024 - 21:06:10:610] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=e0871bb22d42f8771c67 302 - 1933.969 ms[39m
+[07 Oct, 2024 - 21:06:11:611] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.554 ms[39m
+[07 Oct, 2024 - 21:06:11:611] [35mhttp[39m: [35m::1 GET /api/user 404 - 0.356 ms[39m
+[07 Oct, 2024 - 21:15:42:1542] [35mhttp[39m: [35m::1 GET /auth/github 302 - 0.626 ms[39m
+[07 Oct, 2024 - 21:18:23:1823] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 22:25:23:2523] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 22:25:30:2530] [35mhttp[39m: [35m::1 GET /user/getUserData/66fe95280d91421a52a9f418 200 - 97.615 ms[39m
+[07 Oct, 2024 - 22:25:43:2543] [35mhttp[39m: [35m::1 POST /user/bookmark-course/66fe95280d91421a52a9f418 201 - 131.356 ms[39m
+[07 Oct, 2024 - 22:25:55:2555] [35mhttp[39m: [35m::1 POST /user/bookmark-course/66fe95280d91421a52a9f418 201 - 5.098 ms[39m
+[07 Oct, 2024 - 22:27:35:2735] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 22:28:28:2828] [35mhttp[39m: [35m::1 POST /user/bookmark-course/66fe95280d91421a52a9f418 201 - 21.182 ms[39m
+[07 Oct, 2024 - 22:29:17:2917] [35mhttp[39m: [35m::1 POST /user/bookmark-library/66fe95280d91421a52a9f418 201 - 6.786 ms[39m
+[07 Oct, 2024 - 22:29:28:2928] [35mhttp[39m: [35m::1 POST /user/bookmark-asset/66fe95280d91421a52a9f418 201 - 17.386 ms[39m
+[07 Oct, 2024 - 22:30:22:3022] [35mhttp[39m: [35m::1 POST /user/bookmark-asset/66fe95280d91421a52a9f418 201 - 3.851 ms[39m

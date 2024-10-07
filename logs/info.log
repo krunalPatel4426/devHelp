@@ -1,0 +1,1473 @@
+[02 Oct, 2024 - 18:28:36:2836] [31merror[39m: [31mMongoDB connection error:  ConnectionInstance is not defined[39m
+[02 Oct, 2024 - 18:29:01:291] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 18:29:53:2953] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 18:32:06:326] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 18:33:36:3336] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 18:35:03:353] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 18:37:09:379] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 18:38:05:385] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:09:45:945] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:10:21:1021] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:21:25:2125] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:25:40:2540] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:25:59:2559] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:27:22:2722] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:28:24:2824] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:30:32:3032] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:31:15:3115] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:31:32:3132] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:36:05:365] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:36:17:3617] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:37:19:3719] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:37:56:3756] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:40:07:407] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:40:16:4016] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:41:17:4117] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:41:45:4145] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:43:06:436] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:43:28:4328] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:44:55:4455] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:50:45:5045] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:50:57:5057] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:59:25:5925] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 19:59:53:5953] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 20:01:30:130] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 20:03:11:311] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 20:06:14:614] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 20:08:11:811] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 20:08:51:851] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 20:09:54:954] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 21:02:45:245] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 21:03:26:326] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 21:05:58:558] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 21:06:03:63] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[02 Oct, 2024 - 21:06:43:643] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 18:24:09:249] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 18:29:13:2913] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:05:32:532] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:12:00:120] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:12:51:1251] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:13:47:1347] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:14:42:1442] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:14:49:1449] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:16:13:1613] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:17:13:1713] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:18:03:183] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:21:17:2117] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:26:51:2651] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:27:06:276] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 19:27:12:2712] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:18:16:1816] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:18:47:1847] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:23:10:2310] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:26:39:2639] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:27:04:274] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:33:40:3340] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:38:29:3829] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:39:15:3915] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:39:41:3941] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:43:31:4331] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:44:28:4428] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:44:40:4440] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:51:36:5136] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:55:03:553] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:55:28:5528] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:55:43:5543] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:57:28:5728] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:58:03:583] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 22:58:52:5852] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:00:35:035] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:09:41:941] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:28:55:2855] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:30:45:3045] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:31:44:3144] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:31:54:3154] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:33:06:336] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:34:59:3459] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:36:43:3643] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:38:33:3833] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:39:52:3952] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:39:54:3954] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:44:29:4429] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:45:02:452] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:45:18:4518] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:45:29:4529] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:48:54:4854] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:49:06:496] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:50:18:5018] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:50:28:5028] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:52:44:5244] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:52:56:5256] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:53:36:5336] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[03 Oct, 2024 - 23:55:48:5548] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:07:47:747] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:07:58:758] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:11:35:1135] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:13:14:1314] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:15:58:1558] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:26:24:2624] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:27:44:2744] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:27:49:2749] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:28:20:2820] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:30:11:3011] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:30:35:3035] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:31:00:310] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:32:09:329] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:32:34:3234] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:32:47:3247] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:33:07:337] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:33:24:3324] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:33:38:3338] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:33:56:3356] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:34:08:348] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:34:51:3451] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:35:19:3519] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:35:20:3520] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:35:39:3539] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:35:48:3548] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:41:40:4140] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:41:55:4155] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:42:17:4217] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:42:28:4228] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:42:40:4240] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:42:54:4254] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:44:37:4437] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:44:58:4458] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:45:08:458] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:45:20:4520] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:45:32:4532] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:47:47:4747] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:48:18:4818] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:49:30:4930] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:55:21:5521] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:55:25:5525] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:55:51:5551] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 00:56:32:5632] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:01:47:147] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:02:10:210] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:02:49:249] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:03:25:325] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:04:25:425] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:04:32:432] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:05:06:56] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:05:23:523] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:06:01:61] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:06:24:624] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:08:59:859] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:10:52:1052] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:11:15:1115] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:11:25:1125] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:11:38:1138] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:12:00:120] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:12:16:1216] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:12:24:1224] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:12:42:1242] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:12:44:1244] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:14:00:140] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:16:09:169] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:19:05:195] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:21:21:2121] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:21:45:2145] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:22:19:2219] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:23:47:2347] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:24:03:243] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:24:58:2458] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:27:02:272] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:28:31:2831] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:30:26:3026] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:31:04:314] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:31:28:3128] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:31:34:3134] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:33:34:3334] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:34:32:3432] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:34:57:3457] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:35:46:3546] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:37:00:370] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 01:37:03:373] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 16:52:56:5256] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 16:57:24:5724] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:00:14:014] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:02:28:228] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:21:11:2111] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:21:21:2121] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:21:53:2153] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:24:31:2431] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:26:01:261] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:28:46:2846] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:28:58:2858] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:35:43:3543] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:56:05:565] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:56:22:5622] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:59:22:5922] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 17:59:55:5955] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:02:26:226] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:14:31:1431] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:14:55:1455] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:18:30:1830] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:19:23:1923] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:21:12:2112] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:22:03:223] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:22:21:2221] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:22:42:2242] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:26:49:2649] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:27:54:2754] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:28:08:288] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:28:11:2811] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:29:11:2911] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:31:46:3146] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:36:04:364] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:36:51:3651] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:38:32:3832] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:40:50:4050] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:44:27:4427] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:46:32:4632] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:47:38:4738] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:48:08:488] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:48:37:4837] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 18:56:10:5610] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 19:06:42:642] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 19:09:50:950] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[04 Oct, 2024 - 19:26:12:2612] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 10:33:14:3314] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 10:36:22:3622] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 10:38:57:3857] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 10:40:02:402] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 10:41:30:4130] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 10:42:04:424] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 10:42:20:4220] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 10:42:34:4234] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:01:57:157] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:02:25:225] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:06:26:626] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:06:29:629] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:08:07:87] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:08:18:818] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:09:48:948] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:09:55:955] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:18:15:1815] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:18:35:1835] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:19:04:194] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:21:13:2113] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:25:28:2528] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:25:44:2544] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:26:17:2617] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:27:57:2757] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:28:14:2814] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:28:29:2829] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:28:59:2859] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:32:45:3245] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:34:10:3410] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:34:41:3441] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:40:36:4036] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:43:52:4352] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:44:21:4421] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:46:18:4618] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:46:22:4622] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:46:36:4636] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:47:17:4717] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:47:50:4750] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:55:12:5512] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:55:54:5554] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:55:56:5556] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:59:19:5919] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 11:59:39:5939] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:00:22:022] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:03:15:315] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:03:24:324] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:03:33:333] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:03:43:343] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:03:53:353] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:04:05:45] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:09:08:98] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:09:28:928] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:09:59:959] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:13:34:1334] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:15:17:1517] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:16:17:1617] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:16:26:1626] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:17:02:172] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:17:07:177] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:17:14:1714] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:17:18:1718] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:17:22:1722] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:17:54:1754] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:19:23:1923] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 12:20:53:2053] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 13:51:12:5112] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 13:52:12:5212] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 13:55:25:5525] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 13:55:40:5540] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 13:56:14:5614] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:08:26:826] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:09:02:92] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:09:34:934] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:09:52:952] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:11:15:1115] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:11:31:1131] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:11:59:1159] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:15:30:1530] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:16:43:1643] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:16:54:1654] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:17:30:1730] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:24:40:2440] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:24:48:2448] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:25:13:2513] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:26:23:2623] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:30:25:3025] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:30:32:3032] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:31:05:315] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:33:10:3310] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:35:39:3539] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:38:57:3857] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:39:22:3922] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:40:13:4013] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:40:22:4022] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:40:27:4027] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 14:41:00:410] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:01:39:139] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:02:51:251] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:03:01:31] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:03:32:332] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:04:08:48] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:06:26:626] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:07:19:719] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:07:42:742] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:07:46:746] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:07:58:758] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:08:37:837] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:12:49:1249] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:13:02:132] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:13:50:1350] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:19:32:1932] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:19:44:1944] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:20:11:2011] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:22:50:2250] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:23:01:231] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 15:23:29:2329] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 17:56:29:5629] [31merror[39m: [31mMongoDB connection error:  connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[06 Oct, 2024 - 17:57:53:5753] [31merror[39m: [31mMongoDB connection error:  connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[06 Oct, 2024 - 18:02:22:222] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:02:37:237] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:02:55:255] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:04:42:442] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:05:17:517] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:07:37:737] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:07:48:748] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:11:09:119] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:13:13:1313] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:14:20:1420] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:14:36:1436] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:15:43:1543] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:15:50:1550] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:15:56:1556] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:16:47:1647] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:18:59:1859] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:20:07:207] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:20:41:2041] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:21:44:2144] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:22:04:224] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:22:14:2214] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:22:28:2228] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:28:20:2820] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:31:04:314] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:33:12:3312] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:34:13:3413] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 18:35:07:357] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:00:30:030] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:02:23:223] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:05:00:50] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:05:29:529] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:06:46:646] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:06:58:658] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:07:19:719] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:07:33:733] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:08:42:842] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:10:35:1035] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:10:57:1057] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:11:18:1118] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:11:23:1123] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:14:15:1415] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:15:55:1555] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:18:07:187] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:21:09:219] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:21:28:2128] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:21:48:2148] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:28:10:2810] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:28:27:2827] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:29:50:2950] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 19:29:54:2954] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 20:53:41:5341] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 20:55:16:5516] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 20:57:10:5710] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 20:57:17:5717] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 20:59:20:5920] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 20:59:28:5928] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:02:22:222] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:07:20:720] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:08:11:811] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:09:09:99] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:10:06:106] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:10:09:109] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:57:25:5725] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 21:59:19:5919] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:00:35:035] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:02:07:27] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:02:24:224] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:08:18:818] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:10:03:103] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:20:14:2014] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:22:46:2246] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:22:54:2254] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:24:47:2447] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:35:54:3554] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:37:06:376] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:38:58:3858] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:39:10:3910] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:39:25:3925] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[06 Oct, 2024 - 22:39:56:3956] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:09:05:95] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:26:40:2640] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:33:03:333] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:34:07:347] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:34:46:3446] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:36:05:365] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:41:44:4144] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:47:50:4750] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:48:35:4835] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:50:32:5032] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:58:33:5833] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 17:59:30:5930] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:00:01:01] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:02:01:21] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:03:28:328] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:04:05:45] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:10:17:1017] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:11:40:1140] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:12:52:1252] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:15:18:1518] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:17:43:1743] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:18:05:185] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:18:33:1833] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:19:23:1923] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:20:57:2057] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:41:54:4154] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:42:46:4246] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 18:43:15:4315] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:01:12:112] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:01:28:128] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:03:01:31] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:03:27:327] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:04:03:43] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:04:55:455] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:10:00:100] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:10:08:108] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:10:35:1035] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:11:17:1117] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:26:14:2614] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:28:30:2830] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 19:30:25:3025] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:10:27:1027] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:10:47:1047] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:11:59:1159] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:13:34:1334] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:13:56:1356] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:14:32:1432] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:14:36:1436] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:14:48:1448] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:14:52:1452] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:25:48:2548] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:31:43:3143] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:32:41:3241] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:34:50:3450] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:41:08:418] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:41:46:4146] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:41:55:4155] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:43:17:4317] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:43:41:4341] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:48:10:4810] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:50:27:5027] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:50:46:5046] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 20:54:09:549] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 21:18:23:1823] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 22:25:23:2523] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
+[07 Oct, 2024 - 22:27:35:2735] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: localhost[39m
+[34m[39m
