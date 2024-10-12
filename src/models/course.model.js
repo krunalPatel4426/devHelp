@@ -4,6 +4,9 @@ const courseSchema = new mongoose.Schema({
   title: {
     type: String,
   },
+  languageName: {
+    type: String,
+  },
   img: {
     type: String,
   },

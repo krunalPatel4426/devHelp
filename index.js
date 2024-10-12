@@ -5,13 +5,14 @@ import dotenv from "dotenv";
 import express from "express";
 import { rateLimit } from "express-rate-limit";
 import session from "express-session";
-import passport from "./src/config/passport.js";
+import passport from "passport";
+import "./src/config/passport.js";
 import connectDb from "./src/db/index.js";
 import morganMiddleware from "./src/logger/morgan.logger.js";
 import assetRouter from "./src/routes/assetRout.js";
 import contactUsRoute from "./src/routes/contactUsRoute.js";
 import courseRoute from "./src/routes/courseRoute.js";
-import authRoutes from "./src/routes/githubRoute.js";
+import githubAuth from "./src/routes/githubAuthRoute.js";
 import interviewRoute from "./src/routes/interviewRoute.js";
 import libraryRoute from "./src/routes/libraryRoute.js";
 import programmingRoute from "./src/routes/programmingLanguageRoute.js";
@@ -23,83 +24,81 @@ import { ApiResponse } from "./src/utils/ApiResponse.js";
 
 const app = express();
 dotenv.config({
-    path: "./.env",
-  });
+  path: "./.env",
+});
 
 const port = process.env.PORT;
 connectDb();
-// Initialize Passport
-app.use(session({ secret: process.env.SESSION_SECRET , resave: false, saveUninitialized: true }));
-app.use(passport.initialize());
-app.use(passport.session());  
-const limiter = rateLimit({
-    windowMs: 15 * 60 * 1000, // 15 minutes
-    max: 5000, // Limit each IP to 500 requests per `window` (here, per 15 minutes)
-    standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
-    legacyHeaders: false, // Disable the `X-RateLimit-*` headers
-    keyGenerator: (req, res) => {
-      return req.clientIp; // IP address from requestIp.mw(), as opposed to req.ip
-    },
-    handler: (_, __, ___, options) => {
-      throw new ApiError(
-        options.statusCode || 500,
-        `There are too many requests. You are only allowed ${
-          options.max
-        } requests per ${options.windowMs / 60000} minutes`
-      );
-    },
-  });
-  
 
-  // change corse origin * is only for devlopment
-app.use(cors({
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 5000, // Limit each IP to 500 requests per `window` (here, per 15 minutes)
+  standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
+  legacyHeaders: false, // Disable the `X-RateLimit-*` headers
+  keyGenerator: (req, res) => {
+    return req.clientIp; // IP address from requestIp.mw(), as opposed to req.ip
+  },
+  handler: (_, __, ___, options) => {
+    throw new ApiError(
+      options.statusCode || 500,
+      `There are too many requests. You are only allowed ${
+        options.max
+      } requests per ${options.windowMs / 60000} minutes`
+    );
+  },
+});
+
+// change corse origin * is only for devlopment
+app.use(
+  cors({
     origin: process.env.CORS_ORIGIN,
     credentials: true,
-  }))
-  app.use((_, res, next) => {
-    res.header("Access-Control-Allow-Origin", process.env.CORS_ORIGIN);
-    res.header("Access-Control-Allow-Headers", "*");
-    res.header("Access-Control-Allow-Credentials", "true");
-    next();
-  });
-  app.use(limiter);
-  app.use(bodyParser.json());
-  app.use(express.json({ limit: "16kb" }));
-  app.use(bodyParser.urlencoded({ extended: true, limit: "16kb" }));
-  app.use(express.urlencoded({ extended: true, limit: "16kb" }));
-  app.use(express.static("public")); // configure static file to save images locally
-  app.use(cookieParser());
-  app.use(morganMiddleware);
-  // Express session
-  app.use(session({
-    secret: process.env.SESSION_SECRET,  // Secure session secret from .env
+  })
+);
+app.use((_, res, next) => {
+  res.header("Access-Control-Allow-Origin", process.env.CORS_ORIGIN);
+  res.header("Access-Control-Allow-Headers", "*");
+  res.header("Access-Control-Allow-Credentials", "true");
+  next();
+});
+app.use(limiter);
+console.log("Hllo")
+app.use(bodyParser.json());
+app.use(express.json({ limit: "16kb" }));
+app.use(bodyParser.urlencoded({ extended: true, limit: "16kb" }));
+app.use(express.urlencoded({ extended: true, limit: "16kb" }));
+app.use(express.static("public")); // configure static file to save images locally
+app.use(cookieParser());
+app.use(morganMiddleware);
+app.use(
+  session({
+    secret: "keyboard cat",
     resave: false,
     saveUninitialized: true,
-    cookie: { secure: false }
-  }));
-  
+  })
+);
+app.use(passport.initialize());
+app.use(passport.session());
+app.use("/auth", githubAuth);
+app.use("/user", userRouter);
+app.use("/programmingLanguage", programmingRoute);
+app.use("/course", courseRoute);
+app.use("/library", libraryRoute); // library route
+app.use("/asset", assetRouter);
+app.use("/interview", interviewRoute);
+app.use("/suggestion", userSuggetionRoute);
+app.use("/review", userReviewRoute); // review route
+app.use("/contact-us", contactUsRoute);
+app.get("/", (req, res) => {
+  try {
+    // console.log("Hello");
+    res.send(new ApiResponse("Error 404 Page not found", 404));
+    // res.send("Hello")
+  } catch (Error) {
+    throw new ApiError(500, "server Connection failed");
+  }
+});
 
-app.use('/auth', authRoutes); // auth routes
-  
-  app.use("/user", userRouter);
-  app.use("/programmingLanguage", programmingRoute);
-  app.use("/course", courseRoute);
-  app.use("/library", libraryRoute); // library route
-  app.use("/asset", assetRouter);
-  app.use("/interview", interviewRoute);
-  app.use("/suggestion", userSuggetionRoute);
-  app.use("/review", userReviewRoute); // review route
-  app.use("/contact-us", contactUsRoute);
-  app.get("/", (req, res) => {
-    try {
-        console.log("Hello")
-        res.send(new ApiResponse("Server is running", 200));
-        // res.send("Hello")
-      } catch (Error) {
-        throw new ApiError(500, "server Connection failed");
-      }
-  });
-
-  app.listen(port, ()=>{
-    console.log(`Example app listenng on port ${port}`);
-  });
+app.listen(port, () => {
+  console.log(`Example app listenng on port ${port}`);
+});

@@ -1474,3 +1474,384 @@
 [08 Oct, 2024 - 00:55:05:555] [34minfo[39m: [34m[39m
 [34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
 [34m[39m
+[09 Oct, 2024 - 13:09:57:957] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:10:25:1025] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:10:49:1049] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:11:08:118] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:11:46:1146] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:12:27:1227] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:14:25:1425] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:14:29:1429] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:19:17:1917] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:30:42:3042] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:38:46:3846] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:44:38:4438] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 14:16:22:1622] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 15:10:15:1015] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 16:45:26:4526] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 17:04:09:49] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 17:54:19:5419] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:01:12:112] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:02:01:21] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:02:34:234] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:04:02:42] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:04:12:412] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:04:22:422] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:04:46:446] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:05:36:536] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:25:06:256] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:32:05:325] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:36:54:3654] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:37:26:3726] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:38:17:3817] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:43:15:4315] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:45:27:4527] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:45:39:4539] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:48:42:4842] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:53:03:533] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:53:19:5319] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:54:34:5434] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:58:12:5812] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:00:31:031] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:01:54:154] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:02:35:235] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:02:42:242] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:02:48:248] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:03:38:338] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:05:16:516] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:05:38:538] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:06:49:649] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:08:11:811] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:08:57:857] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:09:07:97] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:28:09:289] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:28:57:2857] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:30:09:309] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:30:46:3046] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:31:39:3139] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:31:42:3142] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:32:28:3228] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:33:32:3332] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:34:53:3453] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:35:20:3520] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:35:51:3551] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:38:25:3825] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:39:51:3951] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:42:28:4228] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:43:09:439] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:51:50:5150] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:52:06:526] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:52:46:5246] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:53:54:5354] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:55:23:5523] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:57:02:572] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:57:14:5714] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:58:23:5823] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:58:41:5841] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:00:46:046] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:01:19:119] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:04:23:423] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:11:00:110] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:11:58:1158] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:13:07:137] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:13:40:1340] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:15:53:1553] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:17:09:179] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:21:17:2117] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:22:13:2213] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:22:20:2220] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:23:25:2325] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:52:53:5253] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:55:06:556] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:06:00:60] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:06:25:625] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:08:17:817] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:08:26:826] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:09:00:90] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:17:31:1731] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:18:42:1842] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:19:17:1917] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:19:35:1935] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:19:46:1946] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:19:57:1957] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:27:34:2734] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:28:21:2821] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:28:26:2826] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 11:28:25:2825] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 11:29:30:2930] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 11:32:46:3246] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 11:34:42:3442] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 11:35:23:3523] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 11:36:14:3614] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 11:36:17:3617] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 11:37:11:3711] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 14:25:23:2523] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 14:46:54:4654] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 14:47:43:4743] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 14:47:52:4752] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 14:48:47:4847] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 14:50:09:509] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 14:51:53:5153] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:34:41:3441] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:34:46:3446] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:36:43:3643] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:38:05:385] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:39:34:3934] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:39:50:3950] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:41:53:4153] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:44:50:4450] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:45:39:4539] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m

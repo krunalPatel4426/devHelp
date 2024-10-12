@@ -1,6 +1,28 @@
 import { Course } from "../../models/course.model.js";
+import { ProgrammingLanguage } from "../../models/programmingLanguage.model.js";
 import { asyncHandler } from "../../utils/asyncHandler.js";
 
+const addCourse = asyncHandler(async (req, res) => {
+  const data = req.body;
+  try {
+    const course = await Course.create(data);
+    // console.log("Helo")
+    // console.log(course)
+    const programmingL = await ProgrammingLanguage.findOne({
+      name: course.languageName,
+    });
+    programmingL.courses.push(course._id);
+    await programmingL.save({ validateBeforeSave: false });
+    res.status(200).json({
+      message: "Course added successfully",
+      course: course,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "Error adding course",
+    });
+  }
+});
 const getAllCourseData = asyncHandler(async (req, res) => {
   try {
     const courseIds = req.body.courses;
@@ -8,10 +30,10 @@ const getAllCourseData = asyncHandler(async (req, res) => {
       { _id: { $in: courseIds } },
       "-tags -averageRating -videoLink -__v -rating -reviews"
     );
-    console.log(courses);
+    // console.log(courses);
     res.status(200).json({ message: "data fetch successfully", courses });
   } catch (error) {
-    return res.status(501).json({ message: error });
+    return res.status(500).json({ message: error });
   }
 });
 
@@ -24,20 +46,21 @@ const getCourseData = asyncHandler(async (req, res) => {
       .status(200)
       .json({ message: "course data fetch successfully", course });
   } catch (error) {
-    res.status(502).json({ message: error });
+    res.status(500).json({ message: error });
   }
 });
 
 const rating = asyncHandler(async (req, res) => {
   const { courseId } = req.params;
   const { userId, rating } = req.body;
-  console.log(userId, rating);
-  if(!(courseId && userId && rating)) return res.status(500).json({"message" : "some infromation is missing."});
+  // console.log(userId, rating);
+  if (!(courseId && userId && rating))
+    return res.status(500).json({ message: "some infromation is missing." });
 
   try {
     const course = await Course.findById(courseId);
     let totalRating = course.totalRatings;
-    console.log(course);
+    // console.log(course);
     if (!course) return res.status(500).json({ message: "can not find data" });
     //If user Already Rated or not
     const existingRating = course.rating.find(
@@ -80,7 +103,8 @@ const addReview = asyncHandler(async (req, res) => {
   const { courseId } = req.params;
   const { userId, review } = req.body;
 
-  if(!(courseId && userId && review)) return res.status(500).json({"message" : "some information is missing."});
+  if (!(courseId && userId && review))
+    return res.status(500).json({ message: "some information is missing." });
 
   try {
     const course = await Course.findById(courseId);
@@ -90,10 +114,10 @@ const addReview = asyncHandler(async (req, res) => {
       review: review,
     });
     const data = await course.save({ validateBeforeSave: false });
-    const reviewId = data.reviews[data.reviews.length-1]._id;
+    const reviewId = data.reviews[data.reviews.length - 1]._id;
     return res.status(200).json({
       message: "review added successfully.",
-      reviewId: reviewId
+      reviewId: reviewId,
     });
   } catch (error) {
     return res.status(500).json({
@@ -122,19 +146,21 @@ const deleteReview = asyncHandler(async (req, res) => {
 
 const getCourseByTag = asyncHandler(async (req, res) => {
   const { tag } = req.body;
-  if(!tag) return res.status(500).json({"message" : "tag is missing"});
+  if (!tag) return res.status(500).json({ message: "tag is missing" });
   try {
-    const course = await Course.find({ tags: tag }).select("-videoLink -averageRating -__v -tags -reviews -rating");
+    const course = await Course.find({ tags: tag }).select(
+      "-videoLink -averageRating -__v -tags -reviews -rating"
+    );
     if (!course) return res.status(404).json({ message: "can not find data" });
-    if(course.length === 0){
-        return res.status(404).json({
-            "message" : "no data found."
-        })
-    }else{
-        return res.status(200).json({
-            message: "data fetched successfully",
-            course,
-          });
+    if (course.length === 0) {
+      return res.status(400).json({
+        message: "no data found.",
+      });
+    } else {
+      return res.status(200).json({
+        message: "data fetched successfully",
+        course,
+      });
     }
   } catch (error) {
     return res.status(500).json({
@@ -143,5 +169,12 @@ const getCourseByTag = asyncHandler(async (req, res) => {
   }
 });
 
-export { addReview, deleteReview, getAllCourseData, getCourseByTag, getCourseData, rating };
+export {
+  addCourse, addReview,
+  deleteReview,
+  getAllCourseData,
+  getCourseByTag,
+  getCourseData,
+  rating
+};
 

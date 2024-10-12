@@ -42,7 +42,7 @@ const getPerticularyLibraryData = asyncHandler(async (req, res) => {
   try {
     const libraryData = await Library.findById(id).select("-__v");
     if (!libraryData)
-      return res.status(404).json({ message: "library not found" });
+      return res.status(400).json({ message: "library not found" });
     return res.status(200).json({
       message: "data fetched successfully",
       data: libraryData,
@@ -151,9 +151,9 @@ const getLibraryByTag = asyncHandler(async (req, res) => {
   try {
     const librariesByTag = await Library.find({ tags: tag }).select("-libraryLink -tags -averageRating -totalRatings -rating -reviews -__v");
     if (!librariesByTag)
-      return res.status(404).json({ message: "data not found" });
+      return res.status(400).json({ message: "data not found" });
     if (librariesByTag.length === 0) {
-      return res.status(404).json({
+      return res.status(400).json({
         message: "no data found.",
       });
     } else {
@@ -170,12 +170,12 @@ const getLibraryByTag = asyncHandler(async (req, res) => {
 });
 
 export {
-    addLibrary,
-    addReviewLibrary,
-    deleteReviewLibrary,
-    getAllLibraryData,
-    getLibraryByTag,
-    getPerticularyLibraryData,
-    ratingLibrary
+  addLibrary,
+  addReviewLibrary,
+  deleteReviewLibrary,
+  getAllLibraryData,
+  getLibraryByTag,
+  getPerticularyLibraryData,
+  ratingLibrary
 };
 

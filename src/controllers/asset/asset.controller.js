@@ -35,11 +35,11 @@ const getAllAssetData = asyncHandler(async (req, res) => {
 
 const getPerticularAssetData = asyncHandler(async (req, res) => {
   const { assetId } = req.params;
-  if (!assetId) return res.status(404).json({ message: "asset Id not found." });
+  if (!assetId) return res.status(400).json({ message: "asset Id not found." });
   try {
     const assetData = await Asset.findById(assetId).select("-__v");
     if (!assetData)
-      return res.status(404).json({ message: "asset data not found" });
+      return res.status(400).json({ message: "asset data not found" });
     return res.status(200).json({
       message: "data fetched successfully.",
       data: assetData,
@@ -55,7 +55,7 @@ const ratingAsset = asyncHandler(async (req, res) => {
   const { assetId } = req.params;
   const { userId, rating } = req.body;
   if (!(assetId && userId && rating))
-    return res.status(500).json({ message: "some information is missing" });
+    return res.status(400).json({ message: "some information is missing" });
 
   try {
     const asset = await Asset.findById(assetId);
@@ -101,11 +101,11 @@ const addReviewAsset = asyncHandler(async (req, res) => {
     const {userId, review} = req.body;
 
     if (!(assetId && userId && review))
-        return res.status(500).json({ message: "some information is missing" });
+        return res.status(400).json({ message: "some information is missing" });
 
     try{
         const asset = await Asset.findById(assetId);
-        if (!asset) return res.status(500).json({ message: "data not found"});
+        if (!asset) return res.status(400).json({ message: "data not found"});
 
         asset.reviews.push({
             userId: userId,
@@ -129,10 +129,10 @@ const deleteReviewAsset = asyncHandler(async (req, res) => {
   const {assetId} = req.params;
   const { reviewId } = req.body;
 
-  if(!(assetId && reviewId)) return res.status(404).json({"message" : "some information is missing."});
+  if(!(assetId && reviewId)) return res.status(400).json({"message" : "some information is missing."});
   try{
     const asset = await Asset.findById(assetId);
-    if(!asset) return res.status(404).json({"message" : "data not found" });
+    if(!asset) return res.status(400).json({"message" : "data not found" });
     const data = asset.reviews.pull(reviewId);
     await asset.save({validateBeforeSave: false});
     return res.status(200).json({
@@ -147,13 +147,13 @@ const deleteReviewAsset = asyncHandler(async (req, res) => {
 
 const getAssetByTag = asyncHandler(async (req, res) => {
   const {tag} = req.body;
-  if(!tag) return res.status(404).json({"message" : "some information is missing"});
+  if(!tag) return res.status(400).json({"message" : "some information is missing"});
 
   try{
     const assets = await Asset.find({tags: tag}).select("-assetLink -tags -averageRating -totalRatings -rating -reviews -__v")
-    if(!assets) return res.status(404).json({"message" : "data not found"});
+    if(!assets) return res.status(400).json({"message" : "data not found"});
     if(assets.length === 0){
-      return res.status(404).json({
+      return res.status(400).json({
         "message" : "data not found"
       });
     }else{

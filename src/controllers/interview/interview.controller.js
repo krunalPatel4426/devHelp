@@ -35,11 +35,11 @@ const getAllInterviewData = asyncHandler(async (req, res) => {
 
 const getPerticularInterviewData = asyncHandler(async (req, res) => {
     const { id } = req.params;
-    if (!id) return res.status(404).json({ message: "Id not found." });
+    if (!id) return res.status(400).json({ message: "Id not found." });
     try {
       const interviewData = await Interview.findById(id).select("-__v");
       if (!interviewData)
-        return res.status(404).json({ message: "interview data not found" });
+        return res.status(400).json({ message: "interview data not found" });
       return res.status(200).json({
         message: "data fetched successfully.",
         data: interviewData,
@@ -129,10 +129,10 @@ const deleteReviewInerviewData = asyncHandler(async (req, res) => {
     const {id} = req.params;
     const { reviewId } = req.body;
   
-    if(!(id && reviewId)) return res.status(404).json({"message" : "some information is missing."});
+    if(!(id && reviewId)) return res.status(400).json({"message" : "some information is missing."});
     try{
       const interviewData = await Interview.findById(id);
-      if(!interviewData) return res.status(404).json({"message" : "data not found" });
+      if(!interviewData) return res.status(400).json({"message" : "data not found" });
       const data = interviewData.reviews.pull(reviewId);
       await interviewData.save({validateBeforeSave: false});
       return res.status(200).json({
@@ -147,13 +147,13 @@ const deleteReviewInerviewData = asyncHandler(async (req, res) => {
 
   const getInterviewDataByTag = asyncHandler(async (req, res) => {
     const {tag} = req.body;
-    if(!tag) return res.status(404).json({"message" : "some information is missing"});
+    if(!tag) return res.status(400).json({"message" : "some information is missing"});
   
     try{
       const interviewData = await Interview.find({tags: tag}).select("-assetLink -tags -averageRating -totalRatings -rating -reviews -__v")
-      if(!interviewData) return res.status(404).json({"message" : "data not found"});
+      if(!interviewData) return res.status(400).json({"message" : "data not found"});
       if(interviewData.length === 0){
-        return res.status(404).json({
+        return res.status(400).json({
           "message" : "data not found"
         });
       }else{

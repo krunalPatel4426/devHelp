@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { addReview, deleteReview, getAllCourseData, getCourseByTag, getCourseData, rating } from "../controllers/course/course.controller.js";
+import { addCourse, addReview, deleteReview, getAllCourseData, getCourseByTag, getCourseData, rating } from "../controllers/course/course.controller.js";
 
 const router = Router();
 
@@ -10,4 +10,5 @@ router.route("/rating/:courseId").post(rating);
 router.route("/review/:courseId").post(addReview);
 router.route("/delete-review/:courseId").post(deleteReview);
 router.route("/tag").get(getCourseByTag);
+router.route("/add-course").post(addCourse);
 export default router;

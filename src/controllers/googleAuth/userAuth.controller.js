@@ -10,10 +10,6 @@ const generateAccessAndRefreshToken = async (user) => {
     const accessToken = user.generateAccessToken();
     const refreshToken = user.generateRefreshToken();
 
-    user.refreshToken = refreshToken;
-    console.log(accessToken);
-    console.log(refreshToken);
-    await user.save({ validateBeforeSave: false });
     return { accessToken, refreshToken };
   } catch (error) {
     throw new ApiError(500, "Failed to generate tokens");
@@ -21,23 +17,8 @@ const generateAccessAndRefreshToken = async (user) => {
 };
 
 const loginUser = asyncHandler(async (req, res) => {
-  // await ProgrammingLanguage.create({
-  //    name: "Python",
-  //   description: "A powerful language known for its simplicity and use in data science.",
-  //   courses:["66fecfd873abc5a50ad1b465"]
-  // });
-  // await Course.create({
-  //   title: "Python for Data Science",
-  //   description: "Learn Python with a focus on data science applications.",
-  //   videoLink: [
-  //     "https://example.com/video5",
-  //     "https://example.com/video6"
-  //   ],
-  //   averageRating: 4.8,
-  //   totalRatings: 12,
-  // });
   const userData = req.body;
-  // console.log(userData);
+  console.log(userData);
   if (!userData) {
     return res.status(400).json({
       message: "Data not found",
@@ -46,7 +27,6 @@ const loginUser = asyncHandler(async (req, res) => {
   const { name, email, email_verified, picture } = userData;
 
   const user = await User.findOne({ email });
-//   console.log(user);
   const options = {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
@@ -60,13 +40,15 @@ const loginUser = asyncHandler(async (req, res) => {
       isEmailVerified: email_verified,
       picture,
     });
-    console.log(newUser);
+    // console.log(newUser);
     const { accessToken, refreshToken } = await generateAccessAndRefreshToken(
       newUser
     );
+    newUser.refreshToken = refreshToken;
+    await newUser.save({validateBeforeSave: false});
     res.cookie("accessToken", accessToken, options);
     res.cookie("refreshToken", refreshToken, options);
-    return res.status(201).json({
+    return res.status(200).json({
       message: "User created successfully",
       user: newUser,
     });
@@ -75,6 +57,8 @@ const loginUser = asyncHandler(async (req, res) => {
     user
   );
   console.log(user);
+  user.refreshToken = refreshToken;
+  await user.save({validateBeforeSave: false});
   res.cookie("accessToken", accessToken, options);
   res.cookie("refreshToken", refreshToken, options);
   return res.status(200).json({

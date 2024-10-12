@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { loginUser } from "../controllers/googleAuth/userAuth.controller.js";
-import { bookmarkedAsset, bookmarkedCourse, bookmarkedLibrary, getminimalUserData, isUserLoggedIn } from "../controllers/user/user.controller.js";
+import { bookmarkedAsset, bookmarkedCourse, bookmarkedLibrary, getminimalUserData, isUserLoggedIn, logout } from "../controllers/user/user.controller.js";
 import { getUserData } from "../middleware/auth.middleware.js";
 
 const router = Router();
@@ -26,6 +26,7 @@ router.route("/getUserData/:userId").get(getminimalUserData);
 router.route("/bookmark-course/:userId").post(bookmarkedCourse);
 router.route("/bookmark-library/:userId").post(bookmarkedLibrary);
 router.route("/bookmark-asset/:userId").post(bookmarkedAsset);
+router.route("/logout").get(logout);
 
 
 export default router;

@@ -2230,3 +2230,868 @@
 [08 Oct, 2024 - 00:55:05:555] [34minfo[39m: [34m[39m
 [34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
 [34m[39m
+[09 Oct, 2024 - 13:09:57:957] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:10:25:1025] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:10:49:1049] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:11:08:118] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:11:46:1146] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:12:27:1227] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:14:25:1425] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:14:29:1429] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:19:17:1917] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:30:42:3042] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:32:15:3215] [35mhttp[39m: [35m::1 GET /auth/me 401 - 3.035 ms[39m
+[09 Oct, 2024 - 13:32:15:3215] [35mhttp[39m: [35m::1 GET /auth/me 401 - 1.148 ms[39m
+[09 Oct, 2024 - 13:32:28:3228] [35mhttp[39m: [35m::1 GET /auth/github 302 - 13.491 ms[39m
+[09 Oct, 2024 - 13:32:31:3231] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=209081c62dfa96c03e20 302 - 2225.409 ms[39m
+[09 Oct, 2024 - 13:32:37:3237] [35mhttp[39m: [35m::1 GET /auth/me 401 - 0.367 ms[39m
+[09 Oct, 2024 - 13:32:38:3238] [35mhttp[39m: [35m::1 GET /auth/me 401 - 3.323 ms[39m
+[09 Oct, 2024 - 13:35:43:3543] [35mhttp[39m: [35m::1 GET /auth/me 401 - 0.856 ms[39m
+[09 Oct, 2024 - 13:35:43:3543] [35mhttp[39m: [35m::1 GET /auth/me 401 - 0.704 ms[39m
+[09 Oct, 2024 - 13:38:46:3846] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:43:41:4341] [35mhttp[39m: [35m::1 GET /auth/me 401 - 2.212 ms[39m
+[09 Oct, 2024 - 13:43:41:4341] [35mhttp[39m: [35m::1 GET /auth/me 401 - 0.793 ms[39m
+[09 Oct, 2024 - 13:43:50:4350] [35mhttp[39m: [35m::1 GET /auth/github 302 - 4.748 ms[39m
+[09 Oct, 2024 - 13:43:53:4353] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=2b7b6689edce475590dc 302 - 2089.020 ms[39m
+[09 Oct, 2024 - 13:44:28:4428] [35mhttp[39m: [35m::1 GET /auth/me 401 - 0.864 ms[39m
+[09 Oct, 2024 - 13:44:28:4428] [35mhttp[39m: [35m::1 GET /auth/me 401 - 0.583 ms[39m
+[09 Oct, 2024 - 13:44:37:4437] [35mhttp[39m: [35m::1 GET /auth/github 302 - 3.832 ms[39m
+[09 Oct, 2024 - 13:44:38:4438] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 13:44:40:4440] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=72c3d0c51d4708ed4b8c 302 - 1957.349 ms[39m
+[09 Oct, 2024 - 13:44:40:4440] [35mhttp[39m: [35m::1 GET /auth/me 401 - 1.220 ms[39m
+[09 Oct, 2024 - 13:44:40:4440] [35mhttp[39m: [35m::1 GET /auth/me 401 - 0.465 ms[39m
+[09 Oct, 2024 - 13:44:47:4447] [35mhttp[39m: [35m::1 GET /auth/github 302 - 1.310 ms[39m
+[09 Oct, 2024 - 13:44:49:4449] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=b88b7201ad1892f9096d 302 - 1599.404 ms[39m
+[09 Oct, 2024 - 13:44:49:4449] [35mhttp[39m: [35m::1 GET /auth/me 401 - 0.578 ms[39m
+[09 Oct, 2024 - 13:44:49:4449] [35mhttp[39m: [35m::1 GET /auth/me 401 - 0.955 ms[39m
+[09 Oct, 2024 - 14:16:22:1622] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Oct, 2024 - 14:16:23:1623] [35mhttp[39m: [35m::1 GET /auth/me 401 - 3.870 ms[39m
+[09 Oct, 2024 - 14:16:23:1623] [35mhttp[39m: [35m::1 GET /auth/me 401 - 0.685 ms[39m
+[09 Oct, 2024 - 14:16:37:1637] [35mhttp[39m: [35m::1 GET /auth/github 302 - 3.040 ms[39m
+[09 Oct, 2024 - 14:16:40:1640] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=86185bea72629c42408c 302 - 1924.445 ms[39m
+[09 Oct, 2024 - 14:16:40:1640] [35mhttp[39m: [35m::1 GET /auth/me 401 - 0.525 ms[39m
+[09 Oct, 2024 - 14:16:40:1640] [35mhttp[39m: [35m::1 GET /auth/me 401 - 1.197 ms[39m
+[09 Oct, 2024 - 15:10:15:1015] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 16:45:26:4526] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 17:04:09:49] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 17:54:19:5419] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:01:12:112] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:02:01:21] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:02:34:234] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:03:22:322] [35mhttp[39m: [35m::1 POST /course/add-course 500 - 70.520 ms[39m
+[11 Oct, 2024 - 18:04:02:42] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:04:04:44] [35mhttp[39m: [35m::1 POST /course/add-course 500 - 65.634 ms[39m
+[11 Oct, 2024 - 18:04:12:412] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:04:13:413] [35mhttp[39m: [35m::1 POST /course/add-course 500 - 64.406 ms[39m
+[11 Oct, 2024 - 18:04:22:422] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:04:24:424] [35mhttp[39m: [35m::1 POST /course/add-course 500 - 81.601 ms[39m
+[11 Oct, 2024 - 18:04:46:446] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:04:49:449] [35mhttp[39m: [35m::1 POST /course/add-course 500 - 169.125 ms[39m
+[11 Oct, 2024 - 18:05:36:536] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 18:05:37:537] [35mhttp[39m: [35m::1 POST /course/add-course 500 - 174.642 ms[39m
+[11 Oct, 2024 - 18:06:35:635] [35mhttp[39m: [35m::1 POST /course/add-course 500 - 153.443 ms[39m
+[11 Oct, 2024 - 18:08:01:81] [35mhttp[39m: [35m::1 POST /course/add-course 200 - 249.626 ms[39m
+[11 Oct, 2024 - 18:09:22:922] [35mhttp[39m: [35m::1 POST /course/add-course 200 - 229.467 ms[39m
+[11 Oct, 2024 - 18:10:26:1026] [35mhttp[39m: [35m::1 POST /course/add-course 200 - 192.550 ms[39m
+[11 Oct, 2024 - 18:15:11:1511] [35mhttp[39m: [35m::1 POST /library/addLibrary 200 - 53.210 ms[39m
+[11 Oct, 2024 - 18:15:20:1520] [35mhttp[39m: [35m::1 POST /library/addLibrary 200 - 49.699 ms[39m
+[11 Oct, 2024 - 18:15:38:1538] [35mhttp[39m: [35m::1 POST /library/addLibrary 200 - 41.761 ms[39m
+[11 Oct, 2024 - 18:16:46:1646] [35mhttp[39m: [35m::1 POST /library/addLibrary 200 - 89.722 ms[39m
+[11 Oct, 2024 - 18:17:00:170] [35mhttp[39m: [35m::1 POST /library/addLibrary 200 - 66.061 ms[39m
+[11 Oct, 2024 - 18:19:08:198] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 96.257 ms[39m
+[11 Oct, 2024 - 18:19:13:1913] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 58.607 ms[39m
+[11 Oct, 2024 - 18:19:47:1947] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 47.440 ms[39m
+[11 Oct, 2024 - 18:19:57:1957] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 391.822 ms[39m
+[11 Oct, 2024 - 18:20:06:206] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 113.716 ms[39m
+[11 Oct, 2024 - 18:20:14:2014] [35mhttp[39m: [35m::1 POST /asset/addAsset 200 - 41.572 ms[39m
+[11 Oct, 2024 - 18:21:19:2119] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 190.844 ms[39m
+[11 Oct, 2024 - 18:22:18:2218] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 300.218 ms[39m
+[11 Oct, 2024 - 18:22:30:2230] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 69.015 ms[39m
+[11 Oct, 2024 - 18:22:41:2241] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 46.054 ms[39m
+[11 Oct, 2024 - 18:22:59:2259] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 320.803 ms[39m
+[11 Oct, 2024 - 18:23:08:238] [35mhttp[39m: [35m::1 POST /interview/addData 200 - 132.184 ms[39m
+[11 Oct, 2024 - 19:25:06:256] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:32:05:325] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:36:54:3654] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:37:26:3726] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:38:17:3817] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:43:15:4315] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:45:27:4527] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:45:39:4539] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:48:42:4842] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:53:03:533] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:53:19:5319] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:54:34:5434] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:54:56:5456] [35mhttp[39m: [35m::1 GET /auth/me 500 - 6.301 ms[39m
+[11 Oct, 2024 - 19:55:01:551] [35mhttp[39m: [35m::1 GET /auth/github 500 - 1.575 ms[39m
+[11 Oct, 2024 - 19:58:12:5812] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 19:58:17:5817] [35mhttp[39m: [35m::1 GET /auth/github 404 - 13.343 ms[39m
+[11 Oct, 2024 - 19:58:21:5821] [35mhttp[39m: [35m::1 GET /auth/github 404 - 2.308 ms[39m
+[11 Oct, 2024 - 19:58:27:5827] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 23.003 ms[39m
+[11 Oct, 2024 - 19:58:29:5829] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=7ef4be833004c42132a4 500 - 1339.677 ms[39m
+[11 Oct, 2024 - 20:00:31:031] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:00:38:038] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=7ef4be833004c42132a4 500 - 703.816 ms[39m
+[11 Oct, 2024 - 20:01:54:154] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:01:58:158] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=7ef4be833004c42132a4 500 - 515.589 ms[39m
+[11 Oct, 2024 - 20:02:35:235] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:02:42:242] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:02:48:248] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:03:38:338] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:03:44:344] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=7ef4be833004c42132a4 500 - 567.577 ms[39m
+[11 Oct, 2024 - 20:05:16:516] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:05:20:520] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=7ef4be833004c42132a4 500 - 566.215 ms[39m
+[11 Oct, 2024 - 20:05:38:538] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:06:49:649] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:06:53:653] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=7ef4be833004c42132a4 500 - 526.038 ms[39m
+[11 Oct, 2024 - 20:06:57:657] [35mhttp[39m: [35m::1 GET /auth/me 404 - 5.296 ms[39m
+[11 Oct, 2024 - 20:07:08:78] [35mhttp[39m: [35m::1 GET /auth/github 404 - 0.945 ms[39m
+[11 Oct, 2024 - 20:07:14:714] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 1.861 ms[39m
+[11 Oct, 2024 - 20:07:16:716] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=5284954a0a82b173b17e 500 - 1342.310 ms[39m
+[11 Oct, 2024 - 20:08:11:811] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:08:14:814] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=5284954a0a82b173b17e 500 - 529.038 ms[39m
+[11 Oct, 2024 - 20:08:57:857] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:09:07:97] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:09:13:913] [35mhttp[39m: [35m::1 GET /auth/me 404 - 11.455 ms[39m
+[11 Oct, 2024 - 20:09:58:958] [35mhttp[39m: [35m::1 GET /auth/me 404 - 8.680 ms[39m
+[11 Oct, 2024 - 20:10:02:102] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 2.663 ms[39m
+[11 Oct, 2024 - 20:10:04:104] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=9433ab6f52c3e3bb6304 200 - 1280.433 ms[39m
+[11 Oct, 2024 - 20:10:04:104] [35mhttp[39m: [35m::1 GET /favicon.ico 404 - 1.168 ms[39m
+[11 Oct, 2024 - 20:28:09:289] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:28:26:2826] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=9433ab6f52c3e3bb6304 500 - 569.924 ms[39m
+[11 Oct, 2024 - 20:28:57:2857] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:29:17:2917] [35mhttp[39m: [35m::1 GET /auth/me 404 - 7.049 ms[39m
+[11 Oct, 2024 - 20:29:20:2920] [35mhttp[39m: [35m::1 GET /auth/me 404 - 3.273 ms[39m
+[11 Oct, 2024 - 20:29:32:2932] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 3.941 ms[39m
+[11 Oct, 2024 - 20:29:35:2935] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=3eb736bd1e05c0665f69 200 - 2293.070 ms[39m
+[11 Oct, 2024 - 20:29:35:2935] [35mhttp[39m: [35m::1 GET /profile 404 - 0.752 ms[39m
+[11 Oct, 2024 - 20:30:01:301] [35mhttp[39m: [35m::1 GET /auth/me 404 - 2.323 ms[39m
+[11 Oct, 2024 - 20:30:09:309] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:30:10:3010] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 4.349 ms[39m
+[11 Oct, 2024 - 20:30:11:3011] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=8d5ae6f0f56772a89b4d 200 - 1039.119 ms[39m
+[11 Oct, 2024 - 20:30:12:3012] [35mhttp[39m: [35m::1 GET /auth/me 404 - 7.294 ms[39m
+[11 Oct, 2024 - 20:30:45:3045] [35mhttp[39m: [35m::1 GET /auth/me 404 - 10.448 ms[39m
+[11 Oct, 2024 - 20:30:46:3046] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:30:49:3049] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 2.468 ms[39m
+[11 Oct, 2024 - 20:30:51:3051] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=53bad1b5c05c23341af0 302 - 1189.275 ms[39m
+[11 Oct, 2024 - 20:30:51:3051] [35mhttp[39m: [35m::ffff:127.0.0.1 GET /auth/me 404 - 2.182 ms[39m
+[11 Oct, 2024 - 20:31:39:3139] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:31:42:3142] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:31:47:3147] [35mhttp[39m: [35m::1 GET /auth/me 404 - 10.272 ms[39m
+[11 Oct, 2024 - 20:31:49:3149] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 3.422 ms[39m
+[11 Oct, 2024 - 20:31:51:3151] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=c33f3415e2a351ffadf6 302 - 1199.071 ms[39m
+[11 Oct, 2024 - 20:31:51:3151] [35mhttp[39m: [35m::1 GET /auth/me 404 - 2.653 ms[39m
+[11 Oct, 2024 - 20:32:28:3228] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:32:31:3231] [35mhttp[39m: [35m::1 GET /auth/me 404 - 10.329 ms[39m
+[11 Oct, 2024 - 20:32:35:3235] [35mhttp[39m: [35m::1 GET /auth/me 404 - 4.828 ms[39m
+[11 Oct, 2024 - 20:32:36:3236] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 2.321 ms[39m
+[11 Oct, 2024 - 20:32:38:3238] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=4010731b93265bad5ffa 200 - 1397.301 ms[39m
+[11 Oct, 2024 - 20:32:38:3238] [35mhttp[39m: [35m::1 GET /favicon.ico 404 - 0.970 ms[39m
+[11 Oct, 2024 - 20:33:32:3332] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:33:34:3334] [35mhttp[39m: [35m::1 GET /auth/me 404 - 12.817 ms[39m
+[11 Oct, 2024 - 20:33:35:3335] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 2.392 ms[39m
+[11 Oct, 2024 - 20:33:37:3337] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=0d5f4034419db0f271b1 200 - 1398.174 ms[39m
+[11 Oct, 2024 - 20:33:45:3345] [35mhttp[39m: [35m::1 GET /auth/me 404 - 1.436 ms[39m
+[11 Oct, 2024 - 20:33:47:3347] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 0.983 ms[39m
+[11 Oct, 2024 - 20:33:54:3354] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=d08170f712900b838c61 200 - 1113.892 ms[39m
+[11 Oct, 2024 - 20:34:53:3453] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:34:58:3458] [35mhttp[39m: [35m::1 GET /auth/me 404 - 14.720 ms[39m
+[11 Oct, 2024 - 20:35:00:350] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 2.543 ms[39m
+[11 Oct, 2024 - 20:35:02:352] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=dbb0704ae016e1954a87 200 - 1265.418 ms[39m
+[11 Oct, 2024 - 20:35:20:3520] [35mhttp[39m: [35m::1 GET /auth/me 404 - 15.079 ms[39m
+[11 Oct, 2024 - 20:35:20:3520] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:35:22:3522] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 3.026 ms[39m
+[11 Oct, 2024 - 20:35:24:3524] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=9937b55aeebe6a043025 200 - 1354.651 ms[39m
+[11 Oct, 2024 - 20:35:51:3551] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:35:52:3552] [35mhttp[39m: [35m::1 GET /auth/me 404 - 18.607 ms[39m
+[11 Oct, 2024 - 20:35:54:3554] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 3.393 ms[39m
+[11 Oct, 2024 - 20:35:56:3556] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=60d83b30d2f525cb5572 200 - 1265.414 ms[39m
+[11 Oct, 2024 - 20:38:25:3825] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:39:51:3951] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:40:03:403] [35mhttp[39m: [35m::1 GET /auth/me 404 - 13.109 ms[39m
+[11 Oct, 2024 - 20:40:05:405] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 2.681 ms[39m
+[11 Oct, 2024 - 20:40:07:407] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=39b9f93d36131af9fed9 200 - 1884.563 ms[39m
+[11 Oct, 2024 - 20:42:28:4228] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:42:31:4231] [35mhttp[39m: [35m::1 GET /auth/me 404 - 7.978 ms[39m
+[11 Oct, 2024 - 20:42:33:4233] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 3.765 ms[39m
+[11 Oct, 2024 - 20:42:37:4237] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=ae594e6c7e9244c0c20a 500 - 2770.653 ms[39m
+[11 Oct, 2024 - 20:43:09:439] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:51:50:5150] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:52:06:526] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:52:10:5210] [35mhttp[39m: [35m::1 GET /auth/me 404 - 8.329 ms[39m
+[11 Oct, 2024 - 20:52:13:5213] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 3.616 ms[39m
+[11 Oct, 2024 - 20:52:16:5216] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=a64d9ba5fe4c138722b0 200 - 2829.885 ms[39m
+[11 Oct, 2024 - 20:52:46:5246] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:52:50:5250] [35mhttp[39m: [35m::1 GET /auth/me 404 - 15.823 ms[39m
+[11 Oct, 2024 - 20:52:52:5252] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 3.229 ms[39m
+[11 Oct, 2024 - 20:52:55:5255] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=e2e59b0c4e098b4aec74 200 - 2524.875 ms[39m
+[11 Oct, 2024 - 20:53:54:5354] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:53:55:5355] [35mhttp[39m: [35m::1 GET /auth/me 404 - 11.280 ms[39m
+[11 Oct, 2024 - 20:53:57:5357] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 2.888 ms[39m
+[11 Oct, 2024 - 20:54:00:540] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=749bb96a9e3f9a90bd94 200 - 2740.920 ms[39m
+[11 Oct, 2024 - 20:55:23:5523] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:55:24:5524] [35mhttp[39m: [35m::1 GET /auth/me 404 - 7.122 ms[39m
+[11 Oct, 2024 - 20:56:00:560] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 3.977 ms[39m
+[11 Oct, 2024 - 20:56:03:563] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=43f2843fe1b905331962 200 - 2539.927 ms[39m
+[11 Oct, 2024 - 20:57:02:572] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:57:14:5714] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:58:23:5823] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 20:58:41:5841] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:00:46:046] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:00:49:049] [35mhttp[39m: [35m::1 GET /auth/me 404 - 9.445 ms[39m
+[11 Oct, 2024 - 21:00:51:051] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 3.919 ms[39m
+[11 Oct, 2024 - 21:00:58:058] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=bdcb6380ab8667f25523 500 - 2386.117 ms[39m
+[11 Oct, 2024 - 21:01:19:119] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:01:26:126] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=c0c7cb2f9641c5ed351f 200 - 2300.117 ms[39m
+[11 Oct, 2024 - 21:04:23:423] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:04:37:437] [35mhttp[39m: [35m::1 GET /auth/github/callback?error=access_denied&error_description=The+user+has+denied+your+application+access.&error_uri=https%3A%2F%2Fdocs.github.com%2Fapps%2Fmanaging-oauth-apps%2Ftroubleshooting-authorization-request-errors%2F%23access-denied 401 - 9.847 ms[39m
+[11 Oct, 2024 - 21:04:42:442] [35mhttp[39m: [35m::1 GET /auth/me 404 - 5.737 ms[39m
+[11 Oct, 2024 - 21:04:45:445] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 2.627 ms[39m
+[11 Oct, 2024 - 21:04:48:448] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=2d0600ef159b88658a55 302 - 2513.070 ms[39m
+[11 Oct, 2024 - 21:04:48:448] [35mhttp[39m: [35m::1 GET /auth/me 404 - 2.652 ms[39m
+[11 Oct, 2024 - 21:05:56:556] [35mhttp[39m: [35m::1 GET /auth/me 404 - 1.077 ms[39m
+[11 Oct, 2024 - 21:06:01:61] [35mhttp[39m: [35m::1 GET /auth/me 404 - 1.668 ms[39m
+[11 Oct, 2024 - 21:06:04:64] [35mhttp[39m: [35m::1 GET /auth/me 404 - 3.465 ms[39m
+[11 Oct, 2024 - 21:06:06:66] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 1.342 ms[39m
+[11 Oct, 2024 - 21:06:09:69] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=9b2bc446df68571d2fa5 302 - 2319.552 ms[39m
+[11 Oct, 2024 - 21:06:09:69] [35mhttp[39m: [35m::1 GET /auth/me 404 - 1.412 ms[39m
+[11 Oct, 2024 - 21:06:53:653] [35mhttp[39m: [35m::1 GET /auth/me 404 - 1.355 ms[39m
+[11 Oct, 2024 - 21:06:56:656] [35mhttp[39m: [35m::1 GET /auth/me 404 - 2.511 ms[39m
+[11 Oct, 2024 - 21:06:58:658] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 1.181 ms[39m
+[11 Oct, 2024 - 21:07:01:71] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=74fd2e0a849dc5fdbfcc 302 - 2184.170 ms[39m
+[11 Oct, 2024 - 21:07:01:71] [35mhttp[39m: [35m::1 GET /auth/me 404 - 1.983 ms[39m
+[11 Oct, 2024 - 21:07:52:752] [35mhttp[39m: [35m::1 GET /auth/me 404 - 1.744 ms[39m
+[11 Oct, 2024 - 21:07:56:756] [35mhttp[39m: [35m::1 GET /auth/me 404 - 1.189 ms[39m
+[11 Oct, 2024 - 21:07:58:758] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 1.000 ms[39m
+[11 Oct, 2024 - 21:08:01:81] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=476cce1245d5438fafea 302 - 2402.834 ms[39m
+[11 Oct, 2024 - 21:08:01:81] [35mhttp[39m: [35m::1 GET /auth/me 404 - 1.670 ms[39m
+[11 Oct, 2024 - 21:09:30:930] [35mhttp[39m: [35m::1 GET /user/is-looged-in 500 - 7.215 ms[39m
+[11 Oct, 2024 - 21:09:37:937] [35mhttp[39m: [35m::1 GET /auth/me 404 - 3.068 ms[39m
+[11 Oct, 2024 - 21:09:39:939] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 0.973 ms[39m
+[11 Oct, 2024 - 21:09:42:942] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=c47f5f7f92494a63a8c2 302 - 2030.040 ms[39m
+[11 Oct, 2024 - 21:09:42:942] [35mhttp[39m: [35m::1 GET /user/is-looged-in 500 - 4.789 ms[39m
+[11 Oct, 2024 - 21:11:00:110] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:11:01:111] [35mhttp[39m: [35m::1 GET /auth/me 404 - 7.516 ms[39m
+[11 Oct, 2024 - 21:11:03:113] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 3.671 ms[39m
+[11 Oct, 2024 - 21:11:06:116] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=a109505ac74e33e74b31 302 - 2428.707 ms[39m
+[11 Oct, 2024 - 21:11:07:117] [35mhttp[39m: [35m::1 GET /user/is-looged-in 500 - 12.453 ms[39m
+[11 Oct, 2024 - 21:11:58:1158] [35mhttp[39m: [35m::1 GET /auth/me 404 - 9.589 ms[39m
+[11 Oct, 2024 - 21:11:58:1158] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:11:59:1159] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 3.733 ms[39m
+[11 Oct, 2024 - 21:12:02:122] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=a5797e41ef43422ba59a 302 - 2585.199 ms[39m
+[11 Oct, 2024 - 21:12:02:122] [35mhttp[39m: [35m::1 GET /user/is-looged-in 500 - 6.641 ms[39m
+[11 Oct, 2024 - 21:13:07:137] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:13:07:137] [35mhttp[39m: [35m::1 GET /auth/me 404 - 6.872 ms[39m
+[11 Oct, 2024 - 21:13:08:138] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 4.866 ms[39m
+[11 Oct, 2024 - 21:13:11:1311] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=e02dcff0a520bf383170 302 - 2429.183 ms[39m
+[11 Oct, 2024 - 21:13:12:1312] [35mhttp[39m: [35m::1 GET /user/is-looged-in 500 - 139.894 ms[39m
+[11 Oct, 2024 - 21:13:40:1340] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:15:53:1553] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:16:02:162] [35mhttp[39m: [35m::1 GET /user/is-looged-in 500 - 21.272 ms[39m
+[11 Oct, 2024 - 21:16:23:1623] [35mhttp[39m: [35m::1 GET /user/is-looged-in 500 - 5.151 ms[39m
+[11 Oct, 2024 - 21:17:09:179] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:18:42:1842] [35mhttp[39m: [35m::1 GET /user/is-looged-in 500 - 23.887 ms[39m
+[11 Oct, 2024 - 21:19:38:1938] [35mhttp[39m: [35m::1 GET /user/is-looged-in 500 - 19.065 ms[39m
+[11 Oct, 2024 - 21:19:47:1947] [35mhttp[39m: [35m::1 GET /user/is-looged-in 500 - 5.212 ms[39m
+[11 Oct, 2024 - 21:21:17:2117] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:21:21:2121] [35mhttp[39m: [35m::1 GET /auth/me 404 - 16.419 ms[39m
+[11 Oct, 2024 - 21:21:22:2122] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 2.880 ms[39m
+[11 Oct, 2024 - 21:21:25:2125] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=bc625e08181d0211a7e3 302 - 2511.747 ms[39m
+[11 Oct, 2024 - 21:21:26:2126] [35mhttp[39m: [35m::1 GET /user/is-looged-in 500 - 55.281 ms[39m
+[11 Oct, 2024 - 21:22:13:2213] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:22:20:2220] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:22:22:2222] [35mhttp[39m: [35m::1 GET /auth/me 404 - 15.999 ms[39m
+[11 Oct, 2024 - 21:22:24:2224] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 4.933 ms[39m
+[11 Oct, 2024 - 21:22:41:2241] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=d8f85f61fe3e4d84a2d7 302 - 2340.826 ms[39m
+[11 Oct, 2024 - 21:22:41:2241] [35mhttp[39m: [35m::1 GET /user/is-looged-in 500 - 64.066 ms[39m
+[11 Oct, 2024 - 21:23:25:2325] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:23:32:2332] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=459199a9734e6b16b9ad 302 - 2361.386 ms[39m
+[11 Oct, 2024 - 21:23:32:2332] [35mhttp[39m: [35m::1 GET /user/is-looged-in 200 - 80.131 ms[39m
+[11 Oct, 2024 - 21:23:55:2355] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 77.769 ms[39m
+[11 Oct, 2024 - 21:24:12:2412] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 80.369 ms[39m
+[11 Oct, 2024 - 21:24:19:2419] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 69.380 ms[39m
+[11 Oct, 2024 - 21:25:08:258] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 103.210 ms[39m
+[11 Oct, 2024 - 21:52:53:5253] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:53:50:5350] [35mhttp[39m: [35m::1 GET /user/is-looged-in 401 - 11.793 ms[39m
+[11 Oct, 2024 - 21:53:55:5355] [35mhttp[39m: [35m::1 GET /user/is-looged-in 401 - 9.150 ms[39m
+[11 Oct, 2024 - 21:54:27:5427] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=0f17d8b17e2d2ad6ccf8 302 - 2489.721 ms[39m
+[11 Oct, 2024 - 21:54:28:5428] [35mhttp[39m: [35m::1 GET /user/is-looged-in 200 - 79.963 ms[39m
+[11 Oct, 2024 - 21:55:03:553] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 33.430 ms[39m
+[11 Oct, 2024 - 21:55:06:556] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 21:57:20:5720] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 11.665 ms[39m
+[11 Oct, 2024 - 21:57:24:5724] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 13.854 ms[39m
+[11 Oct, 2024 - 21:57:35:5735] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 9.376 ms[39m
+[11 Oct, 2024 - 21:57:43:5743] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 14.661 ms[39m
+[11 Oct, 2024 - 21:57:53:5753] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 15.259 ms[39m
+[11 Oct, 2024 - 21:57:55:5755] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 10.293 ms[39m
+[11 Oct, 2024 - 21:58:11:5811] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 20.998 ms[39m
+[11 Oct, 2024 - 21:58:32:5832] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 24.445 ms[39m
+[11 Oct, 2024 - 21:58:42:5842] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 12.817 ms[39m
+[11 Oct, 2024 - 22:06:00:60] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:06:25:625] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:08:17:817] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:08:26:826] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:09:00:90] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:11:56:1156] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 19.807 ms[39m
+[11 Oct, 2024 - 22:12:02:122] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 14.681 ms[39m
+[11 Oct, 2024 - 22:12:26:1226] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 7.362 ms[39m
+[11 Oct, 2024 - 22:14:39:1439] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 13.227 ms[39m
+[11 Oct, 2024 - 22:15:45:1545] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 18.922 ms[39m
+[11 Oct, 2024 - 22:15:51:1551] [35mhttp[39m: [35m::1 GET /user/logout 200 - 137.348 ms[39m
+[11 Oct, 2024 - 22:16:23:1623] [35mhttp[39m: [35m::1 GET /user/is-looged-in 401 - 5.085 ms[39m
+[11 Oct, 2024 - 22:17:30:1730] [35mhttp[39m: [35m::1 GET /user/is-looged-in 401 - 24.044 ms[39m
+[11 Oct, 2024 - 22:17:31:1731] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:18:42:1842] [35mhttp[39m: [35m::1 GET /user/is-looged-in 400 - 14.465 ms[39m
+[11 Oct, 2024 - 22:18:42:1842] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:18:48:1848] [35mhttp[39m: [35m::1 GET /user/is-looged-in 400 - 4.643 ms[39m
+[11 Oct, 2024 - 22:19:17:1917] [35mhttp[39m: [35m::1 GET /user/is-looged-in 400 - 10.137 ms[39m
+[11 Oct, 2024 - 22:19:17:1917] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:19:35:1935] [35mhttp[39m: [35m::1 GET /user/is-looged-in 400 - 17.970 ms[39m
+[11 Oct, 2024 - 22:19:35:1935] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:19:46:1946] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:19:57:1957] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:20:52:2052] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=06caec23fa2b65cbe06d 302 - 2927.284 ms[39m
+[11 Oct, 2024 - 22:20:53:2053] [35mhttp[39m: [35m::1 GET /user/is-looged-in 200 - 66.785 ms[39m
+[11 Oct, 2024 - 22:20:57:2057] [35mhttp[39m: [35m::1 GET /user/logout 304 - 137.274 ms[39m
+[11 Oct, 2024 - 22:21:00:210] [35mhttp[39m: [35m::1 GET /user/is-looged-in 400 - 105.865 ms[39m
+[11 Oct, 2024 - 22:24:47:2447] [35mhttp[39m: [35m::1 GET /auth/me 404 - 47.091 ms[39m
+[11 Oct, 2024 - 22:24:49:2449] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 82.974 ms[39m
+[11 Oct, 2024 - 22:24:52:2452] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=0fdc63061445e5abf6a2 302 - 2384.296 ms[39m
+[11 Oct, 2024 - 22:24:53:2453] [35mhttp[39m: [35m::1 GET /user/is-looged-in 200 - 125.829 ms[39m
+[11 Oct, 2024 - 22:24:53:2453] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 67.313 ms[39m
+[11 Oct, 2024 - 22:24:53:2453] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 62.225 ms[39m
+[11 Oct, 2024 - 22:24:53:2453] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 61.750 ms[39m
+[11 Oct, 2024 - 22:24:53:2453] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 67.345 ms[39m
+[11 Oct, 2024 - 22:24:53:2453] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 68.747 ms[39m
+[11 Oct, 2024 - 22:24:53:2453] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 69.606 ms[39m
+[11 Oct, 2024 - 22:24:53:2453] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 46.913 ms[39m
+[11 Oct, 2024 - 22:24:53:2453] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 48.582 ms[39m
+[11 Oct, 2024 - 22:24:53:2453] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 71.502 ms[39m
+[11 Oct, 2024 - 22:24:53:2453] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 63.027 ms[39m
+[11 Oct, 2024 - 22:24:54:2454] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 65.407 ms[39m
+[11 Oct, 2024 - 22:24:54:2454] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 65.824 ms[39m
+[11 Oct, 2024 - 22:24:54:2454] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 70.878 ms[39m
+[11 Oct, 2024 - 22:24:54:2454] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 73.540 ms[39m
+[11 Oct, 2024 - 22:24:54:2454] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 72.391 ms[39m
+[11 Oct, 2024 - 22:24:54:2454] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 71.746 ms[39m
+[11 Oct, 2024 - 22:24:54:2454] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 70.943 ms[39m
+[11 Oct, 2024 - 22:24:54:2454] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 73.713 ms[39m
+[11 Oct, 2024 - 22:24:54:2454] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 70.873 ms[39m
+[11 Oct, 2024 - 22:24:54:2454] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 74.734 ms[39m
+[11 Oct, 2024 - 22:24:54:2454] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 62.011 ms[39m
+[11 Oct, 2024 - 22:24:54:2454] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 76.775 ms[39m
+[11 Oct, 2024 - 22:24:55:2455] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 67.967 ms[39m
+[11 Oct, 2024 - 22:24:55:2455] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 44.929 ms[39m
+[11 Oct, 2024 - 22:24:55:2455] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 53.581 ms[39m
+[11 Oct, 2024 - 22:24:55:2455] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 69.776 ms[39m
+[11 Oct, 2024 - 22:24:55:2455] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 72.680 ms[39m
+[11 Oct, 2024 - 22:24:55:2455] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 105.312 ms[39m
+[11 Oct, 2024 - 22:24:55:2455] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 96.069 ms[39m
+[11 Oct, 2024 - 22:24:55:2455] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 47.481 ms[39m
+[11 Oct, 2024 - 22:24:55:2455] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 63.588 ms[39m
+[11 Oct, 2024 - 22:24:55:2455] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 86.064 ms[39m
+[11 Oct, 2024 - 22:24:55:2455] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 56.276 ms[39m
+[11 Oct, 2024 - 22:24:55:2455] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 43.594 ms[39m
+[11 Oct, 2024 - 22:24:55:2455] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 55.002 ms[39m
+[11 Oct, 2024 - 22:24:56:2456] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 65.138 ms[39m
+[11 Oct, 2024 - 22:24:56:2456] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 79.700 ms[39m
+[11 Oct, 2024 - 22:24:56:2456] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 65.418 ms[39m
+[11 Oct, 2024 - 22:24:56:2456] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 59.719 ms[39m
+[11 Oct, 2024 - 22:24:56:2456] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 95.397 ms[39m
+[11 Oct, 2024 - 22:24:56:2456] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 46.369 ms[39m
+[11 Oct, 2024 - 22:24:56:2456] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 111.392 ms[39m
+[11 Oct, 2024 - 22:24:56:2456] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 70.005 ms[39m
+[11 Oct, 2024 - 22:24:56:2456] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 65.049 ms[39m
+[11 Oct, 2024 - 22:24:56:2456] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 50.794 ms[39m
+[11 Oct, 2024 - 22:24:56:2456] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 67.984 ms[39m
+[11 Oct, 2024 - 22:24:56:2456] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 60.308 ms[39m
+[11 Oct, 2024 - 22:24:57:2457] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 74.013 ms[39m
+[11 Oct, 2024 - 22:24:57:2457] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 66.968 ms[39m
+[11 Oct, 2024 - 22:24:57:2457] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 46.331 ms[39m
+[11 Oct, 2024 - 22:24:57:2457] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 60.599 ms[39m
+[11 Oct, 2024 - 22:24:57:2457] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 64.199 ms[39m
+[11 Oct, 2024 - 22:24:57:2457] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 70.149 ms[39m
+[11 Oct, 2024 - 22:24:57:2457] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 74.865 ms[39m
+[11 Oct, 2024 - 22:24:57:2457] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 76.315 ms[39m
+[11 Oct, 2024 - 22:24:57:2457] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 67.452 ms[39m
+[11 Oct, 2024 - 22:24:57:2457] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 63.055 ms[39m
+[11 Oct, 2024 - 22:24:57:2457] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 76.734 ms[39m
+[11 Oct, 2024 - 22:24:57:2457] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 68.136 ms[39m
+[11 Oct, 2024 - 22:24:57:2457] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 77.870 ms[39m
+[11 Oct, 2024 - 22:24:58:2458] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 111.815 ms[39m
+[11 Oct, 2024 - 22:24:58:2458] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 355.615 ms[39m
+[11 Oct, 2024 - 22:24:58:2458] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 61.782 ms[39m
+[11 Oct, 2024 - 22:24:58:2458] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 67.866 ms[39m
+[11 Oct, 2024 - 22:24:58:2458] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 70.344 ms[39m
+[11 Oct, 2024 - 22:24:58:2458] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 77.332 ms[39m
+[11 Oct, 2024 - 22:24:58:2458] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 71.301 ms[39m
+[11 Oct, 2024 - 22:24:58:2458] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 41.561 ms[39m
+[11 Oct, 2024 - 22:24:58:2458] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 57.300 ms[39m
+[11 Oct, 2024 - 22:24:58:2458] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 74.996 ms[39m
+[11 Oct, 2024 - 22:24:59:2459] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 68.489 ms[39m
+[11 Oct, 2024 - 22:24:59:2459] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 73.248 ms[39m
+[11 Oct, 2024 - 22:24:59:2459] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 76.139 ms[39m
+[11 Oct, 2024 - 22:24:59:2459] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 65.213 ms[39m
+[11 Oct, 2024 - 22:24:59:2459] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 72.013 ms[39m
+[11 Oct, 2024 - 22:24:59:2459] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 74.438 ms[39m
+[11 Oct, 2024 - 22:24:59:2459] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 68.523 ms[39m
+[11 Oct, 2024 - 22:24:59:2459] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 63.556 ms[39m
+[11 Oct, 2024 - 22:24:59:2459] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 75.751 ms[39m
+[11 Oct, 2024 - 22:24:59:2459] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 72.953 ms[39m
+[11 Oct, 2024 - 22:24:59:2459] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 68.682 ms[39m
+[11 Oct, 2024 - 22:24:59:2459] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 67.615 ms[39m
+[11 Oct, 2024 - 22:25:00:250] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 51.598 ms[39m
+[11 Oct, 2024 - 22:25:00:250] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 68.671 ms[39m
+[11 Oct, 2024 - 22:25:00:250] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 81.540 ms[39m
+[11 Oct, 2024 - 22:25:00:250] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 60.388 ms[39m
+[11 Oct, 2024 - 22:25:00:250] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 103.709 ms[39m
+[11 Oct, 2024 - 22:25:00:250] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 66.592 ms[39m
+[11 Oct, 2024 - 22:25:00:250] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 68.860 ms[39m
+[11 Oct, 2024 - 22:25:00:250] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 66.609 ms[39m
+[11 Oct, 2024 - 22:25:00:250] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 70.630 ms[39m
+[11 Oct, 2024 - 22:25:00:250] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 70.634 ms[39m
+[11 Oct, 2024 - 22:25:00:250] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 61.162 ms[39m
+[11 Oct, 2024 - 22:25:01:251] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 69.149 ms[39m
+[11 Oct, 2024 - 22:25:01:251] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 72.367 ms[39m
+[11 Oct, 2024 - 22:25:01:251] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 94.761 ms[39m
+[11 Oct, 2024 - 22:25:01:251] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 65.837 ms[39m
+[11 Oct, 2024 - 22:25:01:251] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 64.122 ms[39m
+[11 Oct, 2024 - 22:25:01:251] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 47.064 ms[39m
+[11 Oct, 2024 - 22:25:01:251] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 63.362 ms[39m
+[11 Oct, 2024 - 22:25:01:251] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 45.630 ms[39m
+[11 Oct, 2024 - 22:25:01:251] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 48.147 ms[39m
+[11 Oct, 2024 - 22:25:01:251] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 47.881 ms[39m
+[11 Oct, 2024 - 22:25:01:251] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 52.645 ms[39m
+[11 Oct, 2024 - 22:25:01:251] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 59.312 ms[39m
+[11 Oct, 2024 - 22:25:02:252] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 65.373 ms[39m
+[11 Oct, 2024 - 22:25:02:252] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 75.365 ms[39m
+[11 Oct, 2024 - 22:25:02:252] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 56.575 ms[39m
+[11 Oct, 2024 - 22:25:02:252] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 40.354 ms[39m
+[11 Oct, 2024 - 22:25:02:252] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 34.138 ms[39m
+[11 Oct, 2024 - 22:25:02:252] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 41.096 ms[39m
+[11 Oct, 2024 - 22:25:02:252] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 51.186 ms[39m
+[11 Oct, 2024 - 22:25:02:252] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 79.283 ms[39m
+[11 Oct, 2024 - 22:25:02:252] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 53.438 ms[39m
+[11 Oct, 2024 - 22:25:02:252] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 106.696 ms[39m
+[11 Oct, 2024 - 22:25:03:253] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 81.001 ms[39m
+[11 Oct, 2024 - 22:25:03:253] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 62.043 ms[39m
+[11 Oct, 2024 - 22:25:03:253] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 56.493 ms[39m
+[11 Oct, 2024 - 22:25:03:253] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 56.004 ms[39m
+[11 Oct, 2024 - 22:25:03:253] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 50.510 ms[39m
+[11 Oct, 2024 - 22:25:03:253] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 46.396 ms[39m
+[11 Oct, 2024 - 22:25:03:253] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 50.112 ms[39m
+[11 Oct, 2024 - 22:25:03:253] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 50.321 ms[39m
+[11 Oct, 2024 - 22:25:03:253] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 72.683 ms[39m
+[11 Oct, 2024 - 22:25:03:253] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 72.496 ms[39m
+[11 Oct, 2024 - 22:25:03:253] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 46.061 ms[39m
+[11 Oct, 2024 - 22:25:03:253] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 69.966 ms[39m
+[11 Oct, 2024 - 22:25:03:253] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 49.426 ms[39m
+[11 Oct, 2024 - 22:25:03:253] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 38.059 ms[39m
+[11 Oct, 2024 - 22:25:03:253] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 62.367 ms[39m
+[11 Oct, 2024 - 22:25:04:254] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 66.577 ms[39m
+[11 Oct, 2024 - 22:25:04:254] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 77.538 ms[39m
+[11 Oct, 2024 - 22:25:04:254] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 63.313 ms[39m
+[11 Oct, 2024 - 22:25:04:254] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 74.079 ms[39m
+[11 Oct, 2024 - 22:25:04:254] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 75.160 ms[39m
+[11 Oct, 2024 - 22:25:04:254] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 68.278 ms[39m
+[11 Oct, 2024 - 22:25:04:254] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 76.021 ms[39m
+[11 Oct, 2024 - 22:25:04:254] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 70.587 ms[39m
+[11 Oct, 2024 - 22:25:04:254] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 76.320 ms[39m
+[11 Oct, 2024 - 22:25:04:254] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 65.412 ms[39m
+[11 Oct, 2024 - 22:25:04:254] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 73.514 ms[39m
+[11 Oct, 2024 - 22:25:04:254] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 79.939 ms[39m
+[11 Oct, 2024 - 22:25:05:255] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 66.928 ms[39m
+[11 Oct, 2024 - 22:25:05:255] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 41.420 ms[39m
+[11 Oct, 2024 - 22:25:05:255] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 59.789 ms[39m
+[11 Oct, 2024 - 22:25:05:255] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 72.084 ms[39m
+[11 Oct, 2024 - 22:25:05:255] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 70.509 ms[39m
+[11 Oct, 2024 - 22:25:05:255] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 437.969 ms[39m
+[11 Oct, 2024 - 22:25:05:255] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 75.767 ms[39m
+[11 Oct, 2024 - 22:25:05:255] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 62.222 ms[39m
+[11 Oct, 2024 - 22:25:05:255] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 69.004 ms[39m
+[11 Oct, 2024 - 22:25:06:256] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 61.990 ms[39m
+[11 Oct, 2024 - 22:25:06:256] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 49.024 ms[39m
+[11 Oct, 2024 - 22:25:06:256] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 59.705 ms[39m
+[11 Oct, 2024 - 22:25:06:256] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 67.559 ms[39m
+[11 Oct, 2024 - 22:25:06:256] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 98.939 ms[39m
+[11 Oct, 2024 - 22:25:06:256] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 70.892 ms[39m
+[11 Oct, 2024 - 22:25:06:256] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 46.780 ms[39m
+[11 Oct, 2024 - 22:25:06:256] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 70.656 ms[39m
+[11 Oct, 2024 - 22:25:06:256] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 45.878 ms[39m
+[11 Oct, 2024 - 22:25:06:256] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 52.534 ms[39m
+[11 Oct, 2024 - 22:25:06:256] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 76.969 ms[39m
+[11 Oct, 2024 - 22:25:06:256] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 107.350 ms[39m
+[11 Oct, 2024 - 22:25:07:257] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 66.690 ms[39m
+[11 Oct, 2024 - 22:25:07:257] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 52.153 ms[39m
+[11 Oct, 2024 - 22:25:07:257] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 62.697 ms[39m
+[11 Oct, 2024 - 22:25:07:257] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 91.870 ms[39m
+[11 Oct, 2024 - 22:25:07:257] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 58.446 ms[39m
+[11 Oct, 2024 - 22:25:07:257] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 128.430 ms[39m
+[11 Oct, 2024 - 22:25:07:257] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 49.014 ms[39m
+[11 Oct, 2024 - 22:25:07:257] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 91.018 ms[39m
+[11 Oct, 2024 - 22:25:07:257] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 58.276 ms[39m
+[11 Oct, 2024 - 22:25:07:257] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 36.529 ms[39m
+[11 Oct, 2024 - 22:25:08:258] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 59.255 ms[39m
+[11 Oct, 2024 - 22:25:08:258] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 64.771 ms[39m
+[11 Oct, 2024 - 22:25:08:258] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 77.118 ms[39m
+[11 Oct, 2024 - 22:25:08:258] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 69.692 ms[39m
+[11 Oct, 2024 - 22:25:08:258] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 53.300 ms[39m
+[11 Oct, 2024 - 22:25:08:258] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 68.998 ms[39m
+[11 Oct, 2024 - 22:25:08:258] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 66.849 ms[39m
+[11 Oct, 2024 - 22:25:08:258] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 74.943 ms[39m
+[11 Oct, 2024 - 22:25:08:258] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 66.135 ms[39m
+[11 Oct, 2024 - 22:25:08:258] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 66.375 ms[39m
+[11 Oct, 2024 - 22:25:08:258] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 71.314 ms[39m
+[11 Oct, 2024 - 22:25:08:258] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 71.737 ms[39m
+[11 Oct, 2024 - 22:25:08:258] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 76.902 ms[39m
+[11 Oct, 2024 - 22:25:09:259] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 73.087 ms[39m
+[11 Oct, 2024 - 22:25:09:259] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 50.971 ms[39m
+[11 Oct, 2024 - 22:25:09:259] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 81.446 ms[39m
+[11 Oct, 2024 - 22:25:09:259] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 70.625 ms[39m
+[11 Oct, 2024 - 22:25:09:259] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 67.957 ms[39m
+[11 Oct, 2024 - 22:25:09:259] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 71.432 ms[39m
+[11 Oct, 2024 - 22:25:09:259] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 72.883 ms[39m
+[11 Oct, 2024 - 22:25:09:259] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 70.660 ms[39m
+[11 Oct, 2024 - 22:25:09:259] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 50.011 ms[39m
+[11 Oct, 2024 - 22:25:09:259] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 56.805 ms[39m
+[11 Oct, 2024 - 22:25:09:259] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 62.210 ms[39m
+[11 Oct, 2024 - 22:25:09:259] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 48.780 ms[39m
+[11 Oct, 2024 - 22:25:09:259] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 63.873 ms[39m
+[11 Oct, 2024 - 22:25:10:2510] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 68.313 ms[39m
+[11 Oct, 2024 - 22:25:10:2510] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 71.695 ms[39m
+[11 Oct, 2024 - 22:25:10:2510] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 66.057 ms[39m
+[11 Oct, 2024 - 22:25:10:2510] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 68.961 ms[39m
+[11 Oct, 2024 - 22:25:10:2510] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 77.239 ms[39m
+[11 Oct, 2024 - 22:25:10:2510] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 71.469 ms[39m
+[11 Oct, 2024 - 22:25:10:2510] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 69.401 ms[39m
+[11 Oct, 2024 - 22:25:10:2510] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 68.780 ms[39m
+[11 Oct, 2024 - 22:25:10:2510] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 69.967 ms[39m
+[11 Oct, 2024 - 22:25:10:2510] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 69.390 ms[39m
+[11 Oct, 2024 - 22:25:10:2510] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 78.742 ms[39m
+[11 Oct, 2024 - 22:25:10:2510] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 63.289 ms[39m
+[11 Oct, 2024 - 22:25:10:2510] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 69.217 ms[39m
+[11 Oct, 2024 - 22:25:11:2511] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 76.643 ms[39m
+[11 Oct, 2024 - 22:25:11:2511] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 66.873 ms[39m
+[11 Oct, 2024 - 22:25:11:2511] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 85.133 ms[39m
+[11 Oct, 2024 - 22:25:11:2511] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 83.164 ms[39m
+[11 Oct, 2024 - 22:25:11:2511] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 43.045 ms[39m
+[11 Oct, 2024 - 22:25:11:2511] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 73.280 ms[39m
+[11 Oct, 2024 - 22:25:11:2511] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 67.287 ms[39m
+[11 Oct, 2024 - 22:25:11:2511] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 65.377 ms[39m
+[11 Oct, 2024 - 22:25:11:2511] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 106.685 ms[39m
+[11 Oct, 2024 - 22:25:11:2511] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 68.938 ms[39m
+[11 Oct, 2024 - 22:25:11:2511] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 72.439 ms[39m
+[11 Oct, 2024 - 22:25:11:2511] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 76.799 ms[39m
+[11 Oct, 2024 - 22:25:12:2512] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 67.676 ms[39m
+[11 Oct, 2024 - 22:25:12:2512] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 72.055 ms[39m
+[11 Oct, 2024 - 22:25:12:2512] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 77.288 ms[39m
+[11 Oct, 2024 - 22:25:12:2512] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 67.174 ms[39m
+[11 Oct, 2024 - 22:25:12:2512] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 71.079 ms[39m
+[11 Oct, 2024 - 22:25:12:2512] [35mhttp[39m: [35m::1 GET /user/logout 304 - 153.334 ms[39m
+[11 Oct, 2024 - 22:25:12:2512] [35mhttp[39m: [35m::1 GET /user/is-looged-in 304 - 69.290 ms[39m
+[11 Oct, 2024 - 22:25:12:2512] [35mhttp[39m: [35m::1 GET /user/is-looged-in 400 - 64.575 ms[39m
+[11 Oct, 2024 - 22:25:12:2512] [35mhttp[39m: [35m::1 GET /user/is-looged-in 400 - 39.245 ms[39m
+[11 Oct, 2024 - 22:25:56:2556] [35mhttp[39m: [35m::1 GET /user/logout 400 - 74.939 ms[39m
+[11 Oct, 2024 - 22:25:58:2558] [35mhttp[39m: [35m::1 GET /user/logout 400 - 92.875 ms[39m
+[11 Oct, 2024 - 22:26:00:260] [35mhttp[39m: [35m::1 GET /user/logout 400 - 40.281 ms[39m
+[11 Oct, 2024 - 22:26:34:2634] [35mhttp[39m: [35m::1 GET /user/is-looged-in 400 - 39.197 ms[39m
+[11 Oct, 2024 - 22:26:38:2638] [35mhttp[39m: [35m::1 GET /user/logout 400 - 44.777 ms[39m
+[11 Oct, 2024 - 22:26:41:2641] [35mhttp[39m: [35m::1 GET /user/is-looged-in 400 - 52.323 ms[39m
+[11 Oct, 2024 - 22:26:57:2657] [35mhttp[39m: [35m::1 GET /auth/me 404 - 46.814 ms[39m
+[11 Oct, 2024 - 22:26:59:2659] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 77.888 ms[39m
+[11 Oct, 2024 - 22:27:01:271] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=ca61279114e2cb88d741 302 - 2410.142 ms[39m
+[11 Oct, 2024 - 22:27:02:272] [35mhttp[39m: [35m::1 GET /user/is-looged-in 200 - 48.962 ms[39m
+[11 Oct, 2024 - 22:27:07:277] [35mhttp[39m: [35m::1 GET /user/logout 200 - 141.874 ms[39m
+[11 Oct, 2024 - 22:27:13:2713] [35mhttp[39m: [35m::1 GET /user/is-looged-in 400 - 98.659 ms[39m
+[11 Oct, 2024 - 22:27:34:2734] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:27:35:2735] [35mhttp[39m: [35m::1 GET /user/is-looged-in 400 - 15.270 ms[39m
+[11 Oct, 2024 - 22:28:21:2821] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:28:26:2826] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Oct, 2024 - 22:28:29:2829] [35mhttp[39m: [35m::1 GET /user/is-looged-in 200 - 15.032 ms[39m
+[12 Oct, 2024 - 11:28:25:2825] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 11:29:30:2930] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 11:32:46:3246] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 11:34:42:3442] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 11:35:23:3523] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 11:36:14:3614] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 11:36:17:3617] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 11:37:11:3711] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 14:25:23:2523] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 14:46:54:4654] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 14:47:43:4743] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 14:47:52:4752] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 14:48:47:4847] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 14:50:09:509] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 14:51:53:5153] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 14:55:25:5525] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 297.440 ms[39m
+[12 Oct, 2024 - 17:34:41:3441] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:34:46:3446] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:35:16:3516] [35mhttp[39m: [35m::1 POST /user/login/google 500 - 735.765 ms[39m
+[12 Oct, 2024 - 17:36:43:3643] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:36:54:3654] [35mhttp[39m: [35m::1 POST /user/login/google 500 - 641.524 ms[39m
+[12 Oct, 2024 - 17:38:05:385] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:38:08:388] [35mhttp[39m: [35m::1 POST /user/login/google 500 - 615.619 ms[39m
+[12 Oct, 2024 - 17:39:34:3934] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:39:50:3950] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:39:58:3958] [35mhttp[39m: [35m::1 POST /user/login/google 500 - 611.748 ms[39m
+[12 Oct, 2024 - 17:41:53:4153] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:42:01:421] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 820.429 ms[39m
+[12 Oct, 2024 - 17:42:25:4225] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 581.703 ms[39m
+[12 Oct, 2024 - 17:44:50:4450] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:45:39:4539] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[12 Oct, 2024 - 17:45:47:4547] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 891.593 ms[39m
+[12 Oct, 2024 - 17:46:24:4624] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 533.742 ms[39m
+[12 Oct, 2024 - 17:46:55:4655] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 719.699 ms[39m
