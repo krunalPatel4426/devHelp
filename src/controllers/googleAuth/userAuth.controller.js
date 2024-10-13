@@ -29,8 +29,8 @@ const loginUser = asyncHandler(async (req, res) => {
   const user = await User.findOne({ email });
   const options = {
     httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
-    sameSite: "lax",
+    secure: process.env.NODE_ENV === 'production',
+    sameSite: 'lax'
   };
   console.log(user);
   if (!user) {
@@ -46,9 +46,9 @@ const loginUser = asyncHandler(async (req, res) => {
     );
     newUser.refreshToken = refreshToken;
     await newUser.save({validateBeforeSave: false});
-    res.cookie("accessToken", accessToken, options);
-    res.cookie("refreshToken", refreshToken, options);
-    return res.status(200).json({
+    // res.cookie("accessToken", accessToken, options);
+    // res.cookie("refreshToken", refreshToken, options);
+    return res.status(200).cookie("accessToken", accessToken, options).cookie("refreshToken", refreshToken, options).json({
       message: "User created successfully",
       user: newUser,
     });
