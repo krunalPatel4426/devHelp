@@ -29,8 +29,10 @@ const loginUser = asyncHandler(async (req, res) => {
   const user = await User.findOne({ email });
   const options = {
     httpOnly: true,
-    secure: process.env.NODE_ENV === 'production',
-    sameSite: 'lax'
+    secure: process.env.NODE_ENV === "production",
+    sameSite: "lax",
+    maxAge: 24*60*60*1000,
+    path: '/',
   };
   console.log(user);
   if (!user) {
@@ -45,25 +47,29 @@ const loginUser = asyncHandler(async (req, res) => {
       newUser
     );
     newUser.refreshToken = refreshToken;
-    await newUser.save({validateBeforeSave: false});
+    await newUser.save({ validateBeforeSave: false });
     // res.cookie("accessToken", accessToken, options);
     // res.cookie("refreshToken", refreshToken, options);
-    return res.status(200).cookie("accessToken", accessToken, options).cookie("refreshToken", refreshToken, options).json({
-      message: "User created successfully",
-      user: newUser,
-    });
+    return res
+      .status(200)
+      .cookie("accessToken", accessToken, options)
+      .cookie("refreshToken", refreshToken, options)
+      .json({
+        message: "User created successfully",
+        user: newUser,
+      });
   }
   const { accessToken, refreshToken } = await generateAccessAndRefreshToken(
     user
   );
   console.log(user);
   user.refreshToken = refreshToken;
-  await user.save({validateBeforeSave: false});
+  await user.save({ validateBeforeSave: false });
   res.cookie("accessToken", accessToken, options);
   res.cookie("refreshToken", refreshToken, options);
   return res.status(200).json({
     message: "user data",
-    user
+    user,
   });
 });
 

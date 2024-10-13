@@ -3195,3 +3195,19 @@
 [13 Oct, 2024 - 20:37:38:3738] [34minfo[39m: [34m[39m
 [34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
 [34m[39m
+[13 Oct, 2024 - 20:56:36:5636] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[13 Oct, 2024 - 21:11:13:1113] [35mhttp[39m: [35m::1 GET /auth/me 404 - 17.151 ms[39m
+[13 Oct, 2024 - 21:11:16:1116] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 3.934 ms[39m
+[13 Oct, 2024 - 21:11:19:1119] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=e0d89505f78a79a6139e 302 - 2772.555 ms[39m
+[13 Oct, 2024 - 21:11:20:1120] [35mhttp[39m: [35m::1 GET /user/is-looged-in 200 - 52.212 ms[39m
+[13 Oct, 2024 - 21:11:43:1143] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=d2c6bff8019af54ac271 302 - 2060.373 ms[39m
+[13 Oct, 2024 - 21:11:43:1143] [35mhttp[39m: [35m::1 GET /user/is-looged-in 200 - 58.386 ms[39m
+[13 Oct, 2024 - 21:12:48:1248] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[13 Oct, 2024 - 21:12:55:1255] [35mhttp[39m: [35m::1 GET /user/logout 200 - 88.025 ms[39m
+[13 Oct, 2024 - 21:12:55:1255] [35mhttp[39m: [35m::1 GET /auth/me 404 - 9.248 ms[39m
+[13 Oct, 2024 - 21:12:56:1256] [35mhttp[39m: [35m::1 GET /auth/github/login 302 - 5.022 ms[39m
+[13 Oct, 2024 - 21:12:59:1259] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=e22b5f534d578c07eda1 302 - 2547.766 ms[39m

@@ -19,7 +19,7 @@ const generateAccessAndRefreshToken = async (id) => {
 };
 
 const githubLogin = asyncHandler(async (req, res) => {
-  console.log(req.user);
+  // console.log(req.user);
   const { accessToken, refreshToken } = await generateAccessAndRefreshToken(req.user._id);
   const options = {
     httpOnly: true,
@@ -29,7 +29,7 @@ const githubLogin = asyncHandler(async (req, res) => {
   console.log(accessToken, refreshToken)
   res.cookie("accessToken", accessToken, options);
   res.cookie("refreshToken", refreshToken, options);
-  res.redirect("http://localhost:5173/profile");
+  res.redirect("https://devhelpp.vercel.app");
 //   res.status(200).json({ message: "data got", user: req.user });
 });
 
