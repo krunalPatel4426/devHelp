@@ -2,7 +2,7 @@ import { Interview } from "../../models/interview.model.js";
 import { asyncHandler } from "../../utils/asyncHandler.js";
 
 const addInterviewDataset = asyncHandler(async (req, res) => {
-  const { title, img, description, Link, tags, isFree } = req.body;
+  const { title, img, description, Link, tags, isFree, focus } = req.body;
   const interviewData = await Interview.create({
     title,
     img,
@@ -10,6 +10,7 @@ const addInterviewDataset = asyncHandler(async (req, res) => {
     Link,
     tags,
     isFree,
+    focus
   });
   return res.status(200).json({
     message: "data added",

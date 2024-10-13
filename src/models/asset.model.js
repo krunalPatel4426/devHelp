@@ -10,6 +10,9 @@ const assetSchema = new Schema({
   description: {
     type: String,
   },
+  focus:{
+    type: String,
+  },
   assetLink: [
     {
       type: String,

@@ -2,7 +2,7 @@ import { Asset } from "../../models/asset.model.js";
 import { asyncHandler } from "../../utils/asyncHandler.js";
 
 const addAsset = asyncHandler(async (req, res) => {
-  const { assetName, img, description, assetLink, tags, isFree } = req.body;
+  const { assetName, img, description, assetLink, tags, isFree, focus } = req.body;
   const asset = await Asset.create({
     assetName,
     img,
@@ -10,6 +10,7 @@ const addAsset = asyncHandler(async (req, res) => {
     assetLink,
     tags,
     isFree,
+    focus,
   });
   return res.status(200).json({
     message: "data added",

@@ -10,6 +10,9 @@ const interviewSchema = new Schema({
   description: {
     type: String,
   },
+  focus: {
+    type: String,
+  },
   Link: [
     {
       type: String,
