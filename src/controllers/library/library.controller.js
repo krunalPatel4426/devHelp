@@ -2,7 +2,7 @@ import { Library } from "../../models/libraries.model.js";
 import { asyncHandler } from "../../utils/asyncHandler.js";
 
 const addLibrary = asyncHandler(async (req, res) => {
-  const { Librarytitle, img, description, libraryLink, tags, isFree, libType } =
+  const { Librarytitle, img, description, libraryLink, tags, isFree, libType, focus } =
     req.body;
   const library = await Library.create({
     Librarytitle,
@@ -11,7 +11,8 @@ const addLibrary = asyncHandler(async (req, res) => {
     libraryLink,
     tags,
     isFree,
-    libType
+    libType,
+    focus
   });
   return res.status(200).json({
     message: "data added",

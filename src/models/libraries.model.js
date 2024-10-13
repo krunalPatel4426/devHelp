@@ -13,6 +13,9 @@ const librarySchema = new Schema({
   libType: {
     type: String,
   },
+  focus: {
+    type: String,
+  },
   libraryLink: [
     {
       type: String,
