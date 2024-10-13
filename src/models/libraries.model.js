@@ -10,6 +10,9 @@ const librarySchema = new Schema({
   description: {
     type: String,
   },
+  libType: {
+    type: String,
+  },
   libraryLink: [
     {
       type: String,

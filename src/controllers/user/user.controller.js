@@ -148,7 +148,7 @@ const logout = asyncHandler(async (req, res) => {
   };
   return res.status(200).clearCookie("accessToken", options)
     .clearCookie("refreshToken", options).
-    json({"message" : "user logged out successfully"});
+    json({"message" : "user logged out successfully", isLoggedIn: false});
 });
 
 //complete in future if needed it return reviews in which given perticular user given
