@@ -21,7 +21,7 @@ const addAsset = asyncHandler(async (req, res) => {
 const getAllAssetData = asyncHandler(async (req, res) => {
   try {
     const assets = await Asset.find({}).select(
-      "-assetLink -tags -rating -reviews -__v -totalRatings -averageRating"
+      "-assetLink -tags -reviews -__v -averageRating"
     );
     return res.status(200).json({
       message: "data fetched successfully",
@@ -61,34 +61,32 @@ const ratingAsset = asyncHandler(async (req, res) => {
   try {
     const asset = await Asset.findById(assetId);
     if (!asset) return res.status(500).json({ message: "data not found" });
-    let totalRating = asset.totalRatings;
 
     const existingRating = asset.rating.find(
       (r) => r.userId.toString() === userId.toString()
     );
 
     if (existingRating) {
+      let oldRating = existingRating.rating;
       existingRating.rating = rating;
       existingRating.ratedAt = Date.now();
+      asset.totalRatings = (asset.totalRatings - oldRating) + rating;
     } else {
-      totalRating++;
+      asset.totalRatings = asset.totalRatings + rating;
       asset.rating.push({
         userId: userId,
         rating: rating,
       });
-      asset.totalRatings = totalRating;
     }
 
     const data = await asset.save({ validateBeforeSave: false });
     const ratingData = {
-      totalRatings: totalRating,
-      assetId: assetId,
-      userId: data.userId,
+      totalRatings: data.totalRatings,
       rating: data.rating,
-      ratedAt: data.ratedAt,
     };
     return res.status(200).json({
       message: "asset rated successfully.",
+      ratingData
     });
   } catch (error) {
     return res.status(500).json({

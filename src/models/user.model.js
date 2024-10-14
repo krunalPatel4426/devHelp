@@ -85,10 +85,8 @@ const userSchema = new mongoose.Schema({
         {
             _id : this._id,
             email: this.email,
-            username: this.username,
-            isEmployee: this.isEmployee,
-            isNormalUser: this.isNormalUser,
-            isAdmin: this.isAdmin,
+            name: this.name,
+            githubId: this.githubId
         },
         process.env.ACCESS_TOKEN_SECRET,
         {

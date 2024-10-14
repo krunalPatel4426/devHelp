@@ -28,9 +28,8 @@ const getAllCourseData = asyncHandler(async (req, res) => {
     const courseIds = req.body.courses;
     const courses = await Course.find(
       { _id: { $in: courseIds } },
-      "-tags -averageRating -videoLink -__v -rating -reviews"
+      "-tags -averageRating -videoLink -__v -reviews"
     );
-    // console.log(courses);
     res.status(200).json({ message: "data fetch successfully", courses });
   } catch (error) {
     return res.status(500).json({ message: error });
@@ -53,46 +52,41 @@ const getCourseData = asyncHandler(async (req, res) => {
 const rating = asyncHandler(async (req, res) => {
   const { courseId } = req.params;
   const { userId, rating } = req.body;
-  // console.log(userId, rating);
   if (!(courseId && userId && rating))
     return res.status(500).json({ message: "some infromation is missing." });
 
   try {
     const course = await Course.findById(courseId);
-    let totalRating = course.totalRatings;
-    // console.log(course);
     if (!course) return res.status(500).json({ message: "can not find data" });
     //If user Already Rated or not
     const existingRating = course.rating.find(
       (r) => r.userId.toString() === userId.toString()
     );
     if (existingRating) {
-      // console.log(existingRating)
+      let oldRating = existingRating.rating;
+      let newTotalRating = (course.totalRatings - oldRating ) + rating;
       existingRating.rating = rating;
       existingRating.ratedAt = Date.now();
-      // await existingRating.save({validateBeforeSave: false});
+      course.totalRatings = newTotalRating;
     } else {
-      // console.log(totalRating);
-      totalRating++;
+      course.totalRatings = course.totalRatings + rating;
       course.rating.push({
         userId: userId,
         rating: rating,
       });
-      course.totalRatings = totalRating;
     }
 
     const data = await course.save({ validateBeforeSave: false });
     const ratingData = {
-      totalRatings: totalRating,
-      courseId: courseId,
-      userId: data.userId,
+      totalRatings: data.totalRatings,
       rating: data.rating,
-      ratedAt: data.ratedAt,
     };
     return res.status(200).json({
       message: "rating added or updated",
+      ratingData
     });
   } catch (error) {
+    console.log(error)
     return res.status(500).json({
       message: error,
     });
@@ -170,7 +164,8 @@ const getCourseByTag = asyncHandler(async (req, res) => {
 });
 
 export {
-  addCourse, addReview,
+  addCourse,
+  addReview,
   deleteReview,
   getAllCourseData,
   getCourseByTag,

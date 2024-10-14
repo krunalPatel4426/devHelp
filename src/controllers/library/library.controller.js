@@ -23,11 +23,11 @@ const addLibrary = asyncHandler(async (req, res) => {
 const getAllLibraryData = asyncHandler(async (req, res) => {
   try {
     const libraries = await Library.find({}).select(
-      "-libraryLink -tags -rating -reviews -__v -totalRatings -averageRating"
+      "-libraryLink -tags -reviews -__v -averageRating"
     );
     return res.status(200).json({
       message: "data fetched successfully",
-      data: libraries,
+      data: libraries
     });
   } catch (error) {
     return res.status(500).json({
@@ -71,26 +71,25 @@ const ratingLibrary = asyncHandler(async (req, res) => {
       (r) => r.userId.toString() === userId.toString()
     );
     if (existingRating) {
+      let oldRating = existingRating.rating;
       existingRating.rating = rating;
       existingRating.ratedAt = Date.now();
+      library.totalRatings = (library.totalRatings - oldRating) + rating;
     } else {
-      totalRating++;
+      library.totalRatings = library.totalRatings + rating;
       library.rating.push({
         userId: userId,
         rating: rating,
       });
-      library.totalRatings = totalRating;
     }
     const data = await library.save({ validateBeforeSave: false });
     const ratingData = {
-      totalRatings: totalRating,
-      libraryId: libraryId,
-      userId: data.userId,
+      totalRatings: data.totalRatings,
       rating: data.rating,
-      ratedAt: data.ratedAt,
     };
     return res.status(200).json({
       message: "library rated succeffuly",
+      ratingData
     });
   } catch (error) {
     return res.status(500).json({

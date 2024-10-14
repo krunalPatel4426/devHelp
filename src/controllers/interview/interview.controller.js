@@ -21,7 +21,7 @@ const addInterviewDataset = asyncHandler(async (req, res) => {
 const getAllInterviewData = asyncHandler(async (req, res) => {
   try {
     const interview = await Interview.find({}).select(
-      "-Link -tags -rating -reviews -__v -totalRatings -averageRating"
+      "-Link -tags -reviews -__v -averageRating"
     );
     return res.status(200).json({
       message: "data fetched successfully",
@@ -61,34 +61,32 @@ const getPerticularInterviewData = asyncHandler(async (req, res) => {
     try {
       const interviewData = await Interview.findById(id);
       if (!interviewData) return res.status(500).json({ message: "data not found" });
-      let totalRating = interviewData.totalRatings;
-  
+      
       const existingRating = interviewData.rating.find(
         (r) => r.userId.toString() === userId.toString()
       );
-  
+      
       if (existingRating) {
+        let oldRating = existingRating.rating;
         existingRating.rating = rating;
         existingRating.ratedAt = Date.now();
+        interviewData.totalRatings = (interviewData.totalRatings - oldRating) + rating;
       } else {
-        totalRating++;
+        interviewData.totalRatings = interviewData.totalRatings + rating;
         interviewData.rating.push({
           userId: userId,
           rating: rating,
         });
-        interviewData.totalRatings = totalRating;
       }
   
       const data = await interviewData.save({ validateBeforeSave: false });
       const ratingData = {
-        totalRatings: totalRating,
-        id: id,
-        userId: data.userId,
+        totalRatings: data.totalRatings,
         rating: data.rating,
-        ratedAt: data.ratedAt,
       };
       return res.status(200).json({
         message: "interviewData rated successfully.",
+        ratingData
       });
     } catch (error) {
       return res.status(500).json({

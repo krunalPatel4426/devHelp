@@ -3215,3 +3215,279 @@
 [34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
 [34m[39m
 [13 Oct, 2024 - 21:16:37:1637] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=954cc72a736adea24ae3 302 - 2401.488 ms[39m
+[14 Oct, 2024 - 04:35:06:356] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 04:35:09:359] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 125.185 ms[39m
+[14 Oct, 2024 - 04:35:29:3529] [35mhttp[39m: [35m::1 POST /course/rating/66fecf914b1afb8b321f4633 500 - 68.124 ms[39m
+[14 Oct, 2024 - 04:36:03:363] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 151.724 ms[39m
+[14 Oct, 2024 - 04:36:14:3614] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 94.805 ms[39m
+[14 Oct, 2024 - 04:36:26:3626] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 111.937 ms[39m
+[14 Oct, 2024 - 04:36:41:3641] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 121.640 ms[39m
+[14 Oct, 2024 - 04:37:13:3713] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 64.586 ms[39m
+[14 Oct, 2024 - 04:37:38:3738] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 04:38:07:387] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 04:38:07:387] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 97.390 ms[39m
+[14 Oct, 2024 - 04:38:18:3818] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 80.987 ms[39m
+[14 Oct, 2024 - 04:38:47:3847] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 04:38:52:3852] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 72.688 ms[39m
+[14 Oct, 2024 - 04:39:31:3931] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 04:39:33:3933] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 73.913 ms[39m
+[14 Oct, 2024 - 04:45:04:454] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 04:45:12:4512] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 110.108 ms[39m
+[14 Oct, 2024 - 04:45:32:4532] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 04:45:34:4534] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 97.959 ms[39m
+[14 Oct, 2024 - 04:45:44:4544] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 04:45:44:4544] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 71.627 ms[39m
+[14 Oct, 2024 - 04:46:05:465] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 04:46:08:468] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 77.029 ms[39m
+[14 Oct, 2024 - 04:46:30:4630] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 04:46:31:4631] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 76.985 ms[39m
+[14 Oct, 2024 - 04:46:46:4646] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 04:46:47:4647] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 69.044 ms[39m
+[14 Oct, 2024 - 04:47:21:4721] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 04:47:55:4755] [35mhttp[39m: [35m::1 POST /course/rating/67091c29ce3273ebe2bec0bf 200 - 156.761 ms[39m
+[14 Oct, 2024 - 04:48:09:489] [35mhttp[39m: [35m::1 POST /course/rating/67091c29ce3273ebe2bec0bf 200 - 116.684 ms[39m
+[14 Oct, 2024 - 04:48:22:4822] [35mhttp[39m: [35m::1 POST /course/rating/67091c29ce3273ebe2bec0bf 200 - 82.706 ms[39m
+[14 Oct, 2024 - 04:49:06:496] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 83.784 ms[39m
+[14 Oct, 2024 - 17:54:29:5429] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 17:56:43:5643] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 17:59:08:598] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:00:00:00] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:00:29:029] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 95.362 ms[39m
+[14 Oct, 2024 - 18:01:05:15] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 100.465 ms[39m
+[14 Oct, 2024 - 18:01:27:127] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:01:28:128] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 60.745 ms[39m
+[14 Oct, 2024 - 18:01:44:144] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:01:44:144] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 494.261 ms[39m
+[14 Oct, 2024 - 18:02:01:21] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:02:01:21] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 60.470 ms[39m
+[14 Oct, 2024 - 18:02:24:224] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:02:26:226] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 89.002 ms[39m
+[14 Oct, 2024 - 18:02:38:238] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:02:41:241] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 65.514 ms[39m
+[14 Oct, 2024 - 18:03:45:345] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:03:46:346] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 75.512 ms[39m
+[14 Oct, 2024 - 18:05:26:526] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:05:29:529] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:05:31:531] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 87.594 ms[39m
+[14 Oct, 2024 - 18:05:51:551] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:05:53:553] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 131.049 ms[39m
+[14 Oct, 2024 - 18:06:12:612] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:06:13:613] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 78.007 ms[39m
+[14 Oct, 2024 - 18:07:07:77] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:07:08:78] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 83.530 ms[39m
+[14 Oct, 2024 - 18:07:47:747] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:07:48:748] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 103.767 ms[39m
+[14 Oct, 2024 - 18:09:48:948] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:09:48:948] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 111.978 ms[39m
+[14 Oct, 2024 - 18:11:04:114] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:11:05:115] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 95.299 ms[39m
+[14 Oct, 2024 - 18:12:57:1257] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:12:58:1258] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 87.717 ms[39m
+[14 Oct, 2024 - 18:15:34:1534] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 65.136 ms[39m
+[14 Oct, 2024 - 18:15:54:1554] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 500 - 194.371 ms[39m
+[14 Oct, 2024 - 18:16:35:1635] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:16:36:1636] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 500 - 177.500 ms[39m
+[14 Oct, 2024 - 18:16:54:1654] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:16:57:1657] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 500 - 159.914 ms[39m
+[14 Oct, 2024 - 18:17:38:1738] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:17:46:1746] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:17:48:1748] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 141.045 ms[39m
+[14 Oct, 2024 - 18:17:59:1759] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 53.243 ms[39m
+[14 Oct, 2024 - 18:18:28:1828] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 136.802 ms[39m
+[14 Oct, 2024 - 18:18:33:1833] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 45.021 ms[39m
+[14 Oct, 2024 - 18:18:54:1854] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 117.830 ms[39m
+[14 Oct, 2024 - 18:18:58:1858] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 61.408 ms[39m
+[14 Oct, 2024 - 18:21:32:2132] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 96.709 ms[39m
+[14 Oct, 2024 - 18:21:36:2136] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 43.703 ms[39m
+[14 Oct, 2024 - 18:22:47:2247] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:22:57:2257] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 167.859 ms[39m
+[14 Oct, 2024 - 18:23:18:2318] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:23:21:2321] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 151.226 ms[39m
+[14 Oct, 2024 - 18:24:52:2452] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:25:05:255] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:25:50:2550] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 492.051 ms[39m
+[14 Oct, 2024 - 18:25:55:2555] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 54.474 ms[39m
+[14 Oct, 2024 - 18:26:13:2613] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 157.849 ms[39m
+[14 Oct, 2024 - 18:26:17:2617] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 54.070 ms[39m
+[14 Oct, 2024 - 18:31:04:314] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:31:29:3129] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:31:36:3136] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 112.843 ms[39m
+[14 Oct, 2024 - 18:31:43:3143] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 134.384 ms[39m
+[14 Oct, 2024 - 18:31:53:3153] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 74.599 ms[39m
+[14 Oct, 2024 - 18:32:04:324] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 124.502 ms[39m
+[14 Oct, 2024 - 18:32:07:327] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 47.504 ms[39m
+[14 Oct, 2024 - 18:32:24:3224] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 92.885 ms[39m
+[14 Oct, 2024 - 18:32:29:3229] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 200 - 53.740 ms[39m
+[14 Oct, 2024 - 18:33:12:3312] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:33:17:3317] [35mhttp[39m: [35m::1 POST /course/rating/67091bd3ce3273ebe2bec0bc 200 - 132.391 ms[39m
+[14 Oct, 2024 - 18:33:56:3356] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:35:17:3517] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:35:52:3552] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:36:37:3637] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:36:46:3646] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:36:58:3658] [35mhttp[39m: [35m::1 GET /interview/getAllData 200 - 97.936 ms[39m
+[14 Oct, 2024 - 18:37:28:3728] [35mhttp[39m: [35m::1 POST /interview/rating/670c4cc6f5e07246444ef82c 200 - 177.049 ms[39m
+[14 Oct, 2024 - 18:38:06:386] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:38:07:387] [35mhttp[39m: [35m::1 POST /interview/rating/670c4cc6f5e07246444ef82c 200 - 273.285 ms[39m
+[14 Oct, 2024 - 18:38:14:3814] [35mhttp[39m: [35m::1 POST /interview/rating/670c4cc6f5e07246444ef82c 200 - 114.264 ms[39m
+[14 Oct, 2024 - 18:38:56:3856] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:39:08:398] [35mhttp[39m: [35m::1 POST /interview/rating/670c4cc6f5e07246444ef82c 200 - 155.175 ms[39m
+[14 Oct, 2024 - 18:39:35:3935] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:39:36:3936] [35mhttp[39m: [35m::1 POST /interview/rating/670c4cc6f5e07246444ef82c 200 - 165.490 ms[39m
+[14 Oct, 2024 - 18:39:39:3939] [35mhttp[39m: [35m::1 POST /interview/rating/670c4cc6f5e07246444ef82c 200 - 78.357 ms[39m
+[14 Oct, 2024 - 18:40:23:4023] [35mhttp[39m: [35m::1 POST /interview/rating/670c4cc6f5e07246444ef82c 200 - 112.245 ms[39m
+[14 Oct, 2024 - 18:40:30:4030] [35mhttp[39m: [35m::1 POST /interview/rating/670c4cc6f5e07246444ef82c 200 - 104.644 ms[39m
+[14 Oct, 2024 - 18:40:36:4036] [35mhttp[39m: [35m::1 POST /interview/rating/670c4cc6f5e07246444ef82c 200 - 103.314 ms[39m
+[14 Oct, 2024 - 18:40:55:4055] [35mhttp[39m: [35m::1 POST /interview/rating/670c4cc6f5e07246444ef82c 200 - 93.821 ms[39m
+[14 Oct, 2024 - 18:41:04:414] [35mhttp[39m: [35m::1 POST /interview/rating/670c4cc6f5e07246444ef82c 200 - 145.244 ms[39m
+[14 Oct, 2024 - 18:41:34:4134] [35mhttp[39m: [35m::1 GET /interview/getAllData 200 - 56.975 ms[39m
+[14 Oct, 2024 - 18:44:00:440] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:45:49:4549] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:46:09:469] [35mhttp[39m: [35m::1 POST /library/rateLibrary/6702235834998e60dd85bce3 500 - 77.349 ms[39m
+[14 Oct, 2024 - 18:46:19:4619] [35mhttp[39m: [35m::1 POST /library/rateLibrary/67091dd7ce3273ebe2bec0cb 200 - 143.903 ms[39m
+[14 Oct, 2024 - 18:46:52:4652] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:46:53:4653] [35mhttp[39m: [35m::1 POST /library/rateLibrary/67091dd7ce3273ebe2bec0cb 200 - 114.320 ms[39m
+[14 Oct, 2024 - 18:47:01:471] [35mhttp[39m: [35m::1 POST /library/rateLibrary/67091dd7ce3273ebe2bec0cb 200 - 149.747 ms[39m
+[14 Oct, 2024 - 18:47:23:4723] [35mhttp[39m: [35m::1 POST /library/rateLibrary/67091dd7ce3273ebe2bec0cb 200 - 126.938 ms[39m
+[14 Oct, 2024 - 18:47:29:4729] [35mhttp[39m: [35m::1 POST /library/rateLibrary/67091dd7ce3273ebe2bec0cb 200 - 403.229 ms[39m
+[14 Oct, 2024 - 18:47:56:4756] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:48:27:4827] [35mhttp[39m: [35m::1 GET /library/getAllLibraries 200 - 70.750 ms[39m
+[14 Oct, 2024 - 18:49:15:4915] [35mhttp[39m: [35m::1 GET /interview/getAllData 200 - 38.941 ms[39m
+[14 Oct, 2024 - 18:49:22:4922] [35mhttp[39m: [35m::1 GET /library/getAllLibraries 200 - 94.897 ms[39m
+[14 Oct, 2024 - 18:50:09:509] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:50:13:5013] [35mhttp[39m: [35m::1 GET /library/getAllLibraries 200 - 96.390 ms[39m
+[14 Oct, 2024 - 18:52:51:5251] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:52:57:5257] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:53:04:534] [35mhttp[39m: [35m::1 GET /asset/getAllAssetData 200 - 69.574 ms[39m
+[14 Oct, 2024 - 18:53:23:5323] [35mhttp[39m: [35m::1 POST /asset/rateAsset/670c5097f5e07246444ef838 200 - 150.233 ms[39m
+[14 Oct, 2024 - 18:53:29:5329] [35mhttp[39m: [35m::1 POST /asset/rateAsset/670c5097f5e07246444ef838 200 - 102.618 ms[39m
+[14 Oct, 2024 - 18:53:43:5343] [35mhttp[39m: [35m::1 POST /asset/rateAsset/670c5097f5e07246444ef838 200 - 104.610 ms[39m
+[14 Oct, 2024 - 18:53:48:5348] [35mhttp[39m: [35m::1 POST /asset/rateAsset/670c5097f5e07246444ef838 200 - 135.595 ms[39m
+[14 Oct, 2024 - 18:54:41:5441] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 18:59:29:5929] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 19:26:30:2630] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 19:26:54:2654] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 901.036 ms[39m
+[14 Oct, 2024 - 19:29:48:2948] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 19:30:33:3033] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 773.230 ms[39m

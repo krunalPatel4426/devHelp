@@ -49,12 +49,20 @@ const limiter = rateLimit({
 });
 
 // change corse origin * is only for devlopment
-app.use(
-  cors({
-    origin: process.env.CORS_ORIGIN,
-    credentials: true,
-  })
-);
+const allowedOrigins = ["http://localhost:5173", "https://devhelpp.vercel.app"];
+const corsOptions = {
+  origin: function (origin, callback) {
+    // Check if the incoming origin is in the allowedOrigins array or is undefined (for same-origin)
+    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  credentials: true, // Allow cookies and other credentials if needed
+};
+// Use the CORS middleware with the defined options
+app.use(cors(corsOptions));
 app.use((_, res, next) => {
   res.header("Access-Control-Allow-Origin", process.env.CORS_ORIGIN);
   res.header("Access-Control-Allow-Headers", "*");
@@ -62,7 +70,7 @@ app.use((_, res, next) => {
   next();
 });
 app.use(limiter);
-console.log("Hllo")
+console.log("Hllo");
 app.use(bodyParser.json());
 app.use(express.json({ limit: "16kb" }));
 app.use(bodyParser.urlencoded({ extended: true, limit: "16kb" }));
