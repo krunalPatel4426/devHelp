@@ -3491,3 +3491,21 @@
 [34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
 [34m[39m
 [14 Oct, 2024 - 19:30:33:3033] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 773.230 ms[39m
+[14 Oct, 2024 - 19:49:00:490] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 19:49:15:4915] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 749.519 ms[39m
+[14 Oct, 2024 - 19:50:05:505] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 549.250 ms[39m
+[14 Oct, 2024 - 19:50:17:5017] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 522.356 ms[39m
+[14 Oct, 2024 - 19:50:47:5047] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 501.978 ms[39m
+[14 Oct, 2024 - 19:50:58:5058] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 519.855 ms[39m
+[14 Oct, 2024 - 19:52:41:5241] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 658.320 ms[39m
+[14 Oct, 2024 - 19:55:56:5556] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 19:56:03:563] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 720.855 ms[39m
+[14 Oct, 2024 - 19:56:45:5645] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 551.151 ms[39m
+[14 Oct, 2024 - 19:57:23:5723] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 648.005 ms[39m
+[14 Oct, 2024 - 19:58:52:5852] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
