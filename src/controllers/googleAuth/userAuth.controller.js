@@ -18,7 +18,7 @@ const generateAccessAndRefreshToken = async (user) => {
 
 const loginUser = asyncHandler(async (req, res) => {
   const userData = req.body;
-  console.log(userData);
+  // console.log(userData);
   if (!userData) {
     return res.status(400).json({
       message: "Data not found",

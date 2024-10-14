@@ -3509,3 +3509,11 @@
 [14 Oct, 2024 - 19:58:52:5852] [34minfo[39m: [34m[39m
 [34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
 [34m[39m
+[14 Oct, 2024 - 20:17:54:1754] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 20:18:24:1824] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 719.278 ms[39m
+[14 Oct, 2024 - 20:20:09:209] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[14 Oct, 2024 - 20:20:34:2034] [35mhttp[39m: [35m::1 POST /user/login/google 200 - 767.588 ms[39m
