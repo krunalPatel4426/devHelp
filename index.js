@@ -63,12 +63,12 @@ const corsOptions = {
 };
 // Use the CORS middleware with the defined options
 app.use(cors(corsOptions));
-app.use((_, res, next) => {
-  res.header("Access-Control-Allow-Origin", process.env.CORS_ORIGIN);
-  res.header("Access-Control-Allow-Headers", "*");
-  res.header("Access-Control-Allow-Credentials", "true");
-  next();
-});
+// app.use((_, res, next) => {
+//   res.header("Access-Control-Allow-Origin", process.env.CORS_ORIGIN);
+//   res.header("Access-Control-Allow-Headers", "*");
+//   res.header("Access-Control-Allow-Credentials", "true");
+//   next();
+// });
 app.use(limiter);
 console.log("Hllo");
 app.use(bodyParser.json());
