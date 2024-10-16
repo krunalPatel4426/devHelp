@@ -98,8 +98,8 @@ app.use(
     resave: false,
     saveUninitialized: true,
     cookie: {
-      secure: false, //Only have true when deploying on https
-      sameSite: "lax",
+      secure: true, //Only have true when deploying on https
+      sameSite: "None",
       rolling: true,
       httpOnly: true,
       maxAge: 24 * 60 * 60 * 1000,
