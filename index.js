@@ -94,6 +94,12 @@ app.use(
     secret: "keyboard cat",
     resave: false,
     saveUninitialized: true,
+    cookie: {
+      secure: true, //Only have true when deploying on https
+      sameSite: "None",
+      rolling: true,
+    httpOnly: true,
+  },
   })
 );
 app.use(passport.initialize());
