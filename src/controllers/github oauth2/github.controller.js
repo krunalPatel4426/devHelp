@@ -24,13 +24,15 @@ const githubLogin = asyncHandler(async (req, res) => {
   const options = {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
-    sameSite: "lax",
+    sameSite: process.env.NODE_ENV === "production" ? "None" : "lax",
+    
   };
   console.log(accessToken, refreshToken)
   res.cookie("accessToken", accessToken, options);
   res.cookie("refreshToken", refreshToken, options);
-  res.redirect("https://devhelpp.vercel.app");
-//   res.status(200).json({ message: "data got", user: req.user });
+  return res.redirect("http://localhost:5173/profile");
+  // return res.redirect("http://localhost:5173/profile")
+  // return res.status(200).json({ message: "data got", user: req.user });
 });
 
 export { githubLogin };
