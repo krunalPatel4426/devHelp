@@ -29,10 +29,10 @@ const loginUser = asyncHandler(async (req, res) => {
   const user = await User.findOne({ email });
   const options = {
     httpOnly: true,
-    secure: true,
-    sameSite: "None",
-    domain: ".onrender.com",
-    path: "/",
+    secure: false,
+    sameSite: "lax",
+    // domain: ".onrender.com",
+    // path: "/",
     maxAge: 24*60*60*1000,
   };
   console.log(user);
