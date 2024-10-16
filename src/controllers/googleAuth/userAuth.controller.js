@@ -32,7 +32,8 @@ const loginUser = asyncHandler(async (req, res) => {
     secure: true,
     sameSite: "None",
     domain: ".vercel.app",
-    path: "/"
+    path: "/",
+    maxAge: 24 * 60 * 60 * 1000
   };
   console.log(user);
   if (!user) {
