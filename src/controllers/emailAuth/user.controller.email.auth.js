@@ -39,7 +39,7 @@ const registerUser = asyncHandler(async (req, res) => {
 
   if (exitesUser) {
     throw new ApiError(
-      409,
+      400,
       "user with email or username is already exits.",
       []
     );
