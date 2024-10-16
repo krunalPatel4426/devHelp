@@ -30,7 +30,9 @@ const loginUser = asyncHandler(async (req, res) => {
   const options = {
     httpOnly: true,
     secure: true,
-    sameSite: "None"
+    sameSite: "None",
+    domain: ".vercel.app",
+    path: "/"
   };
   console.log(user);
   if (!user) {
