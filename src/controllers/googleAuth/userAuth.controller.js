@@ -31,7 +31,7 @@ const loginUser = asyncHandler(async (req, res) => {
     httpOnly: true,
     secure: true,
     sameSite: "None",
-    domain: "devhelpp.vercel.app",
+    domain: ".onrender.com",
     path: "/",
     maxAge: 24*60*60*1000,
   };
