@@ -21,7 +21,7 @@ const addAsset = asyncHandler(async (req, res) => {
 const getAllAssetData = asyncHandler(async (req, res) => {
   try {
     const assets = await Asset.find({}).select(
-      "-assetLink -tags -reviews -__v -averageRating"
+      "-assetLink -reviews -__v -averageRating"
     );
     
     let data = []
@@ -33,6 +33,7 @@ const getAllAssetData = asyncHandler(async (req, res) => {
           img: each.img,
           description: each.description,
           isFree: each.isFree,
+          tags: each.tags,
           totalRatings: each.totalRatings,
           rating:each.rating
         }

@@ -29,7 +29,7 @@ const getAllCourseData = asyncHandler(async (req, res) => {
     const lang = await ProgrammingLanguage.findById(languageId);
     const courses = await Course.find(
       { _id: { $in: lang.courses } },
-      "-tags -averageRating -videoLink -__v -reviews"
+      "-averageRating -videoLink -__v -reviews"
     );
     res.status(200).json({ message: "data fetch successfully", courses });
   } catch (error) {

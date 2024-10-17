@@ -21,7 +21,7 @@ const addInterviewDataset = asyncHandler(async (req, res) => {
 const getAllInterviewData = asyncHandler(async (req, res) => {
   try {
     const interview = await Interview.find({}).select(
-      "-Link -tags -focus -reviews -__v -averageRating"
+      "-Link -focus -reviews -__v -averageRating"
     );
     
     return res.status(200).json({

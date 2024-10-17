@@ -23,7 +23,7 @@ const addLibrary = asyncHandler(async (req, res) => {
 const getAllLibraryData = asyncHandler(async (req, res) => {
   try {
     const libraries = await Library.find({}).select(
-      "-libraryLink -tags -reviews -__v -averageRating"
+      "-libraryLink -reviews -__v -averageRating"
     );
     let data = [];
     libraries.forEach((each) => {
@@ -33,6 +33,7 @@ const getAllLibraryData = asyncHandler(async (req, res) => {
         img: each.img,
         description: each.description,
         isFree: each.isFree,
+        tags: each.tags,
         totalRatings: each.totalRatings,
         rating: each.rating,
       });
