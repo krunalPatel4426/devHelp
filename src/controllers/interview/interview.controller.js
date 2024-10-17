@@ -21,8 +21,9 @@ const addInterviewDataset = asyncHandler(async (req, res) => {
 const getAllInterviewData = asyncHandler(async (req, res) => {
   try {
     const interview = await Interview.find({}).select(
-      "-Link -tags -reviews -__v -averageRating"
+      "-Link -tags -focus -reviews -__v -averageRating"
     );
+    
     return res.status(200).json({
       message: "data fetched successfully",
       interview: interview,
@@ -38,7 +39,7 @@ const getPerticularInterviewData = asyncHandler(async (req, res) => {
     const { id } = req.params;
     if (!id) return res.status(400).json({ message: "Id not found." });
     try {
-      const interviewData = await Interview.findById(id).select("-__v");
+      const interviewData = await Interview.findById(id).select("-__v -averageRating -focus");
       if (!interviewData)
         return res.status(400).json({ message: "interview data not found" });
       return res.status(200).json({

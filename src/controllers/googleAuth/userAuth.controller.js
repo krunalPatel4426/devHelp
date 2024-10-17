@@ -28,7 +28,7 @@ const loginUser = asyncHandler(async (req, res) => {
 
   const user = await User.findOne({ email });
   const options = {
-    // httpOnly: true,
+    httpOnly: true,
     secure: true,
     sameSite: "None",
     domain: ".vercel.app",

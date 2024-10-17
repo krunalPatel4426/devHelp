@@ -25,9 +25,10 @@ const addCourse = asyncHandler(async (req, res) => {
 });
 const getAllCourseData = asyncHandler(async (req, res) => {
   try {
-    const courseIds = req.body.courses;
+    const languageId = req.body.languageId;
+    const lang = await ProgrammingLanguage.findById(languageId);
     const courses = await Course.find(
-      { _id: { $in: courseIds } },
+      { _id: { $in: lang.courses } },
       "-tags -averageRating -videoLink -__v -reviews"
     );
     res.status(200).json({ message: "data fetch successfully", courses });
@@ -40,7 +41,7 @@ const getCourseData = asyncHandler(async (req, res) => {
   const { id } = req.params;
   try {
     const course = await Course.findById(id, "-__v -averageRating");
-    console.log(course);
+    // console.log(course);
     return res
       .status(200)
       .json({ message: "course data fetch successfully", course });

@@ -23,9 +23,24 @@ const getAllAssetData = asyncHandler(async (req, res) => {
     const assets = await Asset.find({}).select(
       "-assetLink -tags -reviews -__v -averageRating"
     );
+    
+    let data = []
+    assets.forEach((each) => {
+      data.push(
+        {
+          _id: each._id,
+          title: each.assetName,
+          img: each.img,
+          description: each.description,
+          isFree: each.isFree,
+          totalRatings: each.totalRatings,
+          rating:each.rating
+        }
+      )
+    })
     return res.status(200).json({
       message: "data fetched successfully",
-      assets: assets,
+      assets: data,
     });
   } catch (error) {
     return res.status(500).json({
@@ -41,9 +56,22 @@ const getPerticularAssetData = asyncHandler(async (req, res) => {
     const assetData = await Asset.findById(assetId).select("-__v");
     if (!assetData)
       return res.status(400).json({ message: "asset data not found" });
+    
+    const data = {
+      _id: assetData._id,
+      title: assetData.assetName,
+      img: assetData.img,
+      description: assetData.description,
+      link: assetData.assetLink,
+      tags: assetData.tags,
+      isFree: assetData.isFree,
+      totalRatings: assetData.totalRatings,
+      rating: assetData.rating,
+      reviews: assetData.reviews,
+    }
     return res.status(200).json({
       message: "data fetched successfully.",
-      data: assetData,
+      data: data,
     });
   } catch (error) {
     return res.status(500).json({

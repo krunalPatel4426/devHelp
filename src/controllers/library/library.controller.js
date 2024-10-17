@@ -25,9 +25,21 @@ const getAllLibraryData = asyncHandler(async (req, res) => {
     const libraries = await Library.find({}).select(
       "-libraryLink -tags -reviews -__v -averageRating"
     );
+    let data = [];
+    libraries.forEach((each) => {
+      data.push({
+        _id: each._id,
+        title: each.Librarytitle,
+        img: each.img,
+        description: each.description,
+        isFree: each.isFree,
+        totalRatings: each.totalRatings,
+        rating: each.rating,
+      });
+    });
     return res.status(200).json({
       message: "data fetched successfully",
-      data: libraries
+      data: data
     });
   } catch (error) {
     return res.status(500).json({
@@ -45,9 +57,22 @@ const getPerticularyLibraryData = asyncHandler(async (req, res) => {
     const libraryData = await Library.findById(id).select("-__v");
     if (!libraryData)
       return res.status(400).json({ message: "library not found" });
+    const data = {
+      _id: libraryData._id,
+      title: libraryData.Librarytitle,
+      img: libraryData.img,
+      description: libraryData.description,
+      isFree: libraryData.isFree,
+      libType: libraryData.libType,
+      link: libraryData.libraryLink,
+      tags: libraryData.tags,
+      totalRatings: libraryData.totalRatings,
+      rating: libraryData.rating,
+      reviews: libraryData.reviews
+    }
     return res.status(200).json({
       message: "data fetched successfully",
-      data: libraryData,
+      data: data,
     });
   } catch (error) {
     return res.status(500).json({
