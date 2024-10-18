@@ -3708,3 +3708,26 @@
 [17 Oct, 2024 - 17:47:25:4725] [34minfo[39m: [34m[39m
 [34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
 [34m[39m
+[19 Oct, 2024 - 03:25:33:2533] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[19 Oct, 2024 - 03:26:20:2620] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[19 Oct, 2024 - 03:26:55:2655] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[19 Oct, 2024 - 03:27:42:2742] [35mhttp[39m: [35m::1 GET /programmingLanguage/getData 200 - 89.591 ms[39m
+[19 Oct, 2024 - 03:28:21:2821] [35mhttp[39m: [35m::1 GET /programmingLanguage/getData/67090a92eebc55ad441c2dc0 500 - 15.790 ms[39m
+[19 Oct, 2024 - 03:29:27:2927] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[19 Oct, 2024 - 03:29:28:2928] [35mhttp[39m: [35m::1 GET /programmingLanguage/getData/67090a92eebc55ad441c2dc0 200 - 780.476 ms[39m
+[19 Oct, 2024 - 03:30:18:3018] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[19 Oct, 2024 - 03:30:20:3020] [35mhttp[39m: [35m::1 GET /programmingLanguage/getData/67090a92eebc55ad441c2dc0 200 - 105.524 ms[39m
+[19 Oct, 2024 - 03:30:38:3038] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[19 Oct, 2024 - 03:30:41:3041] [35mhttp[39m: [35m::1 GET /programmingLanguage/getData/67090a92eebc55ad441c2dc0 200 - 123.925 ms[39m
