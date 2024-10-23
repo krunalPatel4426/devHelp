@@ -135,10 +135,10 @@ const pingSelf = () => {
   req.on('error', error => {
     console.error(`ping failed: ${error.message}`);
 
-    setTimeout(pingSelf, 30000);
+    setTimeout(pingSelf, 30 * 60 * 1000);
   });
 
-  req.end;
+  req.end();
 }
 
 setInterval(pingSelf, 40 * 60 *1000);
