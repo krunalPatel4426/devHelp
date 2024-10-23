@@ -5,6 +5,7 @@ import dotenv from "dotenv";
 import express from "express";
 import { rateLimit } from "express-rate-limit";
 import session from "express-session";
+import https from "https";
 import passport from "passport";
 import "./src/config/passport.js";
 import connectDb from "./src/db/index.js";
@@ -118,6 +119,29 @@ app.use("/interview", interviewRoute);
 app.use("/suggestion", userSuggetionRoute);
 app.use("/review", userReviewRoute); // review route
 app.use("/contact-us", contactUsRoute);
+
+const pingSelf = () => {
+  const options = {
+    hostname: "devhelp-hlso.onrender.com",
+    port: 443,
+    path: '/',
+    method: "GET",
+  };
+
+  const req = https.request(options, res => {
+    console.log(`ping successful: ${res.statusCode}`);
+  });
+
+  req.on('error', error => {
+    console.error(`ping failed: ${error.message}`);
+
+    setTimeout(pingSelf, 30000);
+  });
+
+  req.end;
+}
+
+setInterval(pingSelf, 40 * 60 *1000);
 app.get("/", (req, res) => {
   try {
     // console.log("Hello");
@@ -130,4 +154,7 @@ app.get("/", (req, res) => {
 
 app.listen(port, () => {
   console.log(`Example app listenng on port ${port}`);
+
+
+  pingSelf();
 });
