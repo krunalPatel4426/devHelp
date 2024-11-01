@@ -8,17 +8,18 @@ const addCourse = asyncHandler(async (req, res) => {
     const course = await Course.create(data);
     // console.log("Helo")
     // console.log(course)
+    console.log("hello")
     const programmingL = await ProgrammingLanguage.findOne({
       name: course.languageName,
     });
     programmingL.courses.push(course._id);
     await programmingL.save({ validateBeforeSave: false });
-    res.status(200).json({
+    return res.status(200).json({
       message: "Course added successfully",
       course: course,
     });
   } catch (error) {
-    res.status(500).json({
+    return res.status(500).json({
       message: "Error adding course",
     });
   }

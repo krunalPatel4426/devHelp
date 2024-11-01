@@ -2,6 +2,24 @@ import { Course } from "../../models/course.model.js";
 import { ProgrammingLanguage } from "../../models/programmingLanguage.model.js";
 import { asyncHandler } from "../../utils/asyncHandler.js";
 
+
+const addData = asyncHandler(async (req, res) => {
+  const data = req.body;
+  try{
+    if(!data) return res.status(404).json({success: false, error: "data not found."})
+    const {name, description, img} = data;
+    const pData = await ProgrammingLanguage.create({
+      name,
+      description,
+      img
+    });
+    if(!pData) return res.status(401).json({success:false, error:"somthing went wrong"})
+    return res.status(200).json({success:true, message:"data added succesfully"});
+  }catch(error){
+    res.status(500).json({ message: error.message });
+  }
+});
+
 const getDataOfLang = asyncHandler(async (req, res) => {
   try {
     const programmingLanguageData = await ProgrammingLanguage.find({});
@@ -41,5 +59,5 @@ const getDataById = asyncHandler(async (req, res) => {
   }
 });
 
-export { getDataById, getDataOfLang };
+export { getDataById, getDataOfLang, addData };
 
