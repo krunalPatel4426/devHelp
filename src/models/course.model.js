@@ -16,6 +16,7 @@ const courseSchema = new mongoose.Schema({
   videoLink: [{
     img: {
       type: String,
+      default: null
     },
     link: {
       type: String,

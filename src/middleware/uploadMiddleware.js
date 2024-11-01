@@ -45,39 +45,40 @@ async function uploadImagesMiddleware(req, res, next) {
     });
 
     // Upload `videoLink` images if present
-    const uploadVideoLinkImgs = req.body.videoLink
-      ? req.body.videoLink.map((each) => {
-          const img = each.img;
-          const base64Data = img.split(",")[1];
-          const fileType = img.split(";")[0].split("/")[1];
-          const uniqueFileName = `${uuidv4()}.${fileType}`;
-          const playlistFolder = "playlist";
-          const blob = bucket.file(`${playlistFolder}/${uniqueFileName}`);
+    // const uploadVideoLinkImgs = req.body.videoLink
+    //   ? req.body.videoLink.map((each) => {
+    //       const img = each.img;
+    //       const base64Data = img.split(",")[1];
+    //       const fileType = img.split(";")[0].split("/")[1];
+    //       const uniqueFileName = `${uuidv4()}.${fileType}`;
+    //       const playlistFolder = "playlist";
+    //       const blob = bucket.file(`${playlistFolder}/${uniqueFileName}`);
 
-          return new Promise((resolve, reject) => {
-            const blobStream = blob.createWriteStream({
-              metadata: { contentType: `image/${fileType}` },
-            });
+    //       return new Promise((resolve, reject) => {
+    //         const blobStream = blob.createWriteStream({
+    //           metadata: { contentType: `image/${fileType}` },
+    //         });
 
-            blobStream.on("error", (err) => {
-              console.error("Upload error:", err);
-              reject(err);
-            });
+    //         blobStream.on("error", (err) => {
+    //           console.error("Upload error:", err);
+    //           reject(err);
+    //         });
 
-            blobStream.on("finish", () => {
-              const url = `${encodeURIComponent(`${playlistFolder}/${uniqueFileName}`)}?alt=media`;
-              each.img = url;
-              imgUrls.push(url);
-              resolve();
-            });
+    //         blobStream.on("finish", () => {
+    //           const url = `${encodeURIComponent(`${playlistFolder}/${uniqueFileName}`)}?alt=media`;
+    //           each.img = url;
+    //           imgUrls.push(url);
+    //           resolve();
+    //         });
 
-            blobStream.end(Buffer.from(base64Data, "base64"));
-          });
-        })
-      : [];
+    //         blobStream.end(Buffer.from(base64Data, "base64"));
+    //       });
+    //     })
+    //   : [];
 
     // Wait for both `img` and `videoLink` uploads to complete
-    await Promise.all([uploadPrimaryImg, ...uploadVideoLinkImgs]);
+    // await Promise.all([uploadPrimaryImg, ...uploadVideoLinkImgs]);
+    await Promise.all([uploadPrimaryImg]);
     next();
 
   } catch (error) {

@@ -3973,3 +3973,8 @@
 [34m[39m
 [01 Nov, 2024 - 11:31:58:3158] [35mhttp[39m: [35m::1 POST /programmingLanguage/addData/language 200 - 1065.423 ms[39m
 [01 Nov, 2024 - 11:33:29:3329] [35mhttp[39m: [35m::ffff:192.168.80.134 POST /programmingLanguage/addData/language 200 - 655.658 ms[39m
+[01 Nov, 2024 - 17:25:34:2534] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[01 Nov, 2024 - 17:25:39:2539] [35mhttp[39m: [35m::1 POST /course/add-course/courses 200 - 1388.336 ms[39m
+[01 Nov, 2024 - 17:26:23:2623] [35mhttp[39m: [35m::1 POST /programmingLanguage/addData/language 200 - 660.450 ms[39m
