@@ -109,6 +109,33 @@ const removeBookmark = asyncHandler(async (req, res) => {
   }
 });
 
+const getBookmarkData = asyncHandler(async (req, res) => {
+  const { userId } = req.params;
+  
+  try {
+    // Retrieve the user's bookmarked items by ID
+    const user = await User.findById(userId).select(
+      "bookmarkedCourse bookmarkedLibrary bookmarkedAsstes bookmarkedInterviewDataset"
+    );
+
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    // Combine all bookmarked IDs into one array
+    const allBookmarks = [
+      ...user.bookmarkedCourse,
+      ...user.bookmarkedLibrary,
+      ...user.bookmarkedAsstes,
+      ...user.bookmarkedInterviewDataset,
+    ];
+
+    return res.status(200).json({message:"success", bookmarks: allBookmarks });
+  } catch (error) {
+    return res.status(500).json({ error: "Error from our side." });
+  }
+});
+
 const isUserLoggedIn = asyncHandler(async (req, res) => {
   // console.log(req.cookies.accessToken)
   if (!req.cookies.accessToken) {
@@ -172,6 +199,7 @@ const logout = asyncHandler(async (req, res) => {
 // });
 
 export {
+  getBookmarkData,
   getminimalUserData,
   isUserLoggedIn,
   logout,
