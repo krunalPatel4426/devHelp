@@ -4,6 +4,8 @@ import { Asset } from "../../models/asset.model.js";
 import { Interview } from "../../models/interview.model.js";
 import { User } from "../../models/user.model.js";
 import { asyncHandler } from "../../utils/asyncHandler.js";
+import { Course } from "./../../models/course.model.js";
+import { Library } from "./../../models/libraries.model.js";
 dotenv.config();
 
 const getminimalUserData = asyncHandler(async (req, res) => {
@@ -29,88 +31,88 @@ const getminimalUserData = asyncHandler(async (req, res) => {
   }
 });
 
-const bookmarkedCourse = asyncHandler(async (req, res) => {
-  const { userId } = req.params;
-  const { courseId } = req.body;
+
+const models = {
+  bookmarkedCourse: Course,
+  bookmarkedLibrary: Library,
+  bookmarkedAsstes: Asset,
+  bookmarkedInterviewDataset: Interview,
+};
+
+const addBookmark = asyncHandler(async (req, res) => {
+  const { userId, id } = req.body;
+  if (!(userId && id))
+    return res.status(400).json({ message: "Some information is missing" });
+
   try {
-    const user = await User.findByIdAndUpdate(
-      userId,
-      { $addToSet: { bookmarkedCourse: courseId } },
-      { new: true }
-    );
-    return res.status(200).json({
-      message: "course bookmarked successfully.",
-    });
+    for (const [field, Model] of Object.entries(models)) {
+      const data = await Model.findById(id);
+      if (data) {
+        const user = await User.findByIdAndUpdate(
+          userId,
+          { $addToSet: { [field]: id } },
+          { new: true }
+        );
+        if (user) return res.status(200).json({ message: "Bookmarked Successfully" });
+      }
+    }
+    return res.status(404).json({ error: "Data not found" });
   } catch (error) {
-    return res.status(500).json({
-      message: "error updating data.",
-    });
+    res.status(500).json({ error: "Error from our side." });
   }
 });
 
 //remove book mark are left
 
-const bookmarkedLibrary = asyncHandler(async (req, res) => {
-  const { userId } = req.params;
-  const { libraryId } = req.body;
-  if (!(userId && libraryId))
-    return res.status(400).json({ message: "some information is missing" });
-  try {
-    const user = await User.findByIdAndUpdate(userId, {
-      $addToSet: { bookmarkedLibrary: libraryId },
-    });
-    return res.status(200).json({
-      message: "library bookmarked successfully.",
-    });
-  } catch (error) {
-    return res.status(500).json({
-      message: "error while updating data",
-    });
-  }
-});
 
-const bookmarkedAsset = asyncHandler(async (req, res) => {
-  const { userId } = req.params;
-  const { assetId } = req.body;
-  if (!(userId && assetId))
-    return res.status(400).json({ message: "some information is missing" });
-  try {
-    const user = await Asset.findByIdAndUpdate(userId, {
-      $addToSet: { bookmarkedAsset: assetId },
-    });
-    return res.status(200).json({
-      message: "asset bookmarked successfully.",
-    });
-  } catch (error) {
-    return res.status(500).json({
-      message: "error while updating data",
-    });
-  }
-});
+const removeBookmark = asyncHandler(async (req, res) => {
+  const { userId, id } = req.body;
 
-const bookmarkedInterviewDataset = asyncHandler(async (req, res) => {
-  const { userId } = req.params;
-  const { id } = req.body;
-  if (!(userId && id))
-    return res.status(400).json({ message: "some information is missing" });
+  if (!userId || !id) {
+    return res.status(400).json({ message: "User ID and item ID are required" });
+  }
+
   try {
-    const user = await Interview.findByIdAndUpdate(userId, {
-      $addToSet: { bookmarkedAsset: id },
-    });
-    return res.status(200).json({
-      message: "interviewDataset bookmarked successfully.",
-    });
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    // List of bookmark fields to check
+    const bookmarkFields = [
+      'bookmarkedCourse',
+      'bookmarkedLibrary',
+      'bookmarkedAssets',
+      'bookmarkedInterviewDataset'
+    ];
+
+    let bookmarkRemoved = false;
+    // Loop through each bookmark field and try to remove the ID
+    for (const field of bookmarkFields) {
+      // console.log(user[field]);
+      const index = user[field].indexOf(id);
+      if (index !== -1) {
+        user[field].splice(index, 1);  // Remove the bookmark
+        bookmarkRemoved = true;
+        break;
+      }
+    }
+
+    if (!bookmarkRemoved) {
+      return res.status(404).json({ message: "Bookmark not found in any category" });
+    }
+
+    await user.save();
+    res.status(200).json({ message: "Bookmark removed successfully" });
   } catch (error) {
-    return res.status(500).json({
-      message: "error while updating data",
-    });
+    res.status(500).json({ message: "Error removing bookmark", error: error.message });
   }
 });
 
 const isUserLoggedIn = asyncHandler(async (req, res) => {
   // console.log(req.cookies.accessToken)
-  if(!req.cookies.accessToken){
-    return res.status(200).json({"message" : "user is not logged in"});
+  if (!req.cookies.accessToken) {
+    return res.status(200).json({ message: "user is not logged in" });
   }
   const accessToken = req.cookies.accessToken;
   // console.log(accessToken);
@@ -128,8 +130,8 @@ const isUserLoggedIn = asyncHandler(async (req, res) => {
 });
 
 const logout = asyncHandler(async (req, res) => {
-  if(!req.cookies.accessToken){
-    return res.status(400).json({"message" : "you are not logged in"})
+  if (!req.cookies.accessToken) {
+    return res.status(400).json({ message: "you are not logged in" });
   }
   const accessToken = req.cookies.accessToken;
   const user = jwt.verify(accessToken, process.env.ACCESS_TOKEN_SECRET);
@@ -146,10 +148,14 @@ const logout = asyncHandler(async (req, res) => {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
   };
-  return res.status(200).clearCookie("accessToken", options)
-    .clearCookie("refreshToken", options).
-    json({"message" : "user logged out successfully", isLoggedIn: false});
+  return res
+    .status(200)
+    .clearCookie("accessToken", options)
+    .clearCookie("refreshToken", options)
+    .json({ message: "user logged out successfully", isLoggedIn: false });
 });
+
+
 
 //complete in future if needed it return reviews in which given perticular user given
 // const getCourseDetails = asyncHandler(async (req, res) => {
@@ -166,11 +172,9 @@ const logout = asyncHandler(async (req, res) => {
 // });
 
 export {
-  bookmarkedAsset,
-  bookmarkedCourse,
-  bookmarkedInterviewDataset,
-  bookmarkedLibrary,
   getminimalUserData,
   isUserLoggedIn,
-  logout
+  logout,
+  addBookmark,
+  removeBookmark
 };
