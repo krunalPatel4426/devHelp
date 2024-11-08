@@ -32,7 +32,7 @@ const getAllData = asyncHandler(async (req, res) => {
 
     return res
       .status(200)
-      .json({ success: true, message: "data found.", data });
+      .json({ success: true, message: "data found.", otherResource:data });
   } catch (error) {
     return res
       .status(500)
@@ -60,14 +60,49 @@ const getDataById = asyncHandler(async (req, res) => {
     };
     return res.status(200).json({
       message: "data fetched successfully.",
-      data: data,
+      otherResource: data,
     });
   } catch (error) {
     return res.status(500).json({
-        message: "error while retriving data",
-      });
+      message: "error while retriving data",
+    });
   }
 });
 
+const getDataBytag = asyncHandler(async (req, res) => {
+  const { tag } = req.params;
+  if (!tag)
+    return res.status(400).json({ message: "some information is missing" });
+  try {
+    const res = await OtherResource.find({ tags: tag }).select(
+      "-resourceLink -tags -averageRating -totalRatings -rating -reviews -__v"
+    );
+    if (!res) return res.status(400).json({ message: "data not found" });
+    if (res.length === 0) {
+      return res.status(400).json({
+        message: "data not found",
+      });
+    } else {
+      let data = [];
+      res.forEach((each) => {
+        data.push({
+          _id: each._id,
+          title: each.resourceName,
+          img: each.img,
+          description: each.description,
+          isFree: each.isFree,
+          tags: each.tags,
+          totalRatings: each.totalRatings,
+          rating: each.rating,
+        });
+      });
+      console.log(data);
+      return res.status(200).json({
+        message: "assets found successfully",
+        otherResource: data,
+      });
+    }
+  } catch (error) {}
+});
 
-export {addData, getAllData, getDataById};
+export { addData, getAllData, getDataById, getDataBytag };

@@ -11,9 +11,6 @@ const otherResourceSchema = new Schema({
   description: {
     type: String,
   },
-  category: {
-    type: String,
-  },
   resourceLink: [
     {
       type: String,

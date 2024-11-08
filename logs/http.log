@@ -4234,3 +4234,80 @@
 [34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
 [34m[39m
 [08 Nov, 2024 - 20:26:46:2646] [35mhttp[39m: [35m::1 GET /res/getData/672e24ad4871ef5c01a739e5 200 - 211.535 ms[39m
+[08 Nov, 2024 - 20:35:52:3552] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:38:42:3842] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:39:31:3931] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:40:55:4055] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:41:38:4138] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:42:13:4213] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:42:23:4223] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:43:27:4327] [35mhttp[39m: [35m::1 GET /course/getAllData 200 - 80.055 ms[39m
+[08 Nov, 2024 - 20:44:16:4416] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:45:23:4523] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:45:31:4531] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:45:39:4539] [35mhttp[39m: [35m::1 GET /course/getAllData 200 - 70.569 ms[39m
+[08 Nov, 2024 - 20:46:52:4652] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:47:04:474] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:47:25:4725] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:48:59:4859] [35mhttp[39m: [35m::1 GET /course/getAllData 200 - 59.004 ms[39m
+[08 Nov, 2024 - 20:49:51:4951] [35mhttp[39m: [35m::1 GET /asset/getAllAssetData 200 - 65.876 ms[39m
+[08 Nov, 2024 - 20:50:33:5033] [35mhttp[39m: [35m::1 GET /course/getAllCourseData 500 - 54.093 ms[39m
+[08 Nov, 2024 - 20:52:03:523] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:52:19:5219] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:52:23:5223] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:52:41:5241] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:54:05:545] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:54:41:5441] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:55:30:5530] [35mhttp[39m: [35m::1 GET /res/hacking 404 - 4.732 ms[39m
+[08 Nov, 2024 - 20:55:46:5546] [35mhttp[39m: [35m::1 GET /res/ta/hacking 404 - 1.475 ms[39m
+[08 Nov, 2024 - 20:56:06:566] [35mhttp[39m: [35m::1 GET /res/tag/hacking - - - ms[39m
+[08 Nov, 2024 - 20:57:22:5722] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:57:52:5752] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:58:41:5841] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 20:59:37:5937] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m

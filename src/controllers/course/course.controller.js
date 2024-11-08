@@ -44,7 +44,7 @@ const getAllCourseDataWithoutId = asyncHandler(async (req, res) => {
     if(!courses){
       return res.status(404).json({success:false, message:"data not found"});
     }
-    return res.status(200).json({success:true, message:"Datafound", data:courses})
+    return res.status(200).json({success:true, message:"Data found", courses: courses})
   }catch(error){
     return res.status(500).json({error:"Error from our side."});
   }

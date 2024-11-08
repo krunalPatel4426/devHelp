@@ -13,6 +13,10 @@ const courseSchema = new mongoose.Schema({
   description: {
     type: String,
   },
+  isFree:{
+    type:Boolean,
+    default: true
+  },
   videoLink: [{
     img: {
       type: String,
