@@ -7,6 +7,7 @@ const addData = asyncHandler(async (req, res) => {
     return res.status(401).json({ success: false, message: "Body is empty" });
 
   try {
+    // console.log(data);
     const otherRes = await OtherResource.create(data);
     if (!otherRes)
       return res
@@ -32,7 +33,7 @@ const getAllData = asyncHandler(async (req, res) => {
 
     return res
       .status(200)
-      .json({ success: true, message: "data found.", otherResource:data });
+      .json({ success: true, message: "data found.", otherResource: data });
   } catch (error) {
     return res
       .status(500)
@@ -71,20 +72,22 @@ const getDataById = asyncHandler(async (req, res) => {
 
 const getDataBytag = asyncHandler(async (req, res) => {
   const { tag } = req.params;
+  console.log(tag);
   if (!tag)
     return res.status(400).json({ message: "some information is missing" });
   try {
-    const res = await OtherResource.find({ tags: tag }).select(
-      "-resourceLink -tags -averageRating -totalRatings -rating -reviews -__v"
+    const otherRes = await OtherResource.find({ tags: tag }).select(
+      "-resourceLink -averageRating -totalRatings -rating -reviews -__v"
     );
-    if (!res) return res.status(400).json({ message: "data not found" });
-    if (res.length === 0) {
+    if (!otherRes) return res.status(400).json({ message: "data not found" });
+    if (otherRes.length === 0) {
       return res.status(400).json({
         message: "data not found",
       });
     } else {
+    //   console.log(otherRes);
       let data = [];
-      res.forEach((each) => {
+      otherRes.forEach((each) => {
         data.push({
           _id: each._id,
           title: each.resourceName,
@@ -92,17 +95,20 @@ const getDataBytag = asyncHandler(async (req, res) => {
           description: each.description,
           isFree: each.isFree,
           tags: each.tags,
-          totalRatings: each.totalRatings,
-          rating: each.rating,
         });
       });
-      console.log(data);
+    //   console.log(data);
       return res.status(200).json({
         message: "assets found successfully",
         otherResource: data,
       });
     }
-  } catch (error) {}
+  } catch (error) {
+    console.log(error)
+    return res.status(500).json({
+      message: "error while fetching data",
+    });
+  }
 });
 
 export { addData, getAllData, getDataById, getDataBytag };

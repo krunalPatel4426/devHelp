@@ -8,6 +8,6 @@ const router = Router();
 router.route("/addRes/:folder").post(upload, uploadImagesMiddleware, addData);
 router.route("/getAllData").get(getAllData);
 router.route("/getData/:id").get(getDataById);
-router.route("/tag/:tag").get(getDataBytag)
+router.route("/tags/:tag").get(getDataBytag)
 
 export default router;
