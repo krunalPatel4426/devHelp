@@ -1,10 +1,11 @@
 import { Router } from "express";
-import { addCourse, addReview, deleteReview, getAllCourseData, getCourseByTag, getCourseData, rating } from "../controllers/course/course.controller.js";
+import { addCourse, addReview, deleteReview, getAllCourseData, getAllCourseDataWithoutId, getCourseByTag, getCourseData, rating } from "../controllers/course/course.controller.js";
 import {upload, uploadImagesMiddleware} from "../middleware/uploadMiddleware.js"
 
 const router = Router();
 
 router.route("/getAllCourseData").get(getAllCourseData);
+router.route("/getAllData").get(getAllCourseDataWithoutId);
 router.route("/getCourseData/:id").get(getCourseData);
 // router.route("/course/rating/:courseId").post(rating);
 router.route("/rating/:courseId").post(rating);

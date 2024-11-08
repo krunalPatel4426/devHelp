@@ -4169,3 +4169,13 @@
 [07 Nov, 2024 - 22:19:42:1942] [35mhttp[39m: [35m::1 GET /user/get-bookmark/670bea221a597348c379bb63 200 - 49.441 ms[39m
 [07 Nov, 2024 - 22:20:04:204] [35mhttp[39m: [35m::1 GET /user/get-bookmark/6709438bba4e0de91f48adff 200 - 44.222 ms[39m
 [07 Nov, 2024 - 22:20:21:2021] [35mhttp[39m: [35m::1 GET /user/get-bookmark/6709438bba4e0de91f48adff 200 - 73.890 ms[39m
+[08 Nov, 2024 - 18:57:21:5721] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 19:03:15:315] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 19:03:54:354] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[08 Nov, 2024 - 19:03:58:358] [35mhttp[39m: [35m::1 GET /course/getAllData 200 - 85.352 ms[39m

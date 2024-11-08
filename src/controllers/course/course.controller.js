@@ -38,6 +38,17 @@ const getAllCourseData = asyncHandler(async (req, res) => {
   }
 });
 
+const getAllCourseDataWithoutId = asyncHandler(async (req, res) => {
+  try{
+    const courses = await Course.find({}).select("-averageRating -videoLink -__v -reviews")
+    if(!courses){
+      return res.status(404).json({success:false, message:"data not found"});
+    }
+    return res.status(200).json({success:true, message:"Datafound", data:courses})
+  }catch(error){
+    return res.status(500).json({error:"Error from our side."});
+  }
+});
 const getCourseData = asyncHandler(async (req, res) => {
   const { id } = req.params;
   try {
@@ -172,6 +183,7 @@ export {
   getAllCourseData,
   getCourseByTag,
   getCourseData,
-  rating
+  rating,
+  getAllCourseDataWithoutId
 };
 
