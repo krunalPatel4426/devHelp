@@ -22,7 +22,7 @@ import userRouter from "./src/routes/userRout.js";
 import userSuggetionRoute from "./src/routes/userSuggestionRoute.js";
 import { ApiError } from "./src/utils/ApiError.js";
 import { ApiResponse } from "./src/utils/ApiResponse.js";
-
+import otherResoursesRoute from "./src/routes/otherResoursesRoute.js"
 const app = express();
 dotenv.config({
   path: "./.env",
@@ -119,6 +119,7 @@ app.use("/interview", interviewRoute);
 app.use("/suggestion", userSuggetionRoute);
 app.use("/review", userReviewRoute); // review route
 app.use("/contact-us", contactUsRoute);
+app.use("/res", otherResoursesRoute);
 
 const pingSelf = () => {
   const options = {
