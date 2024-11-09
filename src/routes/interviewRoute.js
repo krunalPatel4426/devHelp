@@ -9,6 +9,6 @@ router.route("/getData/:id").get(getPerticularInterviewData);
 router.route("/rating/:id").post(ratinginterviewData);
 router.route("/review/:id").post(addReviewinterviewData);
 router.route("/deleteReview/:id").post(deleteReviewInerviewData);
-router.route("/getDataByTag").get(getInterviewDataByTag);
+router.route("/getDataByTag/:tag").get(getInterviewDataByTag);
 
 export default router;

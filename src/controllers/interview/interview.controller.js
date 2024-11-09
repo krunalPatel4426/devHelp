@@ -10,7 +10,7 @@ const addInterviewDataset = asyncHandler(async (req, res) => {
     Link,
     tags,
     isFree,
-    focus
+    focus,
   });
   return res.status(200).json({
     message: "data added",
@@ -23,7 +23,7 @@ const getAllInterviewData = asyncHandler(async (req, res) => {
     const interview = await Interview.find({}).select(
       "-Link -focus -reviews -__v -averageRating"
     );
-    
+
     return res.status(200).json({
       message: "data fetched successfully",
       interview: interview,
@@ -36,139 +36,169 @@ const getAllInterviewData = asyncHandler(async (req, res) => {
 });
 
 const getPerticularInterviewData = asyncHandler(async (req, res) => {
-    const { id } = req.params;
-    if (!id) return res.status(400).json({ message: "Id not found." });
-    try {
-      const interviewData = await Interview.findById(id).select("-__v -averageRating -focus");
-      if (!interviewData)
-        return res.status(400).json({ message: "interview data not found" });
-      return res.status(200).json({
-        message: "data fetched successfully.",
-        data: interviewData,
-      });
-    } catch (error) {
-      return res.status(500).json({
-        message: "error while retriving data",
-      });
-    }
-  });
+  const { id } = req.params;
+  if (!id) return res.status(400).json({ message: "Id not found." });
+  try {
+    const interviewData = await Interview.findById(id).select(
+      "-__v -averageRating -focus"
+    );
+    if (!interviewData)
+      return res.status(400).json({ message: "interview data not found" });
+    return res.status(200).json({
+      message: "data fetched successfully.",
+      data: interviewData,
+    });
+  } catch (error) {
+    return res.status(500).json({
+      message: "error while retriving data",
+    });
+  }
+});
 
-  const ratinginterviewData = asyncHandler(async (req, res) => {
-    const { id } = req.params;
-    const { userId, rating } = req.body;
-    if (!(id && userId && rating))
-      return res.status(500).json({ message: "some information is missing" });
-  
-    try {
-      const interviewData = await Interview.findById(id);
-      if (!interviewData) return res.status(500).json({ message: "data not found" });
-      
-      const existingRating = interviewData.rating.find(
-        (r) => r.userId.toString() === userId.toString()
-      );
-      
-      if (existingRating) {
-        let oldRating = existingRating.rating;
-        existingRating.rating = rating;
-        existingRating.ratedAt = Date.now();
-        interviewData.totalRatings = (interviewData.totalRatings - oldRating) + rating;
-      } else {
-        interviewData.totalRatings = interviewData.totalRatings + rating;
-        interviewData.rating.push({
-          userId: userId,
-          rating: rating,
-        });
-      }
-  
-      const data = await interviewData.save({ validateBeforeSave: false });
-      const ratingData = {
-        totalRatings: data.totalRatings,
-        rating: data.rating,
-      };
-      return res.status(200).json({
-        message: "interviewData rated successfully.",
-        ratingData
-      });
-    } catch (error) {
-      return res.status(500).json({
-        message: "error while retriving data.",
+const ratinginterviewData = asyncHandler(async (req, res) => {
+  const { id } = req.params;
+  const { userId, rating } = req.body;
+  if (!(id && userId && rating))
+    return res.status(500).json({ message: "some information is missing" });
+
+  try {
+    const interviewData = await Interview.findById(id);
+    if (!interviewData)
+      return res.status(500).json({ message: "data not found" });
+
+    const existingRating = interviewData.rating.find(
+      (r) => r.userId.toString() === userId.toString()
+    );
+
+    if (existingRating) {
+      let oldRating = existingRating.rating;
+      existingRating.rating = rating;
+      existingRating.ratedAt = Date.now();
+      interviewData.totalRatings =
+        interviewData.totalRatings - oldRating + rating;
+    } else {
+      interviewData.totalRatings = interviewData.totalRatings + rating;
+      interviewData.rating.push({
+        userId: userId,
+        rating: rating,
       });
     }
-  });
 
-  const addReviewinterviewData = asyncHandler(async (req, res) => {
-    const { id } = req.params;
-    const {userId, review} = req.body;
+    const data = await interviewData.save({ validateBeforeSave: false });
+    const ratingData = {
+      totalRatings: data.totalRatings,
+      rating: data.rating,
+    };
+    return res.status(200).json({
+      message: "interviewData rated successfully.",
+      ratingData,
+    });
+  } catch (error) {
+    return res.status(500).json({
+      message: "error while retriving data.",
+    });
+  }
+});
 
-    if (!(id && userId && review))
-        return res.status(500).json({ message: "some information is missing" });
+const addReviewinterviewData = asyncHandler(async (req, res) => {
+  const { id } = req.params;
+  const { userId, review } = req.body;
 
-    try{
-        const interviewData = await Interview.findById(id);
-        if (!interviewData) return res.status(500).json({ message: "data not found"});
+  if (!(id && userId && review))
+    return res.status(500).json({ message: "some information is missing" });
 
-        interviewData.reviews.push({
-            userId: userId,
-            review: review,
-        });
+  try {
+    const interviewData = await Interview.findById(id);
+    if (!interviewData)
+      return res.status(500).json({ message: "data not found" });
 
-        const data = await interviewData.save({validateBeforeSave: false});
-        const reviewId = data.reviews[data.reviews.length - 1]._id;
-        return res.status(200).json({
-          "message" : "interviewData reviewed successfully",
-          reviewId: reviewId
-        });
-    }catch(error){
-        return res.status(500).json({
-            "message" : "error while retriving data."
-        })
-    }
+    interviewData.reviews.push({
+      userId: userId,
+      review: review,
+    });
+
+    const data = await interviewData.save({ validateBeforeSave: false });
+    const reviewId = data.reviews[data.reviews.length - 1]._id;
+    return res.status(200).json({
+      message: "interviewData reviewed successfully",
+      reviewId: reviewId,
+    });
+  } catch (error) {
+    return res.status(500).json({
+      message: "error while retriving data.",
+    });
+  }
 });
 
 const deleteReviewInerviewData = asyncHandler(async (req, res) => {
-    const {id} = req.params;
-    const { reviewId } = req.body;
-  
-    if(!(id && reviewId)) return res.status(400).json({"message" : "some information is missing."});
-    try{
-      const interviewData = await Interview.findById(id);
-      if(!interviewData) return res.status(400).json({"message" : "data not found" });
-      const data = interviewData.reviews.pull(reviewId);
-      await interviewData.save({validateBeforeSave: false});
-      return res.status(200).json({
-        "message" : "review deleted successfully"
-      })
-    }catch(error){
-      return res.status(500).json({
-        "message" : "error while retriving data."
-      })
-    }
-  });
+  const { id } = req.params;
+  const { reviewId } = req.body;
 
-  const getInterviewDataByTag = asyncHandler(async (req, res) => {
-    const {tag} = req.body;
-    if(!tag) return res.status(400).json({"message" : "some information is missing"});
-  
-    try{
-      const interviewData = await Interview.find({tags: tag}).select("-assetLink -tags -averageRating -totalRatings -rating -reviews -__v")
-      if(!interviewData) return res.status(400).json({"message" : "data not found"});
-      if(interviewData.length === 0){
-        return res.status(400).json({
-          "message" : "data not found"
+  if (!(id && reviewId))
+    return res.status(400).json({ message: "some information is missing." });
+  try {
+    const interviewData = await Interview.findById(id);
+    if (!interviewData)
+      return res.status(400).json({ message: "data not found" });
+    const data = interviewData.reviews.pull(reviewId);
+    await interviewData.save({ validateBeforeSave: false });
+    return res.status(200).json({
+      message: "review deleted successfully",
+    });
+  } catch (error) {
+    return res.status(500).json({
+      message: "error while retriving data.",
+    });
+  }
+});
+
+const getInterviewDataByTag = asyncHandler(async (req, res) => {
+  const { tag } = req.params;
+  if (!tag)
+    return res.status(400).json({ message: "some information is missing" });
+
+  try {
+    const interviewData = await Interview.find({
+      tags: { $regex: tag, $options: "i" },
+    }).select("-Link -averageRating -totalRatings -rating -reviews -__v");
+    if (!interviewData)
+      return res.status(400).json({ message: "data not found" });
+    if (interviewData.length === 0) {
+      return res.status(400).json({
+        message: "data not found",
+      });
+    } else {
+      let data = [];
+      interviewData.forEach((each) => {
+        data.push({
+          _id: each._id,
+          title: each.title,
+          img: each.img,
+          description: each.description,
+          isFree: each.isFree,
+          tags: each.tags,
+          totalRatings: each.totalRatings,
+          rating: each.rating,
         });
-      }else{
-        return res.status(200).json({
-          "message" : "interviewData found successfully",
-          interviewData: interviewData
-        })
-      }
-    }catch(error){
-      return res.status(500).json({
-        "message" : "error while fetching data"
+      });
+      return res.status(200).json({
+        message: "interviewData found successfully",
+        interviewData: data,
       });
     }
-  
-  });
+  } catch (error) {
+    return res.status(500).json({
+      message: "error while fetching data",
+    });
+  }
+});
 
-export { addInterviewDataset, addReviewinterviewData, deleteReviewInerviewData, getAllInterviewData, getInterviewDataByTag, getPerticularInterviewData, ratinginterviewData };
-
+export {
+  addInterviewDataset,
+  addReviewinterviewData,
+  deleteReviewInerviewData,
+  getAllInterviewData,
+  getInterviewDataByTag,
+  getPerticularInterviewData,
+  ratinginterviewData,
+};

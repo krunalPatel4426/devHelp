@@ -173,10 +173,10 @@ const deleteReviewLibrary = asyncHandler(async (req, res) => {
 });
 
 const getLibraryByTag = asyncHandler(async (req, res) => {
-  const { tag } = req.body;
+  const { tag } = req.params;
   if (!tag) return res.status(500).json({ message: "tag is missing" });
   try {
-    const librariesByTag = await Library.find({ tags: tag }).select("-libraryLink -tags -averageRating -totalRatings -rating -reviews -__v");
+    const librariesByTag = await Library.find({ tags: {$regex: tag, $options: "i"} }).select("-libraryLink -averageRating -totalRatings -rating -reviews -__v");
     if (!librariesByTag)
       return res.status(400).json({ message: "data not found" });
     if (librariesByTag.length === 0) {
@@ -184,9 +184,22 @@ const getLibraryByTag = asyncHandler(async (req, res) => {
         message: "no data found.",
       });
     } else {
+      let data = [];
+      librariesByTag.forEach((each) => {
+        data.push({
+          _id: each._id,
+          title: each.Librarytitle,
+          img: each.img,
+          description: each.description,
+          isFree: each.isFree,
+          tags: each.tags,
+          totalRatings: each.totalRatings,
+          rating: each.rating,
+        });
+      });
       return res.status(200).json({
         message: "data fetched successfully.",
-        libraries: librariesByTag,
+        data: data,
       });
     }
   } catch (error) {

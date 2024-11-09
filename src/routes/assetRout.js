@@ -10,6 +10,6 @@ router.route("/getAsset/:assetId").get(getPerticularAssetData);
 router.route("/rateAsset/:assetId").post(ratingAsset);
 router.route("/reviewAsset/:assetId").post(addReviewAsset);
 router.route("/deleteReviewAsset/:assetId").post(deleteReviewAsset);
-router.route("/getAssetByTag").get(getAssetByTag);
+router.route("/getAssetByTag/:tag").get(getAssetByTag);
 
 export default router;

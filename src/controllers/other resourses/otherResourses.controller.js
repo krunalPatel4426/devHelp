@@ -23,14 +23,24 @@ const addData = asyncHandler(async (req, res) => {
 
 const getAllData = asyncHandler(async (req, res) => {
   try {
-    const data = await OtherResource.find({}).select(
+    const resData = await OtherResource.find({}).select(
       "-averageRating -videoLink -__v -reviews"
     );
-    if (!data)
+    if (!resData)
       return res
         .status(404)
         .json({ success: false, message: "Data not found" });
-
+        let data = [];
+        resData.forEach((each) => {
+          data.push({
+            _id: each._id,
+            title: each.resourceName,
+            img: each.img,
+            description: each.description,
+            isFree: each.isFree,
+            tags: each.tags,
+          });
+        });
     return res
       .status(200)
       .json({ success: true, message: "data found.", otherResource: data });
@@ -76,7 +86,7 @@ const getDataBytag = asyncHandler(async (req, res) => {
   if (!tag)
     return res.status(400).json({ message: "some information is missing" });
   try {
-    const otherRes = await OtherResource.find({ tags: tag }).select(
+    const otherRes = await OtherResource.find({ tags: {$regex: tag, $options: "i"} }).select(
       "-resourceLink -averageRating -totalRatings -rating -reviews -__v"
     );
     if (!otherRes) return res.status(400).json({ message: "data not found" });

@@ -152,11 +152,11 @@ const deleteReview = asyncHandler(async (req, res) => {
 });
 
 const getCourseByTag = asyncHandler(async (req, res) => {
-  const { tag } = req.body;
+  const { tag } = req.params;
   if (!tag) return res.status(500).json({ message: "tag is missing" });
   try {
-    const course = await Course.find({ tags: tag }).select(
-      "-videoLink -averageRating -__v -tags -reviews -rating"
+    const course = await Course.find({ tags: {$regex: tag, $options: "i"} }).select(
+      "-videoLink -averageRating -__v -reviews -rating"
     );
     if (!course) return res.status(404).json({ message: "can not find data" });
     if (course.length === 0) {

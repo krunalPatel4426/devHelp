@@ -9,6 +9,6 @@ router.route("/getLibraryData/:id").get(getPerticularyLibraryData);
 router.route("/rateLibrary/:libraryId").post(ratingLibrary);
 router.route("/addReviewLibrary/:libraryId").post(addReviewLibrary);
 router.route("/deleteReviewLibrary/:libraryId").post(deleteReviewLibrary);
-router.route("/getLibraryByTag").get(getLibraryByTag);
+router.route("/getLibraryByTag/:tag").get(getLibraryByTag);
 
 export default router;

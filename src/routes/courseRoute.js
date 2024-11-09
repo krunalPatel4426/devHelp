@@ -11,6 +11,6 @@ router.route("/getCourseData/:id").get(getCourseData);
 router.route("/rating/:courseId").post(rating);
 router.route("/review/:courseId").post(addReview);
 router.route("/delete-review/:courseId").post(deleteReview);
-router.route("/tag").get(getCourseByTag);
+router.route("/tag/:tag").get(getCourseByTag);
 router.route("/add-course/:folder").post(upload, uploadImagesMiddleware, addCourse);
 export default router;

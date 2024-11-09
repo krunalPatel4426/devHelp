@@ -174,13 +174,12 @@ const deleteReviewAsset = asyncHandler(async (req, res) => {
 });
 
 const getAssetByTag = asyncHandler(async (req, res) => {
-  const { tag } = req.body;
+  const { tag } = req.params;
   if (!tag)
     return res.status(400).json({ message: "some information is missing" });
-
   try {
-    const assets = await Asset.find({ tags: tag }).select(
-      "-assetLink -tags -averageRating -totalRatings -rating -reviews -__v"
+    const assets = await Asset.find({ tags: {$regex: tag, $options: "i"} }).select(
+      "-assetLink -averageRating -totalRatings -rating -reviews -__v"
     );
     if (!assets) return res.status(400).json({ message: "data not found" });
     if (assets.length === 0) {
