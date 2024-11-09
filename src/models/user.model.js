@@ -58,6 +58,14 @@ const userSchema = new mongoose.Schema({
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Interview'
     }],
+    bookmarkedResourcesDataset: [{
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'OtherResource'
+    }],
+    bookmarkedHackathonDataset: [{
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Hackathon'
+    }],
     // Array to track courses the user has rated/reviewed
     reviewedCourses: [{
       reviewId: {

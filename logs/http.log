@@ -4589,3 +4589,14 @@
 [34m[39m
 [09 Nov, 2024 - 21:44:55:4455] [35mhttp[39m: [35m::1 GET /res/tags/ar 200 - 131.485 ms[39m
 [09 Nov, 2024 - 21:45:09:459] [35mhttp[39m: [35m::1 GET /all/getData/arc 200 - 317.134 ms[39m
+[09 Nov, 2024 - 22:02:14:214] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Nov, 2024 - 22:02:59:259] [35mhttp[39m: [35m::1 GET /all/getTotalBookmarks/670bea221a597348c379bb63 200 - 86.945 ms[39m
+[09 Nov, 2024 - 22:04:29:429] [35mhttp[39m: [35m::1 POST /user/bookmark 200 - 327.700 ms[39m
+[09 Nov, 2024 - 22:06:56:656] [35mhttp[39m: [35m::1 GET /all/getTotalBookmarks/6709438bba4e0de91f48adff 200 - 64.016 ms[39m
+[09 Nov, 2024 - 22:07:55:755] [35mhttp[39m: [35m::1 DELETE /user/rm-bookmark 500 - 40.008 ms[39m
+[09 Nov, 2024 - 22:11:13:1113] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[09 Nov, 2024 - 22:11:19:1119] [35mhttp[39m: [35m::1 DELETE /user/rm-bookmark 200 - 112.417 ms[39m

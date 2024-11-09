@@ -6,6 +6,9 @@ import { User } from "../../models/user.model.js";
 import { asyncHandler } from "../../utils/asyncHandler.js";
 import { Course } from "./../../models/course.model.js";
 import { Library } from "./../../models/libraries.model.js";
+import { Hackathon } from "../../models/hackathone.model.js";
+import { OtherResource } from "../../models/otherResourses.model.js";
+
 dotenv.config();
 
 const getminimalUserData = asyncHandler(async (req, res) => {
@@ -37,6 +40,8 @@ const models = {
   bookmarkedLibrary: Library,
   bookmarkedAsstes: Asset,
   bookmarkedInterviewDataset: Interview,
+  bookmarkedResourcesDataset:OtherResource,
+  bookmarkedHackathonDataset:Hackathon
 };
 
 const addBookmark = asyncHandler(async (req, res) => {
@@ -82,19 +87,24 @@ const removeBookmark = asyncHandler(async (req, res) => {
     const bookmarkFields = [
       'bookmarkedCourse',
       'bookmarkedLibrary',
-      'bookmarkedAssets',
-      'bookmarkedInterviewDataset'
+      'bookmarkedAsstes',
+      'bookmarkedInterviewDataset',
+      'bookmarkedResourcesDataset',
+      'bookmarkedHackathonDataset'
     ];
 
     let bookmarkRemoved = false;
+
     // Loop through each bookmark field and try to remove the ID
     for (const field of bookmarkFields) {
-      // console.log(user[field]);
-      const index = user[field].indexOf(id);
-      if (index !== -1) {
-        user[field].splice(index, 1);  // Remove the bookmark
-        bookmarkRemoved = true;
-        break;
+      // Check if the field exists and is an array
+      if (Array.isArray(user[field])) {
+        const index = user[field].indexOf(id);
+        if (index !== -1) {
+          user[field].splice(index, 1);  // Remove the bookmark
+          bookmarkRemoved = true;
+          break;
+        }
       }
     }
 
@@ -109,13 +119,14 @@ const removeBookmark = asyncHandler(async (req, res) => {
   }
 });
 
+
 const getBookmarkData = asyncHandler(async (req, res) => {
   const { userId } = req.params;
   
   try {
     // Retrieve the user's bookmarked items by ID
     const user = await User.findById(userId).select(
-      "bookmarkedCourse bookmarkedLibrary bookmarkedAsstes bookmarkedInterviewDataset"
+      "bookmarkedCourse bookmarkedLibrary bookmarkedAsstes bookmarkedInterviewDataset bookmarkedHackathonDataset bookmarkedResourcesDataset"
     );
 
     if (!user) {

@@ -5,6 +5,7 @@ import { Interview } from "../../models/interview.model.js";
 import { Library } from "../../models/libraries.model.js";
 import { OtherResource } from "../../models/otherResourses.model.js";
 import { asyncHandler } from "../../utils/asyncHandler.js";
+import { User } from "../../models/user.model.js";
 const getDataByTag = asyncHandler(async (req, res) => {
     const { tag } = req.params;
     if (!tag) {
@@ -61,4 +62,37 @@ const getDataByTag = asyncHandler(async (req, res) => {
   });
   
 
-  export {getDataByTag}
+  const getTotalBookmarks = asyncHandler(async (req, res) => {
+    const { userId } = req.params;
+  
+    if (!userId) {
+      return res.status(400).json({ message: "User ID is missing" });
+    }
+  
+    try {
+      const user = await User.findById(userId).select(
+        "bookmarkedCourse bookmarkedLibrary bookmarkedAsstes bookmarkedInterviewDataset bookmarkedResourcesDataset bookmarkedHackathonDataset"
+      );
+  
+      if (!user) {
+        return res.status(404).json({ message: "User not found" });
+      }
+  
+      const totalBookmarks =
+        user.bookmarkedCourse.length +
+        user.bookmarkedLibrary.length +
+        user.bookmarkedAsstes.length +
+        user.bookmarkedInterviewDataset.length +
+        user.bookmarkedResourcesDataset.length +
+        user.bookmarkedHackathonDataset.length;
+  
+      return res.status(200).json({
+        message: "Total bookmarks retrieved successfully",
+        totalBookmarks,
+      });
+    } catch (error) {
+      return res.status(500).json({ message: "Error while fetching bookmarks" });
+    }
+  });
+
+  export {getDataByTag, getTotalBookmarks}
