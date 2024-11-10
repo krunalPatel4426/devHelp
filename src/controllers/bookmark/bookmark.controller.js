@@ -218,16 +218,17 @@ const getBookmarkedJobData = asyncHandler(async (req, res) => {
     const jobData = await Job.find({
       _id: bookmarkedIds.bookmarkedJob,
     }).select("-jobLink -averageRating -__v -reviews -rating");
+    // console.log(jobData)
     let data = [];
     jobData.forEach((each) => {
       data.push({
-        _id: jobData._id,
-        title: jobData.jobTitle,
-        img: jobData.img,
-        description: jobData.description,
-        tags: jobData.tags,
-        isFree: jobData.isFree,
-        totalRatings: jobData.totalRatings,
+        _id: each._id,
+        title: each.jobTitle,
+        img: each.img,
+        description: each.description,
+        tags: each.tags,
+        isFree: each.isFree,
+        totalRatings: each.totalRatings,
       });
     });
     return res.status(200).json({ success: true, job: data });

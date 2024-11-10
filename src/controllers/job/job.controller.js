@@ -91,7 +91,7 @@ const getDataByTag = asyncHandler(async (req, res) => {
         {tags: { $regex: tag, $options: "i" }},
         {description: {$regex: tag, $options:"i"}}
       ]
-    }).select("-jobLink -averageRating -totalRatings -rating -reviews -__v");
+    }).select("-jobLink -averageRating -rating -reviews -__v");
     if (!jobData) return res.status(400).json({ message: "data not found" });
     if (jobData.length === 0) {
       return res.status(400).json({
