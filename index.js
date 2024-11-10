@@ -26,6 +26,7 @@ import otherResoursesRoute from "./src/routes/otherResoursesRoute.js"
 import hackathonRoute from "./src/routes/hackathoneRoute.js"
 import allRoute from "./src/routes/allRoute.js"
 import jobRoute from "./src/routes/jobRoute.js"
+import bookmarkRoute from "./src/routes/bookmarkRoute.js"
 const app = express();
 dotenv.config({
   path: "./.env",
@@ -88,7 +89,7 @@ app.use((req, res, next) => {
 //   next();
 // });
 app.use(limiter);
-console.log("Hllo");
+// console.log("Hllo");
 // app.use(bodyParser.json());
 app.use(express.json({ limit: "20mb" }));
 app.use(bodyParser.urlencoded({ extended: true, limit: "20mb" }));
@@ -126,6 +127,7 @@ app.use("/res", otherResoursesRoute);
 app.use("/hackathon", hackathonRoute);
 app.use("/all", allRoute);
 app.use("/job", jobRoute);
+app.use("/bookmark", bookmarkRoute);
 
 const pingSelf = () => {
   const options = {

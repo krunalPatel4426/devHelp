@@ -57,6 +57,9 @@ const getDataById = asyncHandler(async (req, res) => {
     return res.status(401).json({ success: false, error: "Id not found." });
   try {
     const resData = await OtherResource.findById(id).select("-__v");
+    if(!resData){
+      return res.status(404).json({success:false, error:"Data not found."})
+    }
     const data = {
       _id: resData._id,
       title: resData.resourceName,
@@ -74,6 +77,7 @@ const getDataById = asyncHandler(async (req, res) => {
       otherResource: data,
     });
   } catch (error) {
+    console.log(error)
     return res.status(500).json({
       message: "error while retriving data",
     });
