@@ -30,17 +30,17 @@ const getAllData = asyncHandler(async (req, res) => {
       return res
         .status(404)
         .json({ success: false, message: "Data not found" });
-        let data = [];
-        resData.forEach((each) => {
-          data.push({
-            _id: each._id,
-            title: each.resourceName,
-            img: each.img,
-            description: each.description,
-            isFree: each.isFree,
-            tags: each.tags,
-          });
-        });
+    let data = [];
+    resData.forEach((each) => {
+      data.push({
+        _id: each._id,
+        title: each.resourceName,
+        img: each.img,
+        description: each.description,
+        isFree: each.isFree,
+        tags: each.tags,
+      });
+    });
     return res
       .status(200)
       .json({ success: true, message: "data found.", otherResource: data });
@@ -86,7 +86,12 @@ const getDataBytag = asyncHandler(async (req, res) => {
   if (!tag)
     return res.status(400).json({ message: "some information is missing" });
   try {
-    const otherRes = await OtherResource.find({ tags: {$regex: tag, $options: "i"} }).select(
+    const otherRes = await OtherResource.find({
+      $or: [
+        { tags: { $regex: tag, $options: "i" } },
+        { description: { $regex: tag, $options: "i" } },
+      ],
+    }).select(
       "-resourceLink -averageRating -totalRatings -rating -reviews -__v"
     );
     if (!otherRes) return res.status(400).json({ message: "data not found" });
@@ -95,7 +100,7 @@ const getDataBytag = asyncHandler(async (req, res) => {
         message: "data not found",
       });
     } else {
-    //   console.log(otherRes);
+      //   console.log(otherRes);
       let data = [];
       otherRes.forEach((each) => {
         data.push({
@@ -107,14 +112,14 @@ const getDataBytag = asyncHandler(async (req, res) => {
           tags: each.tags,
         });
       });
-    //   console.log(data);
+      //   console.log(data);
       return res.status(200).json({
         message: "assets found successfully",
         otherResource: data,
       });
     }
   } catch (error) {
-    console.log(error)
+    console.log(error);
     return res.status(500).json({
       message: "error while fetching data",
     });

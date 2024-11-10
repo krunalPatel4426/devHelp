@@ -2,8 +2,16 @@ import { Library } from "../../models/libraries.model.js";
 import { asyncHandler } from "../../utils/asyncHandler.js";
 
 const addLibrary = asyncHandler(async (req, res) => {
-  const { Librarytitle, img, description, libraryLink, tags, isFree, libType, focus } =
-    req.body;
+  const {
+    Librarytitle,
+    img,
+    description,
+    libraryLink,
+    tags,
+    isFree,
+    libType,
+    focus,
+  } = req.body;
   const library = await Library.create({
     Librarytitle,
     img,
@@ -12,7 +20,7 @@ const addLibrary = asyncHandler(async (req, res) => {
     tags,
     isFree,
     libType,
-    focus
+    focus,
   });
   return res.status(200).json({
     message: "data added",
@@ -40,7 +48,7 @@ const getAllLibraryData = asyncHandler(async (req, res) => {
     });
     return res.status(200).json({
       message: "data fetched successfully",
-      data: data
+      data: data,
     });
   } catch (error) {
     return res.status(500).json({
@@ -69,8 +77,8 @@ const getPerticularyLibraryData = asyncHandler(async (req, res) => {
       tags: libraryData.tags,
       totalRatings: libraryData.totalRatings,
       rating: libraryData.rating,
-      reviews: libraryData.reviews
-    }
+      reviews: libraryData.reviews,
+    };
     return res.status(200).json({
       message: "data fetched successfully",
       data: data,
@@ -100,7 +108,7 @@ const ratingLibrary = asyncHandler(async (req, res) => {
       let oldRating = existingRating.rating;
       existingRating.rating = rating;
       existingRating.ratedAt = Date.now();
-      library.totalRatings = (library.totalRatings - oldRating) + rating;
+      library.totalRatings = library.totalRatings - oldRating + rating;
     } else {
       library.totalRatings = library.totalRatings + rating;
       library.rating.push({
@@ -115,7 +123,7 @@ const ratingLibrary = asyncHandler(async (req, res) => {
     };
     return res.status(200).json({
       message: "library rated succeffuly",
-      ratingData
+      ratingData,
     });
   } catch (error) {
     return res.status(500).json({
@@ -176,7 +184,14 @@ const getLibraryByTag = asyncHandler(async (req, res) => {
   const { tag } = req.params;
   if (!tag) return res.status(500).json({ message: "tag is missing" });
   try {
-    const librariesByTag = await Library.find({ tags: {$regex: tag, $options: "i"} }).select("-libraryLink -averageRating -totalRatings -rating -reviews -__v");
+    const librariesByTag = await Library.find({
+      $or: [
+        { tags: { $regex: tag, $options: "i" } },
+        { description: { $regex: tag, $options: "i" } },
+      ],
+    }).select(
+      "-libraryLink -averageRating -totalRatings -rating -reviews -__v"
+    );
     if (!librariesByTag)
       return res.status(400).json({ message: "data not found" });
     if (librariesByTag.length === 0) {
@@ -216,6 +231,5 @@ export {
   getAllLibraryData,
   getLibraryByTag,
   getPerticularyLibraryData,
-  ratingLibrary
+  ratingLibrary,
 };
-

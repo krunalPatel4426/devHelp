@@ -55,7 +55,9 @@ const getPerticularAssetData = asyncHandler(async (req, res) => {
   try {
     const assetData = await Asset.findById(assetId).select("-__v");
     if (!assetData)
-      return res.status(400).json({ message: "asset data not found" });
+      return res
+        .status(400)
+        .json({ success: false, message: "asset data not found" });
 
     const data = {
       _id: assetData._id,
@@ -70,11 +72,13 @@ const getPerticularAssetData = asyncHandler(async (req, res) => {
       reviews: assetData.reviews,
     };
     return res.status(200).json({
+      success: true,
       message: "data fetched successfully.",
       data: data,
     });
   } catch (error) {
     return res.status(500).json({
+      success: false,
       message: "error while retriving data",
     });
   }
@@ -178,9 +182,12 @@ const getAssetByTag = asyncHandler(async (req, res) => {
   if (!tag)
     return res.status(400).json({ message: "some information is missing" });
   try {
-    const assets = await Asset.find({ tags: {$regex: tag, $options: "i"} }).select(
-      "-assetLink -averageRating -totalRatings -rating -reviews -__v"
-    );
+    const assets = await Asset.find({
+      $or: [
+        { tags: { $regex: tag, $options: "i" } },
+        { description: { $regex: tag, $options: "i" } },
+      ],
+    }).select("-assetLink -averageRating -totalRatings -rating -reviews -__v");
     if (!assets) return res.status(400).json({ message: "data not found" });
     if (assets.length === 0) {
       return res.status(400).json({

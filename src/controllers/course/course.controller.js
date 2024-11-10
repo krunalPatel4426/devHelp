@@ -8,7 +8,7 @@ const addCourse = asyncHandler(async (req, res) => {
     const course = await Course.create(data);
     // console.log("Helo")
     // console.log(course)
-    console.log("hello")
+    console.log("hello");
     const programmingL = await ProgrammingLanguage.findOne({
       name: course.languageName,
     });
@@ -39,14 +39,20 @@ const getAllCourseData = asyncHandler(async (req, res) => {
 });
 
 const getAllCourseDataWithoutId = asyncHandler(async (req, res) => {
-  try{
-    const courses = await Course.find({}).select("-averageRating -videoLink -__v -reviews")
-    if(!courses){
-      return res.status(404).json({success:false, message:"data not found"});
+  try {
+    const courses = await Course.find({}).select(
+      "-averageRating -videoLink -__v -reviews"
+    );
+    if (!courses) {
+      return res
+        .status(404)
+        .json({ success: false, message: "data not found" });
     }
-    return res.status(200).json({success:true, message:"Data found", courses: courses})
-  }catch(error){
-    return res.status(500).json({error:"Error from our side."});
+    return res
+      .status(200)
+      .json({ success: true, message: "Data found", courses: courses });
+  } catch (error) {
+    return res.status(500).json({ error: "Error from our side." });
   }
 });
 const getCourseData = asyncHandler(async (req, res) => {
@@ -77,7 +83,7 @@ const rating = asyncHandler(async (req, res) => {
     );
     if (existingRating) {
       let oldRating = existingRating.rating;
-      let newTotalRating = (course.totalRatings - oldRating ) + rating;
+      let newTotalRating = course.totalRatings - oldRating + rating;
       existingRating.rating = rating;
       existingRating.ratedAt = Date.now();
       course.totalRatings = newTotalRating;
@@ -96,10 +102,10 @@ const rating = asyncHandler(async (req, res) => {
     };
     return res.status(200).json({
       message: "rating added or updated",
-      ratingData
+      ratingData,
     });
   } catch (error) {
-    console.log(error)
+    console.log(error);
     return res.status(500).json({
       message: error,
     });
@@ -155,9 +161,12 @@ const getCourseByTag = asyncHandler(async (req, res) => {
   const { tag } = req.params;
   if (!tag) return res.status(500).json({ message: "tag is missing" });
   try {
-    const course = await Course.find({ tags: {$regex: tag, $options: "i"} }).select(
-      "-videoLink -averageRating -__v -reviews -rating"
-    );
+    const course = await Course.find({
+      $or: [
+        { tags: { $regex: tag, $options: "i" } },
+        { description: { $regex: tag, $options: "i" } },
+      ],
+    }).select("-videoLink -averageRating -__v -reviews -rating");
     if (!course) return res.status(404).json({ message: "can not find data" });
     if (course.length === 0) {
       return res.status(400).json({
@@ -184,6 +193,5 @@ export {
   getCourseByTag,
   getCourseData,
   rating,
-  getAllCourseDataWithoutId
+  getAllCourseDataWithoutId,
 };
-

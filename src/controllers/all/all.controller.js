@@ -75,11 +75,11 @@ const getDataByTag = asyncHandler(async (req, res) => {
   
       // Flatten and combine all formatted data into a single array
       const allData = [
-        ...formatData(courses, "courseName"),
+        ...formatData(courses, "title"),
         ...formatData(assets, "assetName"),
         ...formatData(hackathons, "hackathonName"),
-        ...formatData(interviews, "interviewName"),
-        ...formatData(libraries, "libraryName"),
+        ...formatData(interviews, "title"),
+        ...formatData(libraries, "Librarytitle"),
         ...formatData(otherResources, "resourceName"),
       ];
   

@@ -3,7 +3,7 @@ import { asyncHandler } from "../../utils/asyncHandler.js";
 
 const addData = asyncHandler(async (req, res) => {
   const data = req.body;
-  console.log(data)
+  console.log(data);
   if (Object.entries(data).length === 0) {
     return res
       .status(404)
@@ -24,8 +24,8 @@ const getAllData = asyncHandler(async (req, res) => {
     const hackData = await Hackathon.find({}).select(
       "-hackathonLink -reviews -__v -averageRating"
     );
-    if(hackData.length === 0){
-        return res.status(404).json({success:false, error:"Data not found"});
+    if (hackData.length === 0) {
+      return res.status(404).json({ success: false, error: "Data not found" });
     }
     let data = [];
     hackData.forEach((each) => {
@@ -87,7 +87,12 @@ const getDataByTag = asyncHandler(async (req, res) => {
     return res.status(400).json({ message: "some information is missing" });
 
   try {
-    const hackData = await Hackathon.find({ tags: {$regex: tag, $options: "i"} }).select(
+    const hackData = await Hackathon.find({
+      $or: [
+        { tags: { $regex: tag, $options: "i" } },
+        { description: { $regex: tag, $options: "i" } },
+      ],
+    }).select(
       "-hackathonLink -tags -averageRating -totalRatings -rating -reviews -__v"
     );
     if (!hackData) return res.status(400).json({ message: "data not found" });
@@ -121,5 +126,4 @@ const getDataByTag = asyncHandler(async (req, res) => {
   }
 });
 
-
-export {addData, getAllData, getDataById, getDataByTag};
+export { addData, getAllData, getDataById, getDataByTag };

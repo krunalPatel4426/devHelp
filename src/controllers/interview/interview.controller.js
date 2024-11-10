@@ -159,7 +159,10 @@ const getInterviewDataByTag = asyncHandler(async (req, res) => {
 
   try {
     const interviewData = await Interview.find({
-      tags: { $regex: tag, $options: "i" },
+      $or: [
+        { tags: { $regex: tag, $options: "i" } },
+        { description: { $regex: tag, $options: "i" } },
+      ],
     }).select("-Link -averageRating -totalRatings -rating -reviews -__v");
     if (!interviewData)
       return res.status(400).json({ message: "data not found" });

@@ -25,6 +25,7 @@ import { ApiResponse } from "./src/utils/ApiResponse.js";
 import otherResoursesRoute from "./src/routes/otherResoursesRoute.js"
 import hackathonRoute from "./src/routes/hackathoneRoute.js"
 import allRoute from "./src/routes/allRoute.js"
+import jobRoute from "./src/routes/jobRoute.js"
 const app = express();
 dotenv.config({
   path: "./.env",
@@ -124,6 +125,7 @@ app.use("/contact-us", contactUsRoute);
 app.use("/res", otherResoursesRoute);
 app.use("/hackathon", hackathonRoute);
 app.use("/all", allRoute);
+app.use("/job", jobRoute);
 
 const pingSelf = () => {
   const options = {
