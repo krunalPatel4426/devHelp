@@ -113,21 +113,21 @@ app.use(
 );
 app.use(passport.initialize());
 app.use(passport.session());
-app.use("/auth", githubAuth);
-app.use("/user", userRouter);
-app.use("/programmingLanguage", programmingRoute);
-app.use("/course", courseRoute);
-app.use("/library", libraryRoute); // library route
-app.use("/asset", assetRouter);
-app.use("/interview", interviewRoute);
-app.use("/suggestion", userSuggetionRoute);
-app.use("/review", userReviewRoute); // review route
-app.use("/contact-us", contactUsRoute);
-app.use("/res", otherResoursesRoute);
-app.use("/hackathon", hackathonRoute);
-app.use("/all", allRoute);
-app.use("/job", jobRoute);
-app.use("/bookmark", bookmarkRoute);
+app.use("/entry/api/auth", githubAuth);
+app.use("/entry/api/user", userRouter);
+app.use("/entry/api/programmingLanguage", programmingRoute);
+app.use("/entry/api/course", courseRoute);
+app.use("/entry/api/library", libraryRoute); // library route
+app.use("/entry/api/asset", assetRouter);
+app.use("/entry/api/interview", interviewRoute);
+app.use("/entry/api/suggestion", userSuggetionRoute);
+app.use("/entry/api/review", userReviewRoute); // review route
+app.use("/entry/api/contact-us", contactUsRoute);
+app.use("/entry/api/res", otherResoursesRoute);
+app.use("/entry/api/hackathon", hackathonRoute);
+app.use("/entry/api/all", allRoute);
+app.use("/entry/api/job", jobRoute);
+app.use("/entry/api/bookmark", bookmarkRoute);
 
 const pingSelf = () => {
   const options = {
