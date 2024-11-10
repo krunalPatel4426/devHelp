@@ -4600,3 +4600,11 @@
 [34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
 [34m[39m
 [09 Nov, 2024 - 22:11:19:1119] [35mhttp[39m: [35m::1 DELETE /user/rm-bookmark 200 - 112.417 ms[39m
+[10 Nov, 2024 - 10:50:46:5046] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[10 Nov, 2024 - 10:50:52:5052] [35mhttp[39m: [35m::1 GET /all/getData/css 500 - 87.675 ms[39m
+[10 Nov, 2024 - 10:52:01:521] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[10 Nov, 2024 - 10:52:05:525] [35mhttp[39m: [35m::1 GET /all/getData/css 200 - 405.865 ms[39m

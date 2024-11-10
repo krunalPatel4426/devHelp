@@ -17,12 +17,47 @@ const getDataByTag = asyncHandler(async (req, res) => {
   
       // Query each collection for matching tags
       const [courses, assets, hackathons, interviews, libraries, otherResources] = await Promise.all([
-        Course.find({ tags: { $regex: tagRegex } }).select("-videoLink -averageRating -totalRatings -rating -reviews -__v"),
-        Asset.find({ tags: { $regex: tagRegex } }).select("-assetLink -averageRating -totalRatings -rating -reviews -__v"),
-        Hackathon.find({ tags: { $regex: tagRegex } }).select("-hackathonLink -averageRating -totalRatings -rating -reviews -__v"),
-        Interview.find({ tags: { $regex: tagRegex } }).select("-Link -averageRating -totalRatings -rating -reviews -__v"),
-        Library.find({ tags: { $regex: tagRegex } }).select("-libraryLink -averageRating -totalRatings -rating -reviews -__v"),
-        OtherResource.find({ tags: { $regex: tagRegex } }).select("-resourceLink -averageRating -totalRatings -rating -reviews -__v"),
+        Course.find({ 
+          $or: [
+            { tags: { $regex: tagRegex} },
+            { description: { $regex: tagRegex} }
+          ]
+        }).select("-videoLink -averageRating -totalRatings -rating -reviews -__v"),
+        
+        Asset.find({ 
+          $or: [
+            { tags: { $regex: tagRegex} },
+            { description: { $regex: tagRegex} }
+          ]
+        }).select("-assetLink -averageRating -totalRatings -rating -reviews -__v"),
+        
+        Hackathon.find({ 
+          $or: [
+            { tags: { $regex: tagRegex} },
+            { description: { $regex: tagRegex } }
+          ]
+        }).select("-hackathonLink -averageRating -totalRatings -rating -reviews -__v"),
+        
+        Interview.find({ 
+          $or: [
+            { tags: { $regex: tagRegex } },
+            { description: { $regex: tagRegex } }
+          ]
+        }).select("-Link -averageRating -totalRatings -rating -reviews -__v"),
+        
+        Library.find({ 
+          $or: [
+            { tags: { $regex: tagRegex } },
+            { description: { $regex: tagRegex } }
+          ]
+        }).select("-libraryLink -averageRating -totalRatings -rating -reviews -__v"),
+        
+        OtherResource.find({ 
+          $or: [
+            { tags: { $regex: tagRegex } },
+            { description: { $regex: tagRegex} }
+          ]
+        }).select("-resourceLink -averageRating -totalRatings -rating -reviews -__v")
       ]);
   
       // Format data to match the required structure
