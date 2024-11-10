@@ -44,9 +44,21 @@ const getPerticularInterviewData = asyncHandler(async (req, res) => {
     );
     if (!interviewData)
       return res.status(400).json({ message: "interview data not found" });
+    const data = {
+      _id: interviewData._id,
+      title: interviewData.title,
+      img: interviewData.img,
+      description: interviewData.description,
+      link: interviewData.Link,
+      isFree: interviewData.isFree,
+      tags: interviewData.tags,
+      totalRatings: interviewData.totalRatings,
+      rating: interviewData.rating,
+      reviews: interviewData.reviews
+    };
     return res.status(200).json({
       message: "data fetched successfully.",
-      data: interviewData,
+      data: data,
     });
   } catch (error) {
     return res.status(500).json({

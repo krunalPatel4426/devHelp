@@ -4867,3 +4867,11 @@
 [34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
 [34m[39m
 [10 Nov, 2024 - 14:47:22:4722] [35mhttp[39m: [35m::1 GET /bookmark/job/670a69c1dbb2cd45b204ba0a 200 - 152.705 ms[39m
+[10 Nov, 2024 - 17:27:32:2732] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[10 Nov, 2024 - 17:27:42:2742] [35mhttp[39m: [35m::1 GET /interview/getData/670c4cc6f5e07246444ef82c 200 - 67.241 ms[39m
+[10 Nov, 2024 - 17:27:57:2757] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[10 Nov, 2024 - 17:27:59:2759] [35mhttp[39m: [35m::1 GET /interview/getData/670c4cc6f5e07246444ef82c 200 - 95.820 ms[39m
