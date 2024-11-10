@@ -4691,3 +4691,12 @@
 [10 Nov, 2024 - 12:08:15:815] [35mhttp[39m: [35m::1 GET /job/getAllData 200 - 99.331 ms[39m
 [10 Nov, 2024 - 12:08:51:851] [35mhttp[39m: [35m::1 GET /job/getData/673053f221e058fa616ccf2b 200 - 60.560 ms[39m
 [10 Nov, 2024 - 12:10:01:101] [35mhttp[39m: [35m::1 GET /job/tag/dsa 200 - 55.109 ms[39m
+[10 Nov, 2024 - 12:22:05:225] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[10 Nov, 2024 - 12:22:21:2221] [35mhttp[39m: [35m::1 GET /all/getData/dsa 200 - 371.765 ms[39m
+[10 Nov, 2024 - 12:23:44:2344] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[10 Nov, 2024 - 12:24:01:241] [35mhttp[39m: [35m::1 GET /all/getData/dsa 200 - 415.226 ms[39m
+[10 Nov, 2024 - 12:24:58:2458] [35mhttp[39m: [35m::1 GET /all/getData/hackathon 200 - 50.600 ms[39m

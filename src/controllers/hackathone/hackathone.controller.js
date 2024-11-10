@@ -3,7 +3,7 @@ import { asyncHandler } from "../../utils/asyncHandler.js";
 
 const addData = asyncHandler(async (req, res) => {
   const data = req.body;
-  console.log(data);
+  // console.log(data);
   if (Object.entries(data).length === 0) {
     return res
       .status(404)

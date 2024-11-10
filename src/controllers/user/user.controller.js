@@ -8,6 +8,7 @@ import { Course } from "./../../models/course.model.js";
 import { Library } from "./../../models/libraries.model.js";
 import { Hackathon } from "../../models/hackathone.model.js";
 import { OtherResource } from "../../models/otherResourses.model.js";
+import { Job } from "../../models/job.model.js";
 
 dotenv.config();
 
@@ -41,7 +42,8 @@ const models = {
   bookmarkedAsstes: Asset,
   bookmarkedInterviewDataset: Interview,
   bookmarkedResourcesDataset:OtherResource,
-  bookmarkedHackathonDataset:Hackathon
+  bookmarkedHackathonDataset:Hackathon,
+  bookmarkedJob:Job,
 };
 
 const addBookmark = asyncHandler(async (req, res) => {
@@ -90,7 +92,8 @@ const removeBookmark = asyncHandler(async (req, res) => {
       'bookmarkedAsstes',
       'bookmarkedInterviewDataset',
       'bookmarkedResourcesDataset',
-      'bookmarkedHackathonDataset'
+      'bookmarkedHackathonDataset',
+      'bookmarkedJob'
     ];
 
     let bookmarkRemoved = false;
@@ -126,7 +129,7 @@ const getBookmarkData = asyncHandler(async (req, res) => {
   try {
     // Retrieve the user's bookmarked items by ID
     const user = await User.findById(userId).select(
-      "bookmarkedCourse bookmarkedLibrary bookmarkedAsstes bookmarkedInterviewDataset bookmarkedHackathonDataset bookmarkedResourcesDataset"
+      "bookmarkedCourse bookmarkedLibrary bookmarkedAsstes bookmarkedInterviewDataset bookmarkedHackathonDataset bookmarkedResourcesDataset bookmarkedJob"
     );
 
     if (!user) {
@@ -139,6 +142,9 @@ const getBookmarkData = asyncHandler(async (req, res) => {
       ...user.bookmarkedLibrary,
       ...user.bookmarkedAsstes,
       ...user.bookmarkedInterviewDataset,
+      ...user.bookmarkedJob,
+      ...user.bookmarkedHackathonDataset,
+      ...user.bookmarkedResourcesDataset
     ];
 
     return res.status(200).json({message:"success", bookmarks: allBookmarks });
