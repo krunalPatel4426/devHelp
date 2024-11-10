@@ -133,7 +133,7 @@ const getTotalBookmarks = asyncHandler(async (req, res) => {
 
   try {
     const user = await User.findById(userId).select(
-      "bookmarkedCourse bookmarkedLibrary bookmarkedAsstes bookmarkedInterviewDataset bookmarkedResourcesDataset bookmarkedHackathonDataset"
+      "bookmarkedCourse bookmarkedLibrary bookmarkedAsstes bookmarkedInterviewDataset bookmarkedResourcesDataset bookmarkedHackathonDataset bookmarkedJob"
     );
 
     if (!user) {
