@@ -30,7 +30,8 @@ const githubLogin = asyncHandler(async (req, res) => {
   console.log(accessToken, refreshToken)
   res.cookie("accessToken", accessToken, options);
   res.cookie("refreshToken", refreshToken, options);
-  return res.redirect("https://github-o-auth-2-test.vercel.app/profile");
+  return res.redirect("https://devhelpp.onvercel.com/")
+  // return res.redirect("https://github-o-auth-2-test.vercel.app/profile");
   // return res.redirect("http://localhost:5173/profile")
   // return res.status(200).json({ message: "data got", user: req.user });
 });
