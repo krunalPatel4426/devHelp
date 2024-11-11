@@ -209,7 +209,7 @@ const getAssetByTag = asyncHandler(async (req, res) => {
       });
       return res.status(200).json({
         message: "assets found successfully",
-        assets: data,
+        data: data,
       });
     }
   } catch (error) {

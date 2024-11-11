@@ -119,7 +119,7 @@ const getDataBytag = asyncHandler(async (req, res) => {
       //   console.log(data);
       return res.status(200).json({
         message: "assets found successfully",
-        otherResource: data,
+        data: data,
       });
     }
   } catch (error) {

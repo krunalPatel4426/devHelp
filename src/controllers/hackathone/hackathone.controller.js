@@ -116,7 +116,7 @@ const getDataByTag = asyncHandler(async (req, res) => {
       });
       return res.status(200).json({
         message: "assets found successfully",
-        hackathon: data,
+        data: data,
       });
     }
   } catch (error) {
