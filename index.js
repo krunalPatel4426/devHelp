@@ -54,7 +54,7 @@ const limiter = rateLimit({
 });
 
 // change corse origin * is only for devlopment
-const allowedOrigins = ["http://localhost:5173", "https://devhelpp.vercel.app", "https://devhelp-datafeeder.vercel.app", "http://192.168.80.146:5173"];
+const allowedOrigins = ["https://github-o-auth-2-test.vercel.app/" ,"http://localhost:5173", "https://devhelpp.vercel.app", "https://devhelp-datafeeder.vercel.app", "http://192.168.80.146:5173"];
 const corsOptions = {
   origin: function (origin, callback) {
     // Check if the incoming origin is in the allowedOrigins array or is undefined (for same-origin)
