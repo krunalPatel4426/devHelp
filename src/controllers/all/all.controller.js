@@ -7,6 +7,7 @@ import { OtherResource } from "../../models/otherResourses.model.js";
 import { asyncHandler } from "../../utils/asyncHandler.js";
 import { User } from "../../models/user.model.js";
 import { Job } from "../../models/job.model.js";
+
 const getDataByTag = asyncHandler(async (req, res) => {
   const { tag } = req.params;
   if (!tag) {
@@ -124,6 +125,76 @@ const getDataByTag = asyncHandler(async (req, res) => {
   }
 });
 
+const getDataById = asyncHandler(async (req, res) => {
+  const { id } = req.params;
+
+  if (!id) {
+    return res.status(400).json({ message: "Some information is missing" });
+  }
+
+  try {
+    // Query each collection for a single item by its id
+    const [
+      courses,
+      assets,
+      hackathons,
+      interviews,
+      libraries,
+      otherResources,
+      job,
+    ] = await Promise.all([
+      Course.findById(id).select("-averageRating -totalRatings -rating -reviews -__v"),
+      Asset.findById(id).select("-averageRating -totalRatings -rating -reviews -__v"),
+      Hackathon.findById(id).select("-averageRating -totalRatings -rating -reviews -__v"),
+      Interview.findById(id).select("-averageRating -totalRatings -rating -reviews -__v"),
+      Library.findById(id).select("-averageRating -totalRatings -rating -reviews -__v"),
+      OtherResource.findById(id).select("-averageRating -totalRatings -rating -reviews -__v"),
+      Job.findById(id).select("-averageRating -totalRatings -rating -reviews -__v"),
+    ]);
+
+    // Function to format each data item
+    const formatData = (item, titleField, linkField) => {
+      if (!item) return null; // If no item found, return null
+
+      return {
+        _id: item._id,
+        title: item[titleField] || item.title || "No Title", 
+        img: item.img || null,
+        description: item.description || "",
+        isFree: item.isFree || false,
+        tags: item.tags || [],
+        totalRatings: item.totalRatings || 0,
+        rating: item.rating || 0,
+        link: item[linkField] || "",
+      };
+    };
+
+    // Combine all formatted data into a single array
+    const allData = [
+      formatData(courses, "title", "videoLink"),
+      formatData(assets, "assetName", "assetLink"),
+      formatData(hackathons, "hackathonName", "hackathonLink"),
+      formatData(interviews, "title", "Link"),
+      formatData(libraries, "Librarytitle", "libraryLink"),
+      formatData(otherResources, "resourceName", "resourceLink"),
+      formatData(job, "jobTitle", "jobLink"),
+    ].filter(item => item !== null); // Remove null values (if any)
+
+    if (allData.length === 0) {
+      return res.status(400).json({ message: "Data not found" });
+    }
+
+    return res.status(200).json({
+      message: "Data found successfully",
+      data: allData,
+    });
+  } catch (error) {
+    console.log(error);
+    return res.status(500).json({ message: "Error while fetching data" });
+  }
+});
+
+
 const getTotalBookmarks = asyncHandler(async (req, res) => {
   const { userId } = req.params;
 
@@ -158,4 +229,4 @@ const getTotalBookmarks = asyncHandler(async (req, res) => {
   }
 });
 
-export { getDataByTag, getTotalBookmarks };
+export { getDataByTag, getTotalBookmarks, getDataById };

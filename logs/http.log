@@ -4935,3 +4935,19 @@
 [11 Nov, 2024 - 19:09:34:934] [34minfo[39m: [34m[39m
 [34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
 [34m[39m
+[11 Nov, 2024 - 21:30:49:3049] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Nov, 2024 - 21:32:21:3221] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Nov, 2024 - 21:34:03:343] [35mhttp[39m: [35m::1 GET /entry/api/all/getDataById/672d70a595c4f8ffc473b682 500 - 431.281 ms[39m
+[11 Nov, 2024 - 21:34:28:3428] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Nov, 2024 - 21:34:33:3433] [35mhttp[39m: [35m::1 GET /entry/api/all/getDataById/672d70a595c4f8ffc473b682 500 - 467.768 ms[39m
+[11 Nov, 2024 - 21:39:03:393] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Nov, 2024 - 21:39:07:397] [35mhttp[39m: [35m::1 GET /entry/api/all/getDataById/672d70a595c4f8ffc473b682 200 - 353.023 ms[39m
+[11 Nov, 2024 - 21:41:38:4138] [35mhttp[39m: [35m::1 GET /entry/api/all/getDataById/67315b7e7268ad564e34d651 200 - 108.966 ms[39m
