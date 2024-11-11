@@ -25,7 +25,7 @@ const githubLogin = asyncHandler(async (req, res) => {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: process.env.NODE_ENV === "production" ? "None" : "lax",
-    
+    maxAge: 24*60*60*1000,
   };
   console.log(accessToken, refreshToken)
   res.cookie("accessToken", accessToken, options);
