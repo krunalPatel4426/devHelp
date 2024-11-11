@@ -1,3 +1,7 @@
 [02 Oct, 2024 - 18:28:36:2836] [31merror[39m: [31mMongoDB connection error:  ConnectionInstance is not defined[39m
 [06 Oct, 2024 - 17:56:29:5629] [31merror[39m: [31mMongoDB connection error:  connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
 [06 Oct, 2024 - 17:57:53:5753] [31merror[39m: [31mMongoDB connection error:  connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[11 Nov, 2024 - 18:59:08:598] [31merror[39m: [31mMongoDB connection error:  querySrv ECONNREFUSED _mongodb._tcp.devhelp.rvdu4.mongodb.net[39m
+[11 Nov, 2024 - 18:59:36:5936] [31merror[39m: [31mMongoDB connection error:  querySrv ECONNREFUSED _mongodb._tcp.devhelp.rvdu4.mongodb.net[39m
+[11 Nov, 2024 - 19:00:02:02] [31merror[39m: [31mMongoDB connection error:  querySrv ECONNREFUSED _mongodb._tcp.devhelp.rvdu4.mongodb.net[39m
+[11 Nov, 2024 - 19:00:06:06] [31merror[39m: [31mMongoDB connection error:  querySrv ECONNREFUSED _mongodb._tcp.devhelp.rvdu4.mongodb.net[39m

@@ -4883,3 +4883,55 @@
 [34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
 [34m[39m
 [10 Nov, 2024 - 17:39:21:3921] [35mhttp[39m: [35m::1 GET /bookmark/job/670a69c1dbb2cd45b204ba0a 200 - 274.681 ms[39m
+[11 Nov, 2024 - 18:31:48:3148] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Nov, 2024 - 18:32:38:3238] [35mhttp[39m: [35m::1 GET /auth/me 404 - 10.395 ms[39m
+[11 Nov, 2024 - 18:32:50:3250] [35mhttp[39m: [35m::1 GET /auth/github/login 404 - 2.848 ms[39m
+[11 Nov, 2024 - 18:34:06:346] [35mhttp[39m: [35m::1 GET /auth/me 404 - 1.428 ms[39m
+[11 Nov, 2024 - 18:34:08:348] [35mhttp[39m: [35m::1 GET /auth/github/login 404 - 1.193 ms[39m
+[11 Nov, 2024 - 18:34:21:3421] [35mhttp[39m: [35m::1 GET /auth/me 404 - 1.099 ms[39m
+[11 Nov, 2024 - 18:37:46:3746] [35mhttp[39m: [35m::1 GET /auth/github/login 404 - 1.002 ms[39m
+[11 Nov, 2024 - 18:38:48:3848] [35mhttp[39m: [35m::1 GET /auth/github/login 404 - 1.261 ms[39m
+[11 Nov, 2024 - 18:38:49:3849] [35mhttp[39m: [35m::1 GET /auth/me 404 - 1.286 ms[39m
+[11 Nov, 2024 - 18:38:52:3852] [35mhttp[39m: [35m::1 GET /entry/api/auth/me 404 - 2.277 ms[39m
+[11 Nov, 2024 - 18:38:52:3852] [35mhttp[39m: [35m::1 GET /entry/api/auth/me 404 - 1.974 ms[39m
+[11 Nov, 2024 - 18:38:55:3855] [35mhttp[39m: [35m::1 GET /entry/api/auth/github/login 302 - 2.388 ms[39m
+[11 Nov, 2024 - 18:38:56:3856] [35mhttp[39m: [35m::1 GET /auth/github/callback?code=dcd9c28cf641d7965afa 404 - 0.846 ms[39m
+[11 Nov, 2024 - 18:39:28:3928] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Nov, 2024 - 18:40:39:4039] [35mhttp[39m: [35m::1 GET /entry/api/auth/me 404 - 14.529 ms[39m
+[11 Nov, 2024 - 18:40:40:4040] [35mhttp[39m: [35m::1 GET /entry/api/auth/me 404 - 3.751 ms[39m
+[11 Nov, 2024 - 18:40:42:4042] [35mhttp[39m: [35m::1 GET /entry/api/auth/github/login 302 - 2.312 ms[39m
+[11 Nov, 2024 - 18:41:12:4112] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Nov, 2024 - 18:41:16:4116] [35mhttp[39m: [35m::1 GET /entry/api/auth/me 404 - 12.977 ms[39m
+[11 Nov, 2024 - 18:41:18:4118] [35mhttp[39m: [35m::1 GET /entry/api/auth/github/login 302 - 2.593 ms[39m
+[11 Nov, 2024 - 18:42:13:4213] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Nov, 2024 - 18:42:26:4226] [35mhttp[39m: [35m::1 GET /entry/api/auth/me 404 - 9.741 ms[39m
+[11 Nov, 2024 - 18:42:27:4227] [35mhttp[39m: [35m::1 GET /entry/api/auth/github/login 302 - 2.579 ms[39m
+[11 Nov, 2024 - 18:42:30:4230] [35mhttp[39m: [35m::1 GET /entry/api/auth/github/callback?code=48f6d62eeb9ca2f16a6e 302 - 2621.984 ms[39m
+[11 Nov, 2024 - 18:42:31:4231] [35mhttp[39m: [35m::1 GET /entry/api/user/is-looged-in 200 - 11.032 ms[39m
+[11 Nov, 2024 - 18:59:08:598] [31merror[39m: [31mMongoDB connection error:  querySrv ECONNREFUSED _mongodb._tcp.devhelp.rvdu4.mongodb.net[39m
+[11 Nov, 2024 - 18:59:36:5936] [31merror[39m: [31mMongoDB connection error:  querySrv ECONNREFUSED _mongodb._tcp.devhelp.rvdu4.mongodb.net[39m
+[11 Nov, 2024 - 19:00:02:02] [31merror[39m: [31mMongoDB connection error:  querySrv ECONNREFUSED _mongodb._tcp.devhelp.rvdu4.mongodb.net[39m
+[11 Nov, 2024 - 19:00:06:06] [31merror[39m: [31mMongoDB connection error:  querySrv ECONNREFUSED _mongodb._tcp.devhelp.rvdu4.mongodb.net[39m
+[11 Nov, 2024 - 19:01:10:110] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-00.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Nov, 2024 - 19:01:23:123] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[11 Nov, 2024 - 19:01:35:135] [35mhttp[39m: [35m::1 GET /entry/api/user/is-looged-in 304 - 11.864 ms[39m
+[11 Nov, 2024 - 19:01:37:137] [35mhttp[39m: [35m::1 GET /entry/api/user/logout 200 - 127.043 ms[39m
+[11 Nov, 2024 - 19:01:38:138] [35mhttp[39m: [35m::1 GET /entry/api/auth/me 404 - 5.472 ms[39m
+[11 Nov, 2024 - 19:01:39:139] [35mhttp[39m: [35m::1 GET /entry/api/auth/github/login 302 - 1.763 ms[39m
+[11 Nov, 2024 - 19:01:42:142] [35mhttp[39m: [35m::1 GET /entry/api/auth/github/callback?code=193dccc74e6d04c19d30 302 - 2541.960 ms[39m
+[11 Nov, 2024 - 19:01:43:143] [35mhttp[39m: [35m::1 GET /entry/api/user/is-looged-in 200 - 4.120 ms[39m
+[11 Nov, 2024 - 19:09:34:934] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
