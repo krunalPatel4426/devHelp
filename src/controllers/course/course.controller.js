@@ -6,14 +6,6 @@ const addCourse = asyncHandler(async (req, res) => {
   const data = req.body;
   try {
     const course = await Course.create(data);
-    // console.log("Helo")
-    // console.log(course)
-    console.log("hello");
-    const programmingL = await ProgrammingLanguage.findOne({
-      name: course.languageName,
-    });
-    programmingL.courses.push(course._id);
-    await programmingL.save({ validateBeforeSave: false });
     return res.status(200).json({
       success: true,
       message: "Course added successfully",
