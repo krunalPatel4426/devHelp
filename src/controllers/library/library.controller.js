@@ -23,6 +23,7 @@ const addLibrary = asyncHandler(async (req, res) => {
     focus,
   });
   return res.status(200).json({
+    success: true,
     message: "data added",
     data: library,
   });

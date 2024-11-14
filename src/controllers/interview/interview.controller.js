@@ -13,6 +13,7 @@ const addInterviewDataset = asyncHandler(async (req, res) => {
     focus,
   });
   return res.status(200).json({
+    sucess: true,
     message: "data added",
     interviewData: interviewData,
   });

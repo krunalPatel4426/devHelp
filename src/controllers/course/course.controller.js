@@ -15,6 +15,7 @@ const addCourse = asyncHandler(async (req, res) => {
     programmingL.courses.push(course._id);
     await programmingL.save({ validateBeforeSave: false });
     return res.status(200).json({
+      success: true,
       message: "Course added successfully",
       course: course,
     });
