@@ -279,7 +279,7 @@ const getAllBookmarkedData = asyncHandler(async (req, res) => {
         tags: each.tags || [],
         totalRatings: each.totalRatings || 0,
         rating: each.rating || 0,
-        // type // Include the type for each item to distinguish between categories
+        type // Include the type for each item to distinguish between categories
       }));
 
     // Merge all datasets into a single array

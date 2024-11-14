@@ -15,7 +15,8 @@ const getDataByTag = asyncHandler(async (req, res) => {
   }
 
   try {
-    const tagRegex = new RegExp(tag, "i");
+    const tagKeywords = tag.split(" ").map((word) => word.trim());
+    const tagRegex = new RegExp(tagKeywords.join("|"), "i");
 
     // Query each collection for matching tags
     const [

@@ -87,10 +87,12 @@ const getDataByTag = asyncHandler(async (req, res) => {
     return res.status(400).json({ message: "some information is missing" });
 
   try {
+    const tagKeywords = tag.split(" ").map((word) => word.trim());
+    const tagRegex = new RegExp(tagKeywords.join("|"), "i");
     const hackData = await Hackathon.find({
       $or: [
-        { tags: { $regex: tag, $options: "i" } },
-        { description: { $regex: tag, $options: "i" } },
+        { tags: { $regex: tagRegex, $options: "i" } },
+        { description: { $regex: tagRegex, $options: "i" } },
       ],
     }).select(
       "-hackathonLink -tags -averageRating -totalRatings -rating -reviews -__v"
