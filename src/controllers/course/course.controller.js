@@ -61,7 +61,7 @@ const getCourseData = asyncHandler(async (req, res) => {
     const course = await Course.findById(id, "-__v -averageRating");
     const data = {
       _id: course._id,
-      title: course.jobTitle,
+      title: course.title,
       img: course.img,
       description: course.description,
       tags: course.tags,
