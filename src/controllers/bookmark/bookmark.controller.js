@@ -239,6 +239,67 @@ const getBookmarkedJobData = asyncHandler(async (req, res) => {
   }
 });
 
+
+const getAllBookmarkedData = asyncHandler(async (req, res) => {
+  const { userId } = req.params;
+  if (!userId) {
+    return res.status(400).json({ success: false, error: "Bad Request" });
+  }
+
+  try {
+    const user = await User.findById(userId).select(
+      "bookmarkedCourse bookmarkedLibrary bookmarkedAsstes bookmarkedInterviewDataset bookmarkedResourcesDataset bookmarkedHackathonDataset bookmarkedJob"
+    );
+
+    const [
+      courses,
+      libraries,
+      assets,
+      interviews,
+      resources,
+      hackathons,
+      jobs
+    ] = await Promise.all([
+      Course.find({ _id: { $in: user.bookmarkedCourse } }).select("-videoLink -averageRating -__v -reviews -rating"),
+      Library.find({ _id: { $in: user.bookmarkedLibrary } }).select("-libraryLink -averageRating -__v -reviews -rating"),
+      Asset.find({ _id: { $in: user.bookmarkedAsstes } }).select("-assetLink -averageRating -__v -reviews -rating"),
+      Interview.find({ _id: { $in: user.bookmarkedInterviewDataset } }).select("-Link -averageRating -__v -reviews -rating"),
+      OtherResource.find({ _id: { $in: user.bookmarkedResourcesDataset } }).select("-resourceLink -averageRating -__v -reviews -rating"),
+      Hackathon.find({ _id: { $in: user.bookmarkedHackathonDataset } }).select("-hackathonLink -averageRating -__v -reviews -rating"),
+      Job.find({ _id: { $in: user.bookmarkedJob } }).select("-jobLink -averageRating -__v -reviews -rating")
+    ]);
+
+    const formatData = (items, titleField, type) =>
+      items.map((each) => ({
+        _id: each._id,
+        title: each[titleField] || each.title || "No Title",
+        img: each.img || null,
+        description: each.description || "",
+        isFree: each.isFree || false,
+        tags: each.tags || [],
+        totalRatings: each.totalRatings || 0,
+        rating: each.rating || 0,
+        // type // Include the type for each item to distinguish between categories
+      }));
+
+    // Merge all datasets into a single array
+    const allBookmarkedData = [
+      ...formatData(courses, "title", "course"),
+      ...formatData(libraries, "Librarytitle", "library"),
+      ...formatData(assets, "assetName", "asset"),
+      ...formatData(interviews, "title", "interview"),
+      ...formatData(resources, "resourceName", "resource"),
+      ...formatData(hackathons, "hackathonName", "hackathon"),
+      ...formatData(jobs, "jobTitle", "job")
+    ];
+
+    return res.status(200).json({ success: true, data: allBookmarkedData });
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ success: false, error: "Server Error" });
+  }
+});
+
 export {
   getBookmarkedCourseData,
   getBookmarkedLibraryData,
@@ -246,5 +307,6 @@ export {
   getBookmarkedInterviewData,
   getBookmarkedResourceData,
   getBookmarkedHackthonData,
-  getBookmarkedJobData
+  getBookmarkedJobData,
+  getAllBookmarkedData
 };

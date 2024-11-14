@@ -59,10 +59,21 @@ const getCourseData = asyncHandler(async (req, res) => {
   const { id } = req.params;
   try {
     const course = await Course.findById(id, "-__v -averageRating");
-    // console.log(course);
+    const data = {
+      _id: course._id,
+      title: course.jobTitle,
+      img: course.img,
+      description: course.description,
+      tags: course.tags,
+      isFree: course.isFree,
+      totalRatings: course.totalRatings,
+      link: [course.videoLink[0].link],
+      rating: course.rating,
+      reviews: course.reviews
+    };
     return res
       .status(200)
-      .json({ message: "course data fetch successfully", course });
+      .json({ message: "course data fetch successfully", course: data });
   } catch (error) {
     res.status(500).json({ message: error });
   }
@@ -175,7 +186,7 @@ const getCourseByTag = asyncHandler(async (req, res) => {
     } else {
       return res.status(200).json({
         message: "data fetched successfully",
-        data:course,
+        data: course,
       });
     }
   } catch (error) {
