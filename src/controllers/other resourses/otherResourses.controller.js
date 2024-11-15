@@ -91,13 +91,15 @@ const getDataBytag = asyncHandler(async (req, res) => {
     return res.status(400).json({ message: "some information is missing" });
   try {
     const tagKeywords = tag.split(" ").map((word) => word.trim());
-    const tagRegex = new RegExp(tagKeywords.join("|"), "i");
-    const otherRes = await OtherResource.find({
-      $or: [
-        { tags: { $regex: tagRegex, $options: "i" } },
-        { description: { $regex: tagRegex, $options: "i" } },
-      ],
-    }).select(
+    const tagQuery = {
+      $and: tagKeywords.map((keyword) => ({
+        $or: [
+          { tags: { $regex: keyword, $options: "i" } },
+          { description: { $regex: keyword, $options: "i" } },
+        ],
+      })),
+    };
+    const otherRes = await OtherResource.find(tagQuery).select(
       "-resourceLink -averageRating -totalRatings -rating -reviews -__v"
     );
     if (!otherRes) return res.status(400).json({ message: "data not found" });

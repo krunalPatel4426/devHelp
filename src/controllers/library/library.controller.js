@@ -186,13 +186,15 @@ const getLibraryByTag = asyncHandler(async (req, res) => {
   if (!tag) return res.status(500).json({ message: "tag is missing" });
   try {
     const tagKeywords = tag.split(" ").map((word) => word.trim());
-    const tagRegex = new RegExp(tagKeywords.join("|"), "i");
-    const librariesByTag = await Library.find({
-      $or: [
-        { tags: { $regex: tagRegex, $options: "i" } },
-        { description: { $regex: tagRegex, $options: "i" } },
-      ],
-    }).select(
+    const tagQuery = {
+      $and: tagKeywords.map((keyword) => ({
+        $or: [
+          { tags: { $regex: keyword, $options: "i" } },
+          { description: { $regex: keyword, $options: "i" } },
+        ],
+      })),
+    };
+    const librariesByTag = await Library.find(tagQuery).select(
       "-libraryLink -averageRating -totalRatings -rating -reviews -__v"
     );
     if (!librariesByTag)

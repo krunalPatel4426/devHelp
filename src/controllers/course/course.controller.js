@@ -166,13 +166,15 @@ const getCourseByTag = asyncHandler(async (req, res) => {
   if (!tag) return res.status(500).json({ message: "tag is missing" });
   try {
     const tagKeywords = tag.split(" ").map((word) => word.trim());
-    const tagRegex = new RegExp(tagKeywords.join("|"), "i");
-    const course = await Course.find({
-      $or: [
-        { tags: { $regex: tagRegex, $options: "i" } },
-        { description: { $regex: tagRegex, $options: "i" } },
-      ],
-    }).select("-videoLink -averageRating -__v -reviews -rating");
+    const tagQuery = {
+      $and: tagKeywords.map((keyword) => ({
+        $or: [
+          { tags: { $regex: keyword, $options: "i" } },
+          { description: { $regex: keyword, $options: "i" } },
+        ],
+      })),
+    };
+    const course = await Course.find(tagQuery).select("-videoLink -averageRating -__v -reviews -rating");
     if (!course) return res.status(404).json({ message: "can not find data" });
     if (course.length === 0) {
       return res.status(400).json({

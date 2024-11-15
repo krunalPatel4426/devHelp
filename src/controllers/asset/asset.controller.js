@@ -183,13 +183,15 @@ const getAssetByTag = asyncHandler(async (req, res) => {
     return res.status(400).json({ message: "some information is missing" });
   try {
     const tagKeywords = tag.split(" ").map((word) => word.trim());
-    const tagRegex = new RegExp(tagKeywords.join("|"), "i");
-    const assets = await Asset.find({
-      $or: [
-        { tags: { $regex: tagRegex, $options: "i" } },
-        { description: { $regex: tagRegex, $options: "i" } },
-      ],
-    }).select("-assetLink -averageRating -totalRatings -rating -reviews -__v");
+    const tagQuery = {
+      $and: tagKeywords.map((keyword) => ({
+        $or: [
+          { tags: { $regex: keyword, $options: "i" } },
+          { description: { $regex: keyword, $options: "i" } },
+        ],
+      })),
+    };
+    const assets = await Asset.find(tagQuery).select("-assetLink -averageRating -totalRatings -rating -reviews -__v");
     if (!assets) return res.status(400).json({ message: "data not found" });
     if (assets.length === 0) {
       return res.status(400).json({

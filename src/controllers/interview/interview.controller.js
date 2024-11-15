@@ -172,13 +172,15 @@ const getInterviewDataByTag = asyncHandler(async (req, res) => {
 
   try {
     const tagKeywords = tag.split(" ").map((word) => word.trim());
-    const tagRegex = new RegExp(tagKeywords.join("|"), "i");
-    const interviewData = await Interview.find({
-      $or: [
-        { tags: { $regex: tagRegex, $options: "i" } },
-        { description: { $regex: tagRegex, $options: "i" } },
-      ],
-    }).select("-Link -averageRating -totalRatings -rating -reviews -__v");
+    const tagQuery = {
+      $and: tagKeywords.map((keyword) => ({
+        $or: [
+          { tags: { $regex: keyword, $options: "i" } },
+          { description: { $regex: keyword, $options: "i" } },
+        ],
+      })),
+    };
+    const interviewData = await Interview.find(tagQuery).select("-Link -averageRating -totalRatings -rating -reviews -__v");
     if (!interviewData)
       return res.status(400).json({ message: "data not found" });
     if (interviewData.length === 0) {
