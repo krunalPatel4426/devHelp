@@ -5057,3 +5057,19 @@
 [14 Nov, 2024 - 18:18:30:1830] [34minfo[39m: [34m[39m
 [34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
 [34m[39m
+[15 Nov, 2024 - 19:11:27:1127] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[15 Nov, 2024 - 19:12:14:1214] [35mhttp[39m: [35m::1 GET /entry/api/all/getData/free%20react%20chai 200 - 546.660 ms[39m
+[15 Nov, 2024 - 19:13:09:139] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-02.rvdu4.mongodb.net[39m
+[34m[39m
+[15 Nov, 2024 - 19:13:27:1327] [35mhttp[39m: [35m::1 GET /entry/api/all/getData/free%20react%20chai 400 - 905.952 ms[39m
+[15 Nov, 2024 - 19:16:06:166] [34minfo[39m: [34m[39m
+[34m MongoDB Connected! Db host: devhelp-shard-00-01.rvdu4.mongodb.net[39m
+[34m[39m
+[15 Nov, 2024 - 19:16:12:1612] [35mhttp[39m: [35m::1 GET /entry/api/all/getData/free%20react%20chai 400 - 538.319 ms[39m
+[15 Nov, 2024 - 19:16:23:1623] [35mhttp[39m: [35m::1 GET /entry/api/all/getData/free%20react 400 - 129.724 ms[39m
+[15 Nov, 2024 - 19:16:26:1626] [35mhttp[39m: [35m::1 GET /entry/api/all/getData/free 200 - 151.412 ms[39m
+[15 Nov, 2024 - 19:16:39:1639] [35mhttp[39m: [35m::1 GET /entry/api/all/getData/free%20react 400 - 115.464 ms[39m
+[15 Nov, 2024 - 19:18:16:1816] [35mhttp[39m: [35m::1 GET /entry/api/all/getData/react%20chai 200 - 97.411 ms[39m

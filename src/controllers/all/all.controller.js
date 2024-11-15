@@ -16,9 +16,17 @@ const getDataByTag = asyncHandler(async (req, res) => {
 
   try {
     const tagKeywords = tag.split(" ").map((word) => word.trim());
-    const tagRegex = new RegExp(tagKeywords.join("|"), "i");
 
-    // Query each collection for matching tags
+    // Build a query that ensures all keywords are present in tags and description
+    const tagQuery = {
+      $and: tagKeywords.map((keyword) => ({
+        $or: [
+          { tags: { $regex: keyword, $options: "i" } },
+          { description: { $regex: keyword, $options: "i" } },
+        ],
+      })),
+    };
+
     const [
       courses,
       assets,
@@ -26,65 +34,33 @@ const getDataByTag = asyncHandler(async (req, res) => {
       interviews,
       libraries,
       otherResources,
-      job,
+      jobs,
     ] = await Promise.all([
-      Course.find({
-        $or: [
-          { tags: { $regex: tagRegex } },
-          { description: { $regex: tagRegex } },
-        ],
-      }).select(
+      Course.find(tagQuery).select(
         "-videoLink -averageRating -totalRatings -rating -reviews -__v"
       ),
 
-      Asset.find({
-        $or: [
-          { tags: { $regex: tagRegex } },
-          { description: { $regex: tagRegex } },
-        ],
-      }).select(
+      Asset.find(tagQuery).select(
         "-assetLink -averageRating -totalRatings -rating -reviews -__v"
       ),
 
-      Hackathon.find({
-        $or: [
-          { tags: { $regex: tagRegex } },
-          { description: { $regex: tagRegex } },
-        ],
-      }).select(
+      Hackathon.find(tagQuery).select(
         "-hackathonLink -averageRating -totalRatings -rating -reviews -__v"
       ),
 
-      Interview.find({
-        $or: [
-          { tags: { $regex: tagRegex } },
-          { description: { $regex: tagRegex } },
-        ],
-      }).select("-Link -averageRating -totalRatings -rating -reviews -__v"),
+      Interview.find(tagQuery).select(
+        "-Link -averageRating -totalRatings -rating -reviews -__v"
+      ),
 
-      Library.find({
-        $or: [
-          { tags: { $regex: tagRegex } },
-          { description: { $regex: tagRegex } },
-        ],
-      }).select(
+      Library.find(tagQuery).select(
         "-libraryLink -averageRating -totalRatings -rating -reviews -__v"
       ),
 
-      OtherResource.find({
-        $or: [
-          { tags: { $regex: tagRegex } },
-          { description: { $regex: tagRegex } },
-        ],
-      }).select(
+      OtherResource.find(tagQuery).select(
         "-resourceLink -averageRating -totalRatings -rating -reviews -__v"
       ),
-      Job.find({
-        $or: [
-          { tags: { $regex: tagRegex } },
-          { description: { $regex: tagRegex } },
-        ],
-      }).select(
+
+      Job.find(tagQuery).select(
         "-jobLink -averageRating -totalRatings -rating -reviews -__v"
       ),
     ]);
@@ -93,7 +69,7 @@ const getDataByTag = asyncHandler(async (req, res) => {
     const formatData = (items, titleField) =>
       items.map((each) => ({
         _id: each._id,
-        title: each[titleField] || each.title || "No Title", // Use titleField or default to "title"
+        title: each[titleField] || each.title || "No Title",
         img: each.img || null,
         description: each.description || "",
         isFree: each.isFree || false,
@@ -110,7 +86,7 @@ const getDataByTag = asyncHandler(async (req, res) => {
       ...formatData(interviews, "title"),
       ...formatData(libraries, "Librarytitle"),
       ...formatData(otherResources, "resourceName"),
-      ...formatData(job, "jobTitle")
+      ...formatData(jobs, "jobTitle"),
     ];
 
     if (allData.length === 0) {
@@ -125,6 +101,7 @@ const getDataByTag = asyncHandler(async (req, res) => {
     return res.status(500).json({ message: "Error while fetching data" });
   }
 });
+
 
 const getDataById = asyncHandler(async (req, res) => {
   const { id } = req.params;
